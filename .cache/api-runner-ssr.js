@@ -11,6 +11,10 @@ var plugins = [{
       plugin: require('/Users/alecdannmayr/Projects-2021/AccessAutonomy/AccessAutonomyReact/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      name: 'gatsby-plugin-google-fonts',
+      plugin: require('/Users/alecdannmayr/Projects-2021/AccessAutonomy/AccessAutonomyReact/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Ropa San"],"display":"swap"},
+    },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/alecdannmayr/Projects-2021/AccessAutonomy/AccessAutonomyReact/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Cara - @lekoarts/gatsby-theme-cara","short_name":"Cara","description":"Playful and Colorful One-Page portfolio featuring Parallax effects and animations","start_url":"/","background_color":"#141821","theme_color":"#f6ad55","display":"standalone","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":null},

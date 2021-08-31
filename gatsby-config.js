@@ -23,6 +23,13 @@ module.exports = {
          },
       },
       {
+         resolve: `gatsby-plugin-google-fonts`,
+         options: {
+            fonts: [`Ropa San`],
+            display: 'swap',
+         },
+      },
+      {
          resolve: `gatsby-plugin-manifest`,
          options: {
             name: `Cara - @lekoarts/gatsby-theme-cara`,

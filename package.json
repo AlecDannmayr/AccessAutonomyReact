@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "AccessAutonomy",
+  "description": "Access Autonomy Site",
   "version": "0.2.10",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "AccessAutonomy <hello@accessautonomy.com>",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-cara",
+  "starter-name": "AccessAutonomy",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

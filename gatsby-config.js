@@ -56,6 +56,7 @@ module.exports = {
       `gatsby-plugin-gatsby-cloud`,
       `gatsby-plugin-netlify`,
       `gatsby-plugin-sass`,
+      `gatsby-plugin-anchor-links`,
       shouldAnalyseBundle && {
          resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
          options: {

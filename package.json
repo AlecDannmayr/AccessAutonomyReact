@@ -3,7 +3,7 @@
   "name": "AccessAutonomy",
   "description": "Access Autonomy Site",
   "version": "0.2.10",
-  "author": "AccOkay, I think you're rigt
+  "author": "AccessAutonomy",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

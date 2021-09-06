@@ -77,10 +77,14 @@
    top: 10%;
 }
 
-#static-square-1 {
+@mixin theme() {
    position: absolute;
    stroke: none;
    fill: currentColor;
+}
+
+#static-square-1 {
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 40%;
@@ -88,9 +92,7 @@
 }
 
 #static-square-2 {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
+   @include theme;
    color: #2d3748;
    width: 1.5rem;
    left: 10%;
@@ -98,9 +100,7 @@
 }
 
 #static-square-3 {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
+   @include theme;
    color: #4a5568;
    width: 1.5rem;
    left: 60%;
@@ -108,9 +108,7 @@
 }
 
 #static-square-4 {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
+   @include theme;
    color: #ed8936;
    width: 1.5rem;
    left: 10%;
@@ -118,9 +116,7 @@
 }
 
 #static-square-5 {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
+   @include theme;
    color: #ecc94b;
    width: 3rem;
    left: 29%;
@@ -128,9 +124,7 @@
 }
 
 #static-square-6 {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
+   @include theme;
    color: #fff;
    width: 1.5rem;
    left: 85%;

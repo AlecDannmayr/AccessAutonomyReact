@@ -351,32 +351,45 @@
 }
 
 #static-triangle-8 {
-   color: #fff;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
+   color: var(--theme-ui-colors-icon_brightest);
    width: 3rem;
    left: 95%;
-   top: 50%;
+   top: 450%;
 }
 
 #static-triangle-9 {
-   @include theme;
-   color: #3182ce;
-   width: 1.5rem;
-   left: 50%;
-   top: 325%;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
+   color: 3182ce;
+   width: 6rem;
+   left: 55%;
+   top: 250%;
 }
 
 #static-triangle-10 {
-   @include theme;
-   color: #2d3748;
-   width: 3rem;
-   left: 20%;
-   top: 270%;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
+   color: 3182ce;
+   width: 6rem;
+   left: 95%;
+   top: 450%;
 }
 
 #static-triangle-11 {
-   @include theme;
-   color: #2d3748;
-   width: 3rem;
-   left: 20%;
-   top: 270%;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
+   color: 3182ce;
+   width: 6rem;
+   left: 95%;
+   top: 450%;
 }

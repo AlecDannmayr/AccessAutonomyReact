@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=shapeStyle.css.map */
+#arrowDown {
+  background-color: yellow;
+}
+
+#doubleArrow {
+  background-color: orange;
+}
+
+#triangle {
+  background-color: pink;
+}
+
+#square {
+  background-color: blue;
+}
+
+#cross {
+  background-color: red;
+}
+
+#arrowUp {
+  background-color: purple;
+}
+
+#hexagon {
+  background-color: violet;
+}
+
+#circle {
+  background-color: green;
+}
+
+#doubleTriangle {
+  background-color: skyblue;
+}
+/*# sourceMappingURL=shapeStyle.css.map */

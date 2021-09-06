@@ -298,11 +298,14 @@
 }
 
 #static-triangle-3 {
-   @include theme;
-   color: #ed8936;
-   width: 2rem;
-   left: 10%;
-   top: 300%;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
+   color: #2d3748;
+   width: 4rem;
+   left: 30%;
+   top: 65%;
 }
 
 #static-triangle-4 {
@@ -322,11 +325,13 @@
 }
 
 #static-triangle-6 {
-   @include theme;
-   color: #ecc94b;
-   width: 3rem;
-   left: 29%;
-   top: 166%;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   color: #ed8936;
+   width: 2rem;
+   left: 25%;
+   top: 5%;
 }
 
 #static-triangle-7 {

@@ -7,7 +7,13 @@
 }
 
 #triangle {
-   background-color: pink;
+   position: absolute;
+   stroke: currentColor;
+   fill: none;
+   color: ORANGE;
+   width: 12rem;
+   left: 10%;
+   top: 20%;
 }
 
 #square {
@@ -32,8 +38,4 @@
 
 #doubleTriangle {
    background-color: skyblue;
-}
-
-#triangle {
-   background-color: aqua;
 }

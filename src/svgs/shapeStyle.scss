@@ -130,3 +130,27 @@
    left: 85%;
    top: 225%;
 }
+
+#static-square-7 {
+   @include theme;
+   color: #ed8936;
+   width: 1.5rem;
+   left: 10%;
+   top: 300%;
+}
+
+#static-square-8 {
+   @include theme;
+   color: #ecc94b;
+   width: 3rem;
+   left: 29%;
+   top: 166%;
+}
+
+#static-square-9 {
+   @include theme;
+   color: #fff;
+   width: 1.5rem;
+   left: 85%;
+   top: 225%;
+}

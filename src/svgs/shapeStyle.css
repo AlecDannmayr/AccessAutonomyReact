@@ -362,20 +362,23 @@
 }
 
 #static-triangle-5 {
+  position: absolute;
+  stroke: currentcolor;
+  fill: none;
   color: #fff;
   width: 3rem;
   left: 90%;
-  top: 240%;
+  top: 170%;
 }
 
 #static-triangle-6 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
-  color: #ecc94b;
-  width: 3rem;
-  left: 29%;
-  top: 166%;
+  stroke: currentcolor;
+  fill: none;
+  color: #fff;
+  width: 4rem;
+  left: 18%;
+  top: 245%;
 }
 
 #static-triangle-7 {

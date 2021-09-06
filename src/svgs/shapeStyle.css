@@ -316,4 +316,114 @@
   left: 20%;
   top: 270%;
 }
+
+#static-triangle-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
+}
+
+#static-triangle-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
+}
+
+#static-triangle-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
+}
+
+#static-triangle-4 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
+}
+
+#static-triangle-5 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
+
+#static-triangle-6 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
+}
+
+#static-triangle-7 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
+}
+
+#static-triangle-8 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
+}
+
+#static-triangle-9 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
+}
+
+#static-triangle-10 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
+
+#static-triangle-11 {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
 /*# sourceMappingURL=shapeStyle.css.map */

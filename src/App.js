@@ -4,8 +4,12 @@ import BackGroundShapes from './backGroundShapes.js'
 const App = () => {
    return (
       <div className="App">
-         <header className="App-header"></header>
-         <BackGroundShapes />
+         <layout className="background">
+            <BackGroundShapes />
+         </layout>
+         <header className="nav"></header>
+         <body className="body"></body>
+         <footer className="footer"></footer>
       </div>
    )
 }

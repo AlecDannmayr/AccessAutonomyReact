@@ -34,7 +34,13 @@
 }
 
 #cross {
-   background-color: red;
+   position: absolute;
+   stroke: currentColor;
+   fill: none;
+   color: #ed64a6;
+   width: 4rem;
+   left: 28%;
+   top: 15%;
 }
 
 #arrowUp {
@@ -69,4 +75,64 @@
    width: 4rem;
    left: 80%;
    top: 10%;
+}
+
+#static-square-1 {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+   color: #2d3748;
+   width: 3rem;
+   left: 40%;
+   top: 30%;
+}
+
+#static-square-2 {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+   color: #2d3748;
+   width: 1.5rem;
+   left: 10%;
+   top: 10%;
+}
+
+#static-square-3 {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+   color: #4a5568;
+   width: 1.5rem;
+   left: 60%;
+   top: 15%;
+}
+
+#static-square-4 {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+   color: #ed8936;
+   width: 1.5rem;
+   left: 10%;
+   top: 10%;
+}
+
+#static-square-5 {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+   color: #ecc94b;
+   width: 3rem;
+   left: 29%;
+   top: 26%;
+}
+
+#static-square-6 {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+   color: #fff;
+   width: 1.5rem;
+   left: 85%;
+   top: 75%;
 }

@@ -151,19 +151,19 @@
   position: absolute;
   stroke: none;
   fill: currentColor;
-  color: #ecc94b;
-  width: 3rem;
-  left: 29%;
-  top: 166%;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
 }
 
 #static-square-9 {
   position: absolute;
   stroke: none;
   fill: currentColor;
-  color: #fff;
-  width: 1.5rem;
-  left: 85%;
-  top: 225%;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
 }
 /*# sourceMappingURL=shapeStyle.css.map */

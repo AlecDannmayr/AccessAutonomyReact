@@ -77,7 +77,6 @@
    top: 10%;
 }
 
-
 @mixin theme() {
    position: absolute;
    stroke: none;
@@ -149,6 +148,126 @@
 }
 
 #static-square-9 {
+   @include theme;
+   color: #2d3748;
+   width: 3rem;
+   left: 20%;
+   top: 270%;
+}
+
+#static-circle-1 {
+   @include theme;
+   color: #2d3748;
+   width: 3rem;
+   left: 40%;
+   top: 30%;
+}
+
+#static-circle-2 {
+   @include theme;
+   color: #2d3748;
+   width: 1.5rem;
+   left: 10%;
+   top: 10%;
+}
+
+#static-circle-3 {
+   @include theme;
+   color: #4a5568;
+   width: 1.5rem;
+   left: 60%;
+   top: 15%;
+}
+
+#static-circle-4 {
+   @include theme;
+   color: #ed8936;
+   width: 1.5rem;
+   left: 10%;
+   top: 134%;
+}
+
+#static-circle-5 {
+   @include theme;
+   color: #ecc94b;
+   width: 3rem;
+   left: 29%;
+   top: 166%;
+}
+
+#static-circle-6 {
+   @include theme;
+   color: #fff;
+   width: 1.5rem;
+   left: 85%;
+   top: 225%;
+}
+
+#static-circle-7 {
+   @include theme;
+   color: #ed8936;
+   width: 2rem;
+   left: 10%;
+   top: 300%;
+}
+
+#static-circle-8 {
+   @include theme;
+   color: #3182ce;
+   width: 1.5rem;
+   left: 50%;
+   top: 325%;
+}
+
+#static-circle-9 {
+   @include theme;
+   color: #2d3748;
+   width: 3rem;
+   left: 20%;
+   top: 270%;
+}
+
+#static-circle-10 {
+   @include theme;
+   color: #ecc94b;
+   width: 3rem;
+   left: 29%;
+   top: 166%;
+}
+
+#static-circle-11 {
+   @include theme;
+   color: #fff;
+   width: 1.5rem;
+   left: 85%;
+   top: 225%;
+}
+
+#static-circle-12 {
+   @include theme;
+   color: #ed8936;
+   width: 2rem;
+   left: 10%;
+   top: 300%;
+}
+
+#static-circle-13 {
+   @include theme;
+   color: #3182ce;
+   width: 1.5rem;
+   left: 50%;
+   top: 325%;
+}
+
+#static-circle-14 {
+   @include theme;
+   color: #2d3748;
+   width: 3rem;
+   left: 20%;
+   top: 270%;
+}
+
+#static-circle-15 {
    @include theme;
    color: #2d3748;
    width: 3rem;

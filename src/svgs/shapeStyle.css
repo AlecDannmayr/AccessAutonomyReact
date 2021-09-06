@@ -357,18 +357,15 @@
   color: #ed8936;
   width: 2rem;
   left: 25%;
-  top: 5%;
+  top: 130%;
   display: block;
 }
 
 #static-triangle-5 {
-  position: absolute;
-  stroke: none;
-  fill: currentColor;
-  color: #2d3748;
+  color: #fff;
   width: 3rem;
-  left: 20%;
-  top: 270%;
+  left: 90%;
+  top: 240%;
 }
 
 #static-triangle-6 {

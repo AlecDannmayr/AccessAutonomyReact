@@ -287,11 +287,14 @@
 }
 
 #static-triangle-2 {
-   @include theme;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
    color: #fff;
-   width: 1.5rem;
-   left: 85%;
-   top: 225%;
+   width: 3rem;
+   left: 90%;
+   top: 50%;
 }
 
 #static-triangle-3 {

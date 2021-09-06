@@ -340,11 +340,14 @@
 }
 
 #static-triangle-7 {
-   @include theme;
-   color: #fff;
-   width: 1.5rem;
-   left: 85%;
-   top: 225%;
+   position: absolute;
+   stroke: currentcolor;
+   fill: none;
+   display: block;
+   color: #02b4fa;
+   width: 2rem;
+   left: 25%;
+   top: 300%;
 }
 
 #static-triangle-8 {

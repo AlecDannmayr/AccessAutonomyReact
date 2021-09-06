@@ -7,6 +7,7 @@ import Cross from './svgs/cross'
 import Hexagon from './svgs/hexagon'
 import DoubleTriangle from './svgs/doubleTriangle'
 import DoubleArrow from './svgs/doubleArrow'
+import Triangle from './svgs/triangle'
 
 const App = () => {
    return (
@@ -20,6 +21,7 @@ const App = () => {
          <Hexagon />
          <DoubleTriangle />
          <DoubleArrow />
+         <Triangle />
       </div>
    )
 }

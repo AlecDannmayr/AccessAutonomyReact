@@ -1,4 +1,4 @@
-@import 'squares.js';
+@import 'squaresStyle';
 
 #arrowDown {
    background-color: yellow;
@@ -77,10 +77,4 @@
    width: 4rem;
    left: 80%;
    top: 10%;
-}
-
-@mixin theme() {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
 }

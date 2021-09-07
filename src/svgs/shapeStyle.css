@@ -378,7 +378,7 @@
   color: #fff;
   width: 4rem;
   left: 18%;
-  top: 245%;
+  top: 325%;
 }
 
 #static-triangle-7 {
@@ -697,5 +697,35 @@
   width: 2rem;
   left: 45%;
   top: 410%;
+}
+
+#static-doubleArrow-6 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #bb4848;
+  width: 2rem;
+  left: 75%;
+  top: 270%;
+}
+
+#static-doubleArrow-7 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #4a5568;
+  width: 2rem;
+  left: 15%;
+  top: 400%;
+}
+
+#static-doubleArrow-8 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #bb4848;
+  width: 8rem;
+  left: 75%;
+  top: 430%;
 }
 /*# sourceMappingURL=shapeStyle.css.map */

@@ -319,7 +319,7 @@
 #static-triangle-1 {
   color: #4a5568;
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   width: 2rem;
   left: 25%;
@@ -328,7 +328,7 @@
 
 #static-triangle-2 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #fff;
   width: 3rem;
@@ -338,7 +338,7 @@
 
 #static-triangle-3 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #2d3748;
   width: 4rem;
@@ -348,7 +348,7 @@
 
 #static-triangle-4 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #ed8936;
   width: 2rem;
@@ -358,7 +358,7 @@
 
 #static-triangle-5 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #fff;
   width: 3rem;
@@ -368,7 +368,7 @@
 
 #static-triangle-6 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #fff;
   width: 4rem;
@@ -378,7 +378,7 @@
 
 #static-triangle-7 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #02b4fa;
   width: 2rem;
@@ -388,7 +388,7 @@
 
 #static-triangle-8 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: var(--theme-ui-colors-icon_brightest);
   width: 3rem;
@@ -398,7 +398,7 @@
 
 #static-triangle-9 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #3182ce;
   width: 6rem;
@@ -408,7 +408,7 @@
 
 #static-triangle-10 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #02b4fa;
   width: 6rem;
@@ -418,7 +418,7 @@
 
 #static-triangle-11 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #2d3748;
   width: 6rem;
@@ -458,7 +458,7 @@
 
 #static-circle-4 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: currentcolor;
   color: #2d3748;
   width: 1.5rem;
@@ -578,7 +578,7 @@
 
 #static-hexagon-1 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #4a5568;
   width: 4rem;
@@ -588,7 +588,7 @@
 
 #static-hexagon-2 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #e53e3e;
   width: 4rem;
@@ -598,7 +598,7 @@
 
 #static-hexagon-3 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #4a5568;
   width: 2rem;
@@ -608,7 +608,7 @@
 
 #static-hexagon-4 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #4a5568;
   width: 5rem;
@@ -618,7 +618,7 @@
 
 #static-hexagon-5 {
   position: absolute;
-  stroke: currentcolor;
+  stroke: currentColor;
   fill: none;
   color: #fff;
   width: 2rem;

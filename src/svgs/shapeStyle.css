@@ -631,9 +631,20 @@
   stroke: currentcolor;
   fill: none;
   display: block;
-  color: #ecc94b;
-  width: 2rem;
+  color: #4a5568;
+  width: 5rem;
   left: 40%;
-  top: 470%;
+  top: 430%;
+}
+
+#static-hexagon-5 {
+  position: absolute;
+  stroke: currentcolor;
+  fill: none;
+  display: block;
+  color: #fff;
+  width: 2rem;
+  left: 80%;
+  top: 60%;
 }
 /*# sourceMappingURL=shapeStyle.css.map */

@@ -502,12 +502,12 @@
 
 #static-circle-7 {
   position: absolute;
-  stroke: none;
+  stroke: currentColor;
   fill: currentColor;
   color: #fff;
   width: 1.5rem;
-  left: 75%;
-  top: 100%;
+  left: 15%;
+  top: 10%;
 }
 
 #static-circle-8 {

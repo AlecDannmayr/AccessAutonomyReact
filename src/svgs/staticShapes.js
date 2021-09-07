@@ -124,6 +124,21 @@ function staticShapes() {
          <svg id={'static-circle-15'} viewBox="0 0 30 30">
             <path d="M15,30A15,15,0,1,1,30,15,15,15,0,0,1,15,30ZM15,6.23A8.77,8.77,0,1,0,23.77,15,8.77,8.77,0,0,0,15,6.23Z"></path>
          </svg>
+         <svg id={'static-hexagon-1'} viewBox="0 0 30 30">
+            <polygon stroke-linejoin="round" stroke-miterlimit="10" points="27.5,21.904 15,28.809  2.5,21.904 2.5,8.095 15,1.19 27.5,8.095 "></polygon>
+         </svg>
+         <svg id={'static-hexagon-2'} viewBox="0 0 30 30">
+            <polygon stroke-linejoin="round" stroke-miterlimit="10" points="27.5,21.904 15,28.809  2.5,21.904 2.5,8.095 15,1.19 27.5,8.095 "></polygon>
+         </svg>
+         <svg id={'static-hexagon-3'} viewBox="0 0 30 30">
+            <polygon stroke-linejoin="round" stroke-miterlimit="10" points="27.5,21.904 15,28.809  2.5,21.904 2.5,8.095 15,1.19 27.5,8.095 "></polygon>
+         </svg>
+         <svg id={'static-hexagon-4'} viewBox="0 0 30 30">
+            <polygon stroke-linejoin="round" stroke-miterlimit="10" points="27.5,21.904 15,28.809  2.5,21.904 2.5,8.095 15,1.19 27.5,8.095 "></polygon>
+         </svg>
+         <svg id={'static-hexagon-5'} viewBox="0 0 30 30">
+            <polygon stroke-linejoin="round" stroke-miterlimit="10" points="27.5,21.904 15,28.809  2.5,21.904 2.5,8.095 15,1.19 27.5,8.095 "></polygon>
+         </svg>
       </div>
    )
 }

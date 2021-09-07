@@ -457,7 +457,6 @@
    position: absolute;
    stroke: none;
    fill: currentcolor;
-   display: block;
    color: #fff;
    width: 1.5rem;
    left: 4%;
@@ -468,7 +467,6 @@
    position: absolute;
    stroke: none;
    fill: currentcolor;
-   display: block;
    color: #fff;
    width: 1.5rem;
    left: 4%;
@@ -477,24 +475,23 @@
 
 #static-circle-8 {
    position: absolute;
-   stroke: currentcolor;
-   fill: none;
-   display: block;
-   color: #2d3748;
+   stroke: none;
+   fill: currentcolor;
+   color: #fff;
    width: 6rem;
-   left: 65%;
-   top: 130%;
+   left: 17%;
+   top: 230%;
 }
 
 #static-circle-9 {
    position: absolute;
-   stroke: currentcolor;
-   fill: none;
+   stroke: none;
+   fill: currentcolor;
    display: block;
-   color: #2d3748;
-   width: 6rem;
-   left: 65%;
-   top: 130%;
+   color: #ecc94b;
+   width: 4rem;
+   left: 70%;
+   top: 300%;
 }
 
 #static-circle-10 {

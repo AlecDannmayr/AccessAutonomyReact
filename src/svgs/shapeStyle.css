@@ -14,13 +14,13 @@
 
 #triangle {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentColor;
   fill: none;
   color: ORANGE;
   width: 12rem;
   left: 10%;
   top: 20%;
+  display: block;
 }
 
 #square {
@@ -35,8 +35,7 @@
 
 #cross {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentColor;
   fill: none;
   color: #ed64a6;
   width: 4rem;
@@ -50,8 +49,7 @@
 
 #hexagon {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentColor;
   fill: none;
   color: #e53e3e;
   width: 12rem;
@@ -322,9 +320,9 @@
 #static-triangle-1 {
   color: #4a5568;
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   width: 2rem;
   left: 25%;
   top: 5%;
@@ -332,9 +330,9 @@
 
 #static-triangle-2 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   color: #fff;
   width: 3rem;
   left: 90%;
@@ -343,9 +341,9 @@
 
 #static-triangle-3 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 4rem;
   left: 30%;
@@ -354,19 +352,18 @@
 
 #static-triangle-4 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
   color: #ed8936;
   width: 2rem;
   left: 25%;
   top: 130%;
+  display: block;
 }
 
 #static-triangle-5 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
   color: #fff;
   width: 3rem;
@@ -386,9 +383,9 @@
 
 #static-triangle-7 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   color: #02b4fa;
   width: 2rem;
   left: 25%;
@@ -397,9 +394,9 @@
 
 #static-triangle-8 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   color: var(--theme-ui-colors-icon_brightest);
   width: 3rem;
   left: 95%;
@@ -410,6 +407,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #3182ce;
   width: 6rem;
   left: 55%;
@@ -418,9 +416,9 @@
 
 #static-triangle-10 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   color: #02b4fa;
   width: 6rem;
   left: 15%;
@@ -429,9 +427,9 @@
 
 #static-triangle-11 {
   position: absolute;
-  stroke: none;
-  fill: currentColor;
+  stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -442,6 +440,7 @@
   position: absolute;
   stroke: none;
   fill: currentcolor;
+  display: block;
   color: #2d3748;
   width: 1.5rem;
   left: 4%;
@@ -452,6 +451,7 @@
   position: absolute;
   stroke: none;
   fill: currentcolor;
+  display: block;
   color: #2d3748;
   width: 3rem;
   left: 50%;
@@ -472,6 +472,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -482,6 +483,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -492,6 +494,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -502,6 +505,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -512,6 +516,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -522,6 +527,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -532,6 +538,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -542,6 +549,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -552,6 +560,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -562,6 +571,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -572,6 +582,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;
@@ -582,6 +593,7 @@
   position: absolute;
   stroke: currentcolor;
   fill: none;
+  display: block;
   color: #2d3748;
   width: 6rem;
   left: 65%;

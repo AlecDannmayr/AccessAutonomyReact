@@ -9,7 +9,9 @@
 }
 
 #doubleArrow {
-   @include position;
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
    color: #4a5568;
    width: 6rem;
    left: 40%;
@@ -17,16 +19,20 @@
 }
 
 #triangle {
-   @include position;
+   position: absolute;
+   stroke: currentColor;
    fill: none;
    color: ORANGE;
    width: 12rem;
    left: 10%;
    top: 20%;
+   display: block;
 }
 
 #square {
-   @include position;
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
    color: #805ad5;
    width: 16rem;
    left: 5%;
@@ -34,7 +40,8 @@
 }
 
 #cross {
-   @include position;
+   position: absolute;
+   stroke: currentColor;
    fill: none;
    color: #ed64a6;
    width: 4rem;
@@ -47,7 +54,8 @@
 }
 
 #hexagon {
-   @include position;
+   position: absolute;
+   stroke: currentColor;
    fill: none;
    color: #e53e3e;
    width: 12rem;
@@ -56,7 +64,9 @@
 }
 
 #circle {
-   @include position;
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
    color: #48bb78;
    width: 16rem;
    left: 95%;
@@ -64,15 +74,23 @@
 }
 
 #doubleTriangle {
-   @include position;
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
    color: #3182ce;
    width: 4rem;
    left: 80%;
    top: 10%;
 }
 
+@mixin theme() {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+}
+
 #static-square-1 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 40%;
@@ -80,7 +98,7 @@
 }
 
 #static-square-2 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 1.5rem;
    left: 10%;
@@ -88,7 +106,7 @@
 }
 
 #static-square-3 {
-   @include position;
+   @include theme;
    color: #4a5568;
    width: 1.5rem;
    left: 60%;
@@ -96,7 +114,7 @@
 }
 
 #static-square-4 {
-   @include position;
+   @include theme;
    color: #ed8936;
    width: 1.5rem;
    left: 10%;
@@ -104,7 +122,7 @@
 }
 
 #static-square-5 {
-   @include position;
+   @include theme;
    color: #ecc94b;
    width: 3rem;
    left: 29%;
@@ -112,7 +130,7 @@
 }
 
 #static-square-6 {
-   @include position;
+   @include theme;
    color: #fff;
    width: 1.5rem;
    left: 85%;
@@ -120,7 +138,7 @@
 }
 
 #static-square-7 {
-   @include position;
+   @include theme;
    color: #ed8936;
    width: 2rem;
    left: 10%;
@@ -128,7 +146,7 @@
 }
 
 #static-square-8 {
-   @include position;
+   @include theme;
    color: #3182ce;
    width: 1.5rem;
    left: 50%;
@@ -136,7 +154,7 @@
 }
 
 #static-square-9 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 20%;
@@ -144,7 +162,7 @@
 }
 
 #static-circle-1 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 40%;
@@ -152,7 +170,7 @@
 }
 
 #static-circle-2 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 1.5rem;
    left: 10%;
@@ -160,7 +178,7 @@
 }
 
 #static-circle-3 {
-   @include position;
+   @include theme;
    color: #4a5568;
    width: 1.5rem;
    left: 60%;
@@ -168,7 +186,7 @@
 }
 
 #static-circle-4 {
-   @include position;
+   @include theme;
    color: #ed8936;
    width: 1.5rem;
    left: 10%;
@@ -176,7 +194,7 @@
 }
 
 #static-circle-5 {
-   @include position;
+   @include theme;
    color: #ecc94b;
    width: 3rem;
    left: 29%;
@@ -184,7 +202,7 @@
 }
 
 #static-circle-6 {
-   @include position;
+   @include theme;
    color: #fff;
    width: 1.5rem;
    left: 85%;
@@ -192,7 +210,7 @@
 }
 
 #static-circle-7 {
-   @include position;
+   @include theme;
    color: #ed8936;
    width: 2rem;
    left: 10%;
@@ -200,7 +218,7 @@
 }
 
 #static-circle-8 {
-   @include position;
+   @include theme;
    color: #3182ce;
    width: 1.5rem;
    left: 50%;
@@ -208,7 +226,7 @@
 }
 
 #static-circle-9 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 20%;
@@ -216,7 +234,7 @@
 }
 
 #static-circle-10 {
-   @include position;
+   @include theme;
    color: #ecc94b;
    width: 3rem;
    left: 29%;
@@ -224,7 +242,7 @@
 }
 
 #static-circle-11 {
-   @include position;
+   @include theme;
    color: #fff;
    width: 1.5rem;
    left: 85%;
@@ -232,7 +250,7 @@
 }
 
 #static-circle-12 {
-   @include position;
+   @include theme;
    color: #ed8936;
    width: 2rem;
    left: 10%;
@@ -240,7 +258,7 @@
 }
 
 #static-circle-13 {
-   @include position;
+   @include theme;
    color: #3182ce;
    width: 1.5rem;
    left: 50%;
@@ -248,7 +266,7 @@
 }
 
 #static-circle-14 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 20%;
@@ -256,7 +274,7 @@
 }
 
 #static-circle-15 {
-   @include position;
+   @include theme;
    color: #2d3748;
    width: 3rem;
    left: 20%;
@@ -265,17 +283,20 @@
 
 #static-triangle-1 {
    color: #4a5568;
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
+   display: block;
    width: 2rem;
    left: 25%;
    top: 5%;
 }
 
 #static-triangle-2 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #fff;
    width: 3rem;
    left: 90%;
@@ -283,9 +304,10 @@
 }
 
 #static-triangle-3 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 4rem;
    left: 30%;
@@ -293,16 +315,19 @@
 }
 
 #static-triangle-4 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
    color: #ed8936;
    width: 2rem;
    left: 25%;
    top: 130%;
+   display: block;
 }
 
 #static-triangle-5 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
    color: #fff;
    width: 3rem;
@@ -321,9 +346,10 @@
 }
 
 #static-triangle-7 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #02b4fa;
    width: 2rem;
    left: 25%;
@@ -331,9 +357,10 @@
 }
 
 #static-triangle-8 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: var(--theme-ui-colors-icon_brightest);
    width: 3rem;
    left: 95%;
@@ -344,7 +371,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #3182ce;
    width: 6rem;
    left: 55%;
@@ -352,9 +379,10 @@
 }
 
 #static-triangle-10 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #02b4fa;
    width: 6rem;
    left: 15%;
@@ -362,9 +390,10 @@
 }
 
 #static-triangle-11 {
-   @include position;
+   position: absolute;
+   stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -375,7 +404,7 @@
    position: absolute;
    stroke: none;
    fill: currentcolor;
-
+   display: block;
    color: #2d3748;
    width: 1.5rem;
    left: 4%;
@@ -386,7 +415,7 @@
    position: absolute;
    stroke: none;
    fill: currentcolor;
-
+   display: block;
    color: #2d3748;
    width: 3rem;
    left: 50%;
@@ -407,7 +436,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -418,7 +447,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -429,7 +458,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -440,7 +469,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -451,7 +480,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -462,7 +491,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -473,7 +502,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -484,7 +513,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -495,7 +524,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -506,7 +535,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -517,7 +546,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -528,7 +557,7 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-
+   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;

@@ -1,11 +1,15 @@
+@mixin theme() {
+   position: absolute;
+   stroke: none;
+   fill: currentColor;
+}
+
 #arrowDown {
    background-color: yellow;
 }
 
 #doubleArrow {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
+   @include theme;
    color: #4a5568;
    width: 6rem;
    left: 40%;
@@ -13,8 +17,7 @@
 }
 
 #triangle {
-   position: absolute;
-   stroke: currentColor;
+   @include theme;
    fill: none;
    color: ORANGE;
    width: 12rem;
@@ -24,8 +27,7 @@
 }
 
 #square {
-   position: absolute;
-   stroke: none;
+   @include theme;
    fill: currentColor;
    color: #805ad5;
    width: 16rem;
@@ -34,8 +36,7 @@
 }
 
 #cross {
-   position: absolute;
-   stroke: currentColor;
+   @include theme;
    fill: none;
    color: #ed64a6;
    width: 4rem;
@@ -48,8 +49,7 @@
 }
 
 #hexagon {
-   position: absolute;
-   stroke: currentColor;
+   @include theme;
    fill: none;
    color: #e53e3e;
    width: 12rem;
@@ -58,8 +58,7 @@
 }
 
 #circle {
-   position: absolute;
-   stroke: none;
+   @include theme;
    fill: currentColor;
    color: #48bb78;
    width: 16rem;
@@ -68,19 +67,12 @@
 }
 
 #doubleTriangle {
-   position: absolute;
-   stroke: none;
+   @include theme;
    fill: currentColor;
    color: #3182ce;
    width: 4rem;
    left: 80%;
    top: 10%;
-}
-
-@mixin theme() {
-   position: absolute;
-   stroke: none;
-   fill: currentColor;
 }
 
 #static-square-1 {
@@ -278,7 +270,6 @@
 #static-triangle-1 {
    @include theme;
    fill: none;
-   display: block;
    width: 2rem;
    left: 25%;
    top: 5%;
@@ -287,7 +278,6 @@
 #static-triangle-2 {
    @include theme;
    fill: none;
-   display: block;
    color: #fff;
    width: 3rem;
    left: 90%;
@@ -297,7 +287,6 @@
 #static-triangle-3 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 4rem;
    left: 30%;
@@ -311,7 +300,6 @@
    width: 2rem;
    left: 25%;
    top: 130%;
-   display: block;
 }
 
 #static-triangle-5 {
@@ -335,7 +323,6 @@
 #static-triangle-7 {
    @include theme;
    fill: none;
-   display: block;
    color: #02b4fa;
    width: 2rem;
    left: 25%;
@@ -345,7 +332,6 @@
 #static-triangle-8 {
    @include theme;
    fill: none;
-   display: block;
    color: var(--theme-ui-colors-icon_brightest);
    width: 3rem;
    left: 95%;
@@ -355,7 +341,6 @@
 #static-triangle-9 {
    @include theme;
    fill: none;
-   display: block;
    color: #3182ce;
    width: 6rem;
    left: 55%;
@@ -365,7 +350,6 @@
 #static-triangle-10 {
    @include theme;
    fill: none;
-   display: block;
    color: #02b4fa;
    width: 6rem;
    left: 15%;
@@ -375,7 +359,6 @@
 #static-triangle-11 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -384,7 +367,6 @@
 
 #static-circle-1 {
    @include theme;
-   display: block;
    color: #2d3748;
    width: 1.5rem;
    left: 4%;
@@ -393,7 +375,6 @@
 
 #static-circle-2 {
    @include theme;
-   display: block;
    color: #2d3748;
    width: 3rem;
    left: 50%;
@@ -411,7 +392,6 @@
 #static-circle-4 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -421,7 +401,6 @@
 #static-circle-5 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -451,7 +430,6 @@
 #static-circle-8 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -462,7 +440,6 @@
    position: absolute;
    stroke: currentcolor;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -472,7 +449,6 @@
 #static-circle-10 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -482,7 +458,6 @@
 #static-circle-11 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -492,7 +467,6 @@
 #static-circle-12 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -502,7 +476,6 @@
 #static-circle-13 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -512,7 +485,6 @@
 #static-circle-14 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;
@@ -522,7 +494,6 @@
 #static-circle-15 {
    @include theme;
    fill: none;
-   display: block;
    color: #2d3748;
    width: 6rem;
    left: 65%;

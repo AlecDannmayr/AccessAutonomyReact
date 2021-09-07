@@ -735,7 +735,27 @@
   fill: currentcolor;
   color: #bb4848;
   width: 5rem;
-  left: 25%;
-  top: 130%;
+  left: 17%;
+  top: 150%;
+}
+
+#static-doubleTriangle-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: ORANGE;
+  width: 5rem;
+  left: 77%;
+  top: 350%;
+}
+
+#static-doubleTriangle-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: ORANGE;
+  width: 2rem;
+  left: 77%;
+  top: 110%;
 }
 /*# sourceMappingURL=shapeStyle.css.map */

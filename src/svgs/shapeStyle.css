@@ -378,7 +378,7 @@
   color: #fff;
   width: 4rem;
   left: 18%;
-  top: 325%;
+  top: 335%;
 }
 
 #static-triangle-7 {
@@ -727,5 +727,15 @@
   width: 8rem;
   left: 75%;
   top: 430%;
+}
+
+#static-doubleTriangle-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #bb4848;
+  width: 5rem;
+  left: 25%;
+  top: 130%;
 }
 /*# sourceMappingURL=shapeStyle.css.map */

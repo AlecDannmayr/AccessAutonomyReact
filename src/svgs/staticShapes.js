@@ -1,6 +1,5 @@
 import React from 'react'
 import './shapeStyle.css'
-import { UpDown, UpDownWide } from './animation.tsx'
 
 function staticShapes() {
    return (

@@ -1,5 +1,4 @@
-/** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
+/** @jsx jsx */
 import * as React from "react"
 import { keyframes, css, jsx } from "react"
 

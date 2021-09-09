@@ -738,7 +738,8 @@
 
 #hexagon,
 #triangle,
-#static-square-3 {
+#static-square-3,
+#static-triangle-4 {
    animation: down-pulse 8s ease infinite;
 }
 

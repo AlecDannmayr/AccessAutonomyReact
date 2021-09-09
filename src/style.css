@@ -1,33 +1,37 @@
+html {
+   background-color: #141821;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden scroll;
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   overflow: hidden scroll;
 }
 
 .App {
-  text-align: center;
-  font-family: 'Ropa Sans', sans-serif;
-  background-color: #141821;
+   text-align: center;
+   font-family: 'Ropa Sans', sans-serif;
+   background-color: #141821;
 }
 
 .background {
-  min-height: 500vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   min-height: 500vh;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
 }
 /*# sourceMappingURL=style.css.map */

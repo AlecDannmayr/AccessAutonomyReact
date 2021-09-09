@@ -740,8 +740,9 @@
 #triangle,
 #static-square-3,
 #static-triangle-4,
-#static-doubleArrow-4 {
-   animation: down-pulse 8s ease infinite;
+#static-doubleArrow-4,
+#static-circle-8 {
+   animation: down-pulse 10s ease infinite;
 }
 
 @keyframes down-pulse {
@@ -763,7 +764,7 @@
 #cross,
 #static-triangle-3,
 #static-circle-5 {
-   animation: down-up 20s ease infinite;
+   animation: down-up 24s ease infinite;
 }
 
 @keyframes down-up {

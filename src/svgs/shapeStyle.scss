@@ -626,16 +626,54 @@
    top: 110%;
 }
 
-#hexagon {
-   animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+#hexagon,
+#triangle,
+#static-square-3,
+#static-triangle-4,
+#static-doubleArrow-4,
+#static-circle-8,
+#static-square-6,
+#static-doubleArrow-5,
+#static-circle-15,
+#static-doubleArrow-6,
+#static-square-7,
+#static-doubleArrow-8 {
+   animation: down-pulse 10s ease infinite;
 }
 
-@keyframes pulse {
-   0%,
-   100% {
+@keyframes down-pulse {
+   0% {
       transform: translateY(0);
    }
    50% {
-      transform: translateY(200px);
+      transform: translateY(30px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+
+#static-triangle-2,
+#doubleTriangle,
+#static-circle-4,
+#static-doubleArrow-1,
+#cross,
+#static-triangle-3,
+#static-circle-5,
+#static-doubleTriangle-2,
+#static-circle-14,
+#static-triangle-6 {
+   animation: down-up 24s ease infinite;
+}
+
+@keyframes down-up {
+   0% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(100px);
+   }
+   100% {
+      transform: translateY(0);
    }
 }

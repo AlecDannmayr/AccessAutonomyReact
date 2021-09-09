@@ -744,7 +744,10 @@
 #static-circle-8,
 #static-square-6,
 #static-doubleArrow-5,
-#static-circle-15 {
+#static-circle-15,
+#static-doubleArrow-6,
+#static-square-7,
+#static-doubleArrow-8 {
    animation: down-pulse 10s ease infinite;
 }
 

@@ -764,7 +764,10 @@
 #static-doubleArrow-1,
 #cross,
 #static-triangle-3,
-#static-circle-5 {
+#static-circle-5,
+#static-doubleTriangle-2,
+#static-circle-14,
+#static-triangle-6 {
    animation: down-up 24s ease infinite;
 }
 

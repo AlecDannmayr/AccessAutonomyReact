@@ -739,15 +739,36 @@
 #hexagon,
 #triangle,
 #static-square-3 {
-   animation: pulse 8s ease infinite;
+   animation: down-pulse 8s ease infinite;
 }
 
-@keyframes pulse {
+@keyframes down-pulse {
    0% {
       transform: translateY(0);
    }
    50% {
-      transform: translateY(-30px);
+      transform: translateY(30px);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+
+#static-triangle-2,
+#doubleTriangle,
+#static-circle-4,
+#static-doubleArrow-1,
+#cross,
+#static-triangle-3 {
+   animation: down-up 12s ease infinite;
+}
+
+@keyframes down-up {
+   0% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(60px);
    }
    100% {
       transform: translateY(0);

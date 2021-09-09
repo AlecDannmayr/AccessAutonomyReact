@@ -741,7 +741,8 @@
 #static-square-3,
 #static-triangle-4,
 #static-doubleArrow-4,
-#static-circle-8 {
+#static-circle-8,
+#static-square-6 {
    animation: down-pulse 10s ease infinite;
 }
 

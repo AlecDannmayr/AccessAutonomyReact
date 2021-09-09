@@ -760,7 +760,7 @@
 #static-doubleArrow-1,
 #cross,
 #static-triangle-3 {
-   animation: down-up 12s ease infinite;
+   animation: down-up 20s ease infinite;
 }
 
 @keyframes down-up {
@@ -768,7 +768,7 @@
       transform: translateY(0);
    }
    50% {
-      transform: translateY(60px);
+      transform: translateY(100px);
    }
    100% {
       transform: translateY(0);

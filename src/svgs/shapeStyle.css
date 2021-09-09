@@ -739,7 +739,8 @@
 #hexagon,
 #triangle,
 #static-square-3,
-#static-triangle-4 {
+#static-triangle-4,
+#static-doubleArrow-4 {
    animation: down-pulse 8s ease infinite;
 }
 
@@ -760,7 +761,8 @@
 #static-circle-4,
 #static-doubleArrow-1,
 #cross,
-#static-triangle-3 {
+#static-triangle-3,
+#static-circle-5 {
    animation: down-up 20s ease infinite;
 }
 

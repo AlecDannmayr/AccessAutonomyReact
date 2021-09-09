@@ -736,8 +736,10 @@
 }
 /*# sourceMappingURL=shapeStyle.css.map */
 
-#hexagon {
-   animation: pulse 4s ease infinite, nudge 4s linear infinite;
+#hexagon,
+#triangle,
+#static-square-3 {
+   animation: pulse 8s ease infinite;
 }
 
 @keyframes pulse {
@@ -745,7 +747,7 @@
       transform: translateY(0);
    }
    50% {
-      transform: translateY(-70px);
+      transform: translateY(-30px);
    }
    100% {
       transform: translateY(0);

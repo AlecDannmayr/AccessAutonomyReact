@@ -35,3 +35,19 @@ body {
 
 .footer {
 }
+
+// Animations
+
+.backGroundShapes {
+   animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+@keyframes pulse {
+   0%,
+   100% {
+      background-color: red;
+   }
+   50% {
+      background-color: orange;
+   }
+}

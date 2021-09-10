@@ -39,7 +39,7 @@ body {
 /*# sourceMappingURL=style.css.map */
 
 .intro-div {
-   margin: 8% 6% 6% 6%;
+   margin: 9.5% 6% 6% 6%;
    text-align: left;
    position: absolute;
    z-index: 1;
@@ -49,5 +49,6 @@ body {
    font-size: calc(10px + 14vmin);
 }
 #intro-body {
-   font-size: calc(10px + 5vmin);
+   margin-top: calc(-40px + 1vmin);
+   font-size: calc(10px + 4vmin);
 }

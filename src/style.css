@@ -15,6 +15,7 @@ body {
    font-family: 'Ropa Sans', sans-serif;
    background-color: #141821;
    color: white;
+   font-size: calc(10px + 2vmin);
 }
 
 .background {
@@ -33,14 +34,21 @@ body {
    -ms-flex-pack: center;
    justify-content: center;
    font-size: calc(10px + 2vmin);
-   color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
 
 .intro-div {
-   margin: 4%;
+   margin: 6%;
    text-align: left;
    position: absolute;
    z-index: 1;
+}
+
+#intro-title {
+}
+font-size: calc(10px + 7vmin);
+
+#intro-body {
+   font-size: calc(10px + 4vmin);
 }

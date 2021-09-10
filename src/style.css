@@ -40,5 +40,5 @@ body {
    margin: 4%;
    text-align: left;
    position: absolute;
-   top: 10;
+   z-index: 1;
 }

@@ -39,7 +39,7 @@ body {
 /*# sourceMappingURL=style.css.map */
 
 .intro-div {
-   margin: 6%;
+   margin: 8% 6% 6% 6%;
    text-align: left;
    position: absolute;
    z-index: 1;

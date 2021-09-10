@@ -18,7 +18,9 @@
 }
 
 #doubleArrow {
-   @include position;
+   position: absolute;
+   stroke: none;
+   fill: currentcolor;
    color: #4a5568;
    width: 6rem;
    left: 40%;
@@ -26,27 +28,31 @@
 }
 
 #triangle {
-   @include position-stroke;
+   position: absolute;
+   stroke: currentColor;
    fill: none;
    color: ORANGE;
-   width: 12rem;
+   width: 13rem;
    left: 10%;
    top: 20%;
 }
 
 #square {
-   @include position;
+   position: absolute;
+   stroke: none;
+   fill: currentcolor;
    color: #805ad5;
-   width: 16rem;
+   width: 17rem;
    left: 5%;
    top: 90%;
 }
 
 #cross {
-   @include position-stroke;
+   position: absolute;
+   stroke: currentColor;
    fill: none;
    color: #ed64a6;
-   width: 4rem;
+   width: 4.5rem;
    left: 28%;
    top: 15%;
 }
@@ -56,10 +62,11 @@
 }
 
 #hexagon {
-   @include position-stroke;
+   position: absolute;
+   stroke: currentColor;
    fill: none;
    color: #e53e3e;
-   width: 12rem;
+   width: 13rem;
    left: 60%;
    top: 70%;
 }

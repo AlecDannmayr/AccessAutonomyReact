@@ -7,7 +7,6 @@ const App = () => {
          <layout className="background">
             <BackGroundShapes />
          </layout>
-
          <header className="nav"></header>
          <body className="body"></body>
          <footer className="footer"></footer>

@@ -35,3 +35,10 @@ body {
    color: white;
 }
 /*# sourceMappingURL=style.css.map */
+
+.intro-div {
+   margin: 4%;
+   text-align: left;
+   position: absolute;
+   top: 10;
+}

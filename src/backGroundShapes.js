@@ -7,11 +7,11 @@ import DoubleTriangle from './svgs/doubleTriangle'
 import DoubleArrow from './svgs/doubleArrow'
 import Triangle from './svgs/triangle'
 import StaticShapes from './svgs/staticShapes'
-import './style'
+import './style.css'
 
 const backGroundShapes = () => {
    return (
-      <div>
+      <div className={'backGroundShapes'}>
          <Circle />
          <Square />
          <Cross />

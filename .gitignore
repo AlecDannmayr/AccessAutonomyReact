@@ -1,3 +1,4 @@
 .autogit
 node_modules/*
 !node_modules/@lekoarts
+node_modules

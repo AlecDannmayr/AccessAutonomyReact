@@ -4,8 +4,8 @@ import './style.css'
 const intro = () => {
    return (
       <div className={'intro-div'}>
-         <h1 id={'intro-title'}>Access Autonomy</h1>
-         <p id={'intro-body'}>solves complex problems using a process of elimination</p>
+         <h1 id={'intro-title'}>AccessAutonomy</h1>
+         <p id={'intro-body'}>We solve complex design problems using a finesse for technology.</p>
       </div>
    )
 }

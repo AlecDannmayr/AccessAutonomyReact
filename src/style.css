@@ -46,9 +46,8 @@ body {
 }
 
 #intro-title {
+   font-size: calc(10px + 14vmin);
 }
-font-size: calc(10px + 7vmin);
-
 #intro-body {
-   font-size: calc(10px + 4vmin);
+   font-size: calc(10px + 5vmin);
 }

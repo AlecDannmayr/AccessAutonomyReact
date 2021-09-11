@@ -6,7 +6,7 @@ import Intro from './intro.js'
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
    const handleScroll = () => setOffsetY(window.pageYOffset)
-   console.log(handleScroll)
+   console.log(setOffsetY)
    useEffect(() => {
       window.addEventListener('scroll', handleScroll)
       return () => window.removeEventListener('scroll', handleScroll)

@@ -14,7 +14,7 @@ const App = () => {
       <div className="App">
          <Intro />
          <layout className="background">
-            <BackGroundShapes Style={{ transform: `translateY(-${offsetY * 100.5}px)` }} />
+            <BackGroundShapes Style={{ transform: `translateY(${offsetY * 100.5}px)` }} />
          </layout>
          <header className="nav"></header>
          <body className="body"></body>

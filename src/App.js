@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from 'react'
 import './style.css'
 import BackGroundShapes from './backGroundShapes.js'
 import Intro from './intro.js'
 
 const App = () => {
-   const [offsetY, setOffsetY] = useState(0);
+   const [offsetY, setOffsetY] = useState(0)
    const handleScroll = () => setOffsetY(window.pageYOffset)
-   useEffect = (( => {
-      window.addEventListener('scroll', )
-      return () => removeEventListener("scroll", handleScroll)
-}, []);
+   useEffect =
+      (() => {
+         window.addEventListener('scroll', handleScroll)
+         return () => removeEventListener('scroll', handleScroll)
+      },
+      [])
    return (
       <div className="App">
          <Intro />

@@ -19,7 +19,7 @@ body {
 }
 
 .background {
-   min-height: 500vh;
+   min-height: 100vh;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;

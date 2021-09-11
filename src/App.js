@@ -11,10 +11,10 @@ const App = () => {
       return () => window.removeEventListener('scroll', handleScroll)
    }, [])
    return (
-      <div className="App" Style={{ transform: `translateY(${offsetY * 100.5}px)` }}>
+      <div className="App">
          <Intro />
          <layout className="background">
-            <BackGroundShapes />
+            <BackGroundShapes Style={{ transform: `translateY(-${offsetY * 100.5}px)` }} />
          </layout>
          <header className="nav"></header>
          <body className="body"></body>

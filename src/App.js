@@ -6,19 +6,16 @@ import Intro from './intro.js'
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
    const handleScroll = () => setOffsetY(window.pageYOffset)
-   console.log(setOffsetY)
    useEffect(() => {
       window.addEventListener('scroll', handleScroll)
       return () => window.removeEventListener('scroll', handleScroll)
    }, [])
    return (
-      <div className="App">
+      <div className="App" Style={{ transform: `translateY(${offsetY * 100.5}px)` }}>
          <Intro />
-         <div Style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
-            <layout className="background">
-               <BackGroundShapes />
-            </layout>
-         </div>
+         <layout className="background">
+            <BackGroundShapes />
+         </layout>
          <header className="nav"></header>
          <body className="body"></body>
          <footer className="footer"></footer>

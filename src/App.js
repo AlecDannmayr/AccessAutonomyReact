@@ -13,7 +13,7 @@ const App = () => {
    return (
       <div className="App">
          <Intro />
-         <layout className="background" style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+         <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
             <BackGroundShapes />
          </layout>
          <header className="nav"></header>

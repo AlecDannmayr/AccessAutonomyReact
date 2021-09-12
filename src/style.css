@@ -55,21 +55,22 @@ body {
 
 .diagonal-box-one {
    background-image: linear-gradient(45deg, #29bfff, #695bce);
-   transform: skewY(-11deg);
+   transform: skewY(-7deg);
    height: 600px;
    margin-top: calc(120px + 1vmin);
+   text-align: left;
 }
 
 .content-one {
    max-width: 50em;
    margin: 0 auto;
-   transform: skewY(11deg);
+   transform: skewY(7deg);
    display: flex;
 }
 
 .diagonal-box-two {
-   background-image: linear-gradient(45deg, #29bfff, #695bce);
-   transform: skewY(-11deg);
+   background-image: linear-gradient(45deg, #2d3748, #2d3748);
+   transform: skewY(7deg);
    height: 600px;
    margin-top: calc(120px + 1vmin);
    text-align: left;
@@ -78,6 +79,6 @@ body {
 .content-two {
    max-width: 50em;
    margin: 0 auto;
-   transform: skewY(11deg);
+   transform: skewY(-7deg);
    display: flex;
 }

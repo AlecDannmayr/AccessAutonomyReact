@@ -51,3 +51,11 @@ body {
       transform: translateY(200px);
    }
 }
+
+.diagonal-box {
+   background-image: linear-gradient(45deg, #6303b1, #ff0099);
+}
+.content {
+   max-width: 50em;
+   margin: 0 auto;
+}

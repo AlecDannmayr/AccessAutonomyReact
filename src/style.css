@@ -52,3 +52,11 @@ body {
    margin-top: calc(-40px + 1vmin);
    font-size: calc(10px + 4vmin);
 }
+
+.diagonal-box {
+   background-image: linear-gradient(45deg, #6303b1, #ff0099);
+}
+.content {
+   max-width: 50em;
+   margin: 0 auto;
+}

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './style.css'
 import BackGroundShapes from './backGroundShapes.js'
 import Intro from './intro.js'
-import ProjectBanner from './projectBanner'
+import ProjectBannerOne from './projectBannerOne'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -17,7 +17,8 @@ const App = () => {
          <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
             <BackGroundShapes />
          </layout>
-         <ProjectBanner />
+         <ProjectBannerOne />
+         <ProjectBannerOne />
          <header className="nav"></header>
          <body className="body"></body>
          <footer className="footer"></footer>

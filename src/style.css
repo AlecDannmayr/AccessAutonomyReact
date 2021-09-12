@@ -64,6 +64,5 @@ body {
    max-width: 50em;
    margin: 0 auto;
    transform: skewY(11deg);
-   text-align: left;
    display: flex;
 }

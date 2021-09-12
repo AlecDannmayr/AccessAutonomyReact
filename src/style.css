@@ -59,6 +59,7 @@ body {
    height: 40vw;
    margin-top: calc(120px + 1vmin);
    text-align: left;
+   opacity: 0.9;
 }
 
 .content-one {
@@ -74,6 +75,7 @@ body {
    height: 40vw;
    margin-top: calc(120px + 1vmin);
    text-align: left;
+   opacity: 0.9;
 }
 
 .content-two {
@@ -99,6 +101,18 @@ body {
    display: flex;
 }
 
-.content-three p {
-   opacity: 1;
+.diagonal-box-four {
+   background-image: linear-gradient(45deg, #d486ff, #3ff5ee);
+   transform: skewY(7deg);
+   height: 40vw;
+   margin-top: calc(120px + 1vmin);
+   text-align: left;
+   opacity: 0.9;
+}
+
+.content-four {
+   max-width: 50em;
+   margin: 0 auto;
+   transform: skewY(-7deg);
+   display: flex;
 }

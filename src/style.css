@@ -57,6 +57,7 @@ body {
    background-image: linear-gradient(45deg, #29bfff, #695bce);
    transform: skewY(-11deg);
    height: 600px;
+   margin-top: calc(120px + 1vmin);
 }
 
 .content {
@@ -64,4 +65,5 @@ body {
    margin: 0 auto;
    transform: skewY(11deg);
    text-align: left;
+   display: flex;
 }

@@ -3,6 +3,7 @@ import './style.css'
 import BackGroundShapes from './backGroundShapes.js'
 import Intro from './intro.js'
 import ProjectBannerOne from './projectBannerOne'
+import ProjectBannerTwo from './projectBannerTwo'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -18,7 +19,7 @@ const App = () => {
             <BackGroundShapes />
          </layout>
          <ProjectBannerOne />
-         <ProjectBannerOne />
+         <ProjectBannerTwo />
          <header className="nav"></header>
          <body className="body"></body>
          <footer className="footer"></footer>

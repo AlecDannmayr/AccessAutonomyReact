@@ -53,14 +53,28 @@ body {
    font-size: calc(10px + 4vmin);
 }
 
-.diagonal-box {
+.diagonal-box-one {
    background-image: linear-gradient(45deg, #29bfff, #695bce);
    transform: skewY(-11deg);
    height: 600px;
    margin-top: calc(120px + 1vmin);
 }
 
-.content {
+.content-one {
+   max-width: 50em;
+   margin: 0 auto;
+   transform: skewY(11deg);
+   display: flex;
+}
+
+.diagonal-box-two {
+   background-image: linear-gradient(45deg, #29bfff, #695bce);
+   transform: skewY(-11deg);
+   height: 600px;
+   margin-top: calc(120px + 1vmin);
+}
+
+.content-two {
    max-width: 50em;
    margin: 0 auto;
    transform: skewY(11deg);

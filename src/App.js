@@ -29,7 +29,7 @@ const App = () => {
          <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
             <ProjectBannerTwo />
          </section>
-         <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
+         <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
             <ProjectBannerThree />
          </section>
          <header className="nav"></header>

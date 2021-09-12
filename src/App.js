@@ -20,13 +20,18 @@ const App = () => {
          <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
             <BackGroundShapes />
          </layout>
-         <section style={{ transform: `translateY(${offsetY * 2}px)` }}>
+         <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
             <ProjectBannerOne />
          </section>
-         <ProjectBannerFour />
-         <ProjectBannerTwo />
-         <ProjectBannerThree />
-
+         <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+            <ProjectBannerFour />
+         </section>
+         <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+            <ProjectBannerTwo />
+         </section>
+         <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+            <ProjectBannerThree />
+         </section>
          <header className="nav"></header>
          <body className="body"></body>
          <footer className="footer"></footer>

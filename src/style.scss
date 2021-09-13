@@ -7,8 +7,6 @@ html {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       overflow: hidden scroll;
-      height: 100%;
-      min-height: 100%;
    }
 }
 
@@ -117,4 +115,8 @@ html {
    position: absolute;
    z-index: 1;
    margin-top: 50%;
+}
+
+#wave {
+   margin-top: 1000px;
 }

@@ -3,6 +3,7 @@ import './style.css'
 import './responsive.css'
 import Intro from './intro.js'
 import Footer from './footer.js'
+import Copyright from './copyright.js'
 import BackGroundShapes from './backGroundShapes.js'
 import ProjectBannerOne from './projectBannerOne'
 import ProjectBannerTwo from './projectBannerTwo'
@@ -36,6 +37,7 @@ const App = () => {
             <ProjectBannerThree />
          </section>
          <Footer />
+         <Copyright />
       </div>
    )
 }

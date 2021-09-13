@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './style.css'
+import './css/style.css'
 import './responsive.css'
 import Intro from './components/intro.js'
 import Footer from './components/footer.js'

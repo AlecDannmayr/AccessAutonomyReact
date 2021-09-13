@@ -4,10 +4,10 @@ import './style.css'
 const footer = () => {
    return (
       <div className={'footer-div'}>
-         <h1 id={'footer-title'}>AccessAutonomy</h1>
-         <p id={'intro-body'}>We solve complex design problems using a finesse for technology.</p>
+         <h1 id={'footer-title'}>Get in touch</h1>
+         <p id={'footer-body'}>Say Hi or find us on other platforms: Linkedin</p>
       </div>
    )
 }
 
-export default intro
+export default footer

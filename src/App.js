@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './style.css'
 import './responsive.css'
 import Intro from './intro.js'
+import Footer from './footer.js'
 import BackGroundShapes from './backGroundShapes.js'
 import ProjectBannerOne from './projectBannerOne'
 import ProjectBannerTwo from './projectBannerTwo'
@@ -17,6 +18,7 @@ const App = () => {
    }, [])
    return (
       <div className="App">
+         <header className="nav"></header>
          <Intro />
          <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
             <BackGroundShapes />
@@ -33,9 +35,9 @@ const App = () => {
          <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
             <ProjectBannerThree />
          </section>
-         <header className="nav"></header>
-         <body className="body"></body>
-         <footer className="footer"></footer>
+         <footer className="footer">
+            <Footer />
+         </footer>
       </div>
    )
 }

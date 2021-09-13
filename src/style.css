@@ -42,11 +42,11 @@ body {
    text-align: left;
    position: absolute;
    z-index: 1;
-   margin: 0% 20% 0% 20%;
+   margin: 15% 20% 0% 20%;
 }
 
 #intro-title {
-   font-size: calc(10px + 14vmin);
+   font-size: calc(10px + 8vmin);
 }
 
 #intro-body {

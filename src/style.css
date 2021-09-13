@@ -144,8 +144,12 @@ html body {
   text-align: center;
 }
 
-#contact-wave {
-  background-color: #259345;
+.copyright-div p {
+  position: absolute;
   z-index: 2;
+}
+
+#contact-wave {
+  background-color: #695bce;
 }
 /*# sourceMappingURL=style.css.map */

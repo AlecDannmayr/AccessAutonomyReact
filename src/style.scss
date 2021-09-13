@@ -126,9 +126,12 @@ html {
 .copyright-div {
    margin: 72% 0% 0% 0%;
    text-align: center;
+   p {
+      position: absolute;
+      z-index: 2;
+   }
 }
 
 #contact-wave {
-   background-color: #259345;
-   z-index: 2;
+   background-color: #695bce;
 }

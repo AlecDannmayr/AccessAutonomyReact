@@ -128,4 +128,11 @@ html body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.footer {
+  position: absolute;
+  top: 95;
+  left: 40;
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */

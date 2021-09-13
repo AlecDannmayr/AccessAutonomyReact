@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import './style.css'
 import './responsive.css'
-import Intro from './intro.js'
-import Footer from './footer.js'
-import Copyright from './copyright.js'
-import BackGroundShapes from './backGroundShapes.js'
-import ProjectBannerOne from './projectBannerOne'
-import ProjectBannerTwo from './projectBannerTwo'
-import ProjectBannerThree from './projectBannerThree'
-import ProjectBannerFour from './projectBannerFour'
+import Intro from './components/intro.js'
+import Footer from './components/footer.js'
+import Copyright from './components/copyright.js'
+import BackGroundShapes from './components/backGroundShapes.js'
+import ProjectBannerOne from './components/projectBannerOne'
+import ProjectBannerTwo from './components/projectBannerTwo'
+import ProjectBannerThree from './components/projectBannerThree'
+import ProjectBannerFour from './components/projectBannerFour'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)

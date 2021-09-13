@@ -141,12 +141,12 @@ html body {
 
 .copyright-div {
   margin: 72% 0% 0% 0%;
-  text-align: center;
 }
 
-.copyright-div p {
+.copyright-text {
   position: absolute;
   z-index: 2;
+  margin-top: 50%;
 }
 
 #contact-wave {

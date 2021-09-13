@@ -42,7 +42,7 @@ body {
    text-align: left;
    position: absolute;
    z-index: 1;
-   padding: 14vw;
+   margin: 0% 20% 0% 20%;
 }
 
 #intro-title {
@@ -58,7 +58,7 @@ body {
    background-image: linear-gradient(45deg, #29bfff, #695bce);
    transform: skewY(-7deg);
    height: 40vw;
-   margin-top: calc(120px + 1vmin);
+
    text-align: left;
    opacity: 0.9;
 }

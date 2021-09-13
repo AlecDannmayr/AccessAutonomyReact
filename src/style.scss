@@ -124,8 +124,11 @@ html {
 }
 
 .copyright-div {
-   margin: 72% 0% 0% 0%;
+   margin: 2% 0% 0% 0%;
    text-align: center;
+   background-color: #2d3748;
+   position: absolute;
+   z-index: 10;
 }
 
 .copyright-text {
@@ -135,5 +138,4 @@ html {
 }
 
 #contact-wave {
-
 }

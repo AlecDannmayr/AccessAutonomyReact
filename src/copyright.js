@@ -11,6 +11,7 @@ const copyright = () => {
                </path>
             </svg>
             <p>Copyright© {new Date().getFullYear()} All rights reserved.</p>
+            
          </div>
       </>
    )

@@ -141,10 +141,10 @@ html body {
 .ocean {
   height: 30%;
   width: 100%;
-  position: absolute;
-  left: 0;
+  position: fixed;
+  bottom: 0;
   background: #015871;
-  margin-top: 50%;
+  margin-top: 0%;
 }
 
 .wave {

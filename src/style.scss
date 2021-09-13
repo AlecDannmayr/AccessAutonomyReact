@@ -110,8 +110,7 @@ html {
 }
 
 .footer-div {
-   position: absolute;
-   top: 95;
-   left: 40;
    text-align: left;
+   display: flex;
+   justify-content: center;
 }

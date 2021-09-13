@@ -130,9 +130,12 @@ html body {
 }
 
 .footer-div {
-  position: absolute;
-  top: 95;
-  left: 40;
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

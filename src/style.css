@@ -136,4 +136,9 @@ html body {
   z-index: 1;
   margin-top: 50%;
 }
+
+.copyright-div {
+  margin-top: 70%;
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */

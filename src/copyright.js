@@ -5,7 +5,7 @@ const copyright = () => {
    return (
       <>
          <div className={'copyright-div'}>
-            <p>Say Hi or find us on other platforms: LinkedIn</p>
+            <p>Copyright© {new Date().getFullYear()} All rights reserved.</p>
          </div>
       </>
    )

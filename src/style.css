@@ -129,8 +129,7 @@ html body {
   display: flex;
 }
 
-.footer-div,
-.copyright-div {
+.footer-div {
   text-align: left;
   margin: 15% 20% 0% 20%;
   position: absolute;
@@ -139,18 +138,13 @@ html body {
   width: 100%;
 }
 
-.copyright-div {
-  background: radial-gradient(ellipse at center, #fffeea 0%, #fffeea 35%, #b7e8eb 100%);
-  overflow: hidden;
-}
-
 .ocean {
-  height: 5%;
+  height: 30%;
   width: 100%;
   position: absolute;
-  bottom: 0;
   left: 0;
   background: #015871;
+  margin-top: 50%;
 }
 
 .wave {

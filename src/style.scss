@@ -109,7 +109,7 @@ html {
    }
 }
 
-@mixin footer {
+.footer-div {
    text-align: left;
    margin: 15% 20% 0% 20%;
    position: absolute;
@@ -118,25 +118,13 @@ html {
    width: 100%;
 }
 
-.footer-div,
-.copyright-div {
-   @include footer;
-}
-
-.copyright-div {
-   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #b7e8eb 100%);
-   overflow: hidden;
-}
-
-// best seen at 1500px or less
-
 .ocean {
-   height: 5%;
+   height: 30%;
    width: 100%;
    position: absolute;
-   bottom: 0;
    left: 0;
    background: #015871;
+   margin-top: 50%;
 }
 
 .wave {

@@ -137,6 +137,10 @@ html body {
   margin-top: 50%;
 }
 
+.footer-div #footer-title {
+  color: #fbaf3b;
+}
+
 #wave {
   margin-top: 1000px;
   margin-bottom: -6px;

@@ -6,7 +6,9 @@ const footer = () => {
       <>
          <div className={'footer-div'}>
             <h1 id={'footer-title'}>Get in touch</h1>
-            <p id={'footer-body'}>Say Hi or find us on other platforms: LinkedIn</p>
+            <p id={'footer-body'}>
+               Say <a href="_blank">Hi</a> and find us on LinkedIn
+            </p>
          </div>
       </>
    )

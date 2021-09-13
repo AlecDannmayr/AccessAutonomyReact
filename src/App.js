@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './style.css'
+import './responsive.css'
 import Intro from './intro.js'
 import BackGroundShapes from './backGroundShapes.js'
 import ProjectBannerOne from './projectBannerOne'

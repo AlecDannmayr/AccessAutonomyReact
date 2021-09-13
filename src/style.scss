@@ -109,15 +109,21 @@ html {
    }
 }
 
-.footer-div {
+@mixin footer {
    text-align: left;
    margin: 15% 20% 0% 20%;
    position: absolute;
    z-index: 1;
    margin-top: 50%;
+   width: 100%;
+}
+
+.footer-div,
+.copyright-div {
+   @include footer;
 }
 
 .copyright-div {
-   margin-top: 70%;
-   text-align: right;
+   margin: 72% 0% 0% 0%;
+   text-align: center;
 }

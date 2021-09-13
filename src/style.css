@@ -129,7 +129,7 @@ html body {
   display: flex;
 }
 
-.footer {
+.footer-div {
   position: absolute;
   top: 95;
   left: 40;

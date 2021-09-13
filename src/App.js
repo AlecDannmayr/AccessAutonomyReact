@@ -35,9 +35,7 @@ const App = () => {
          <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
             <ProjectBannerThree />
          </section>
-         <footer className="footer">
-            <Footer />
-         </footer>
+         <Footer />
       </div>
    )
 }

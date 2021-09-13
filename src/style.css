@@ -42,11 +42,13 @@ body {
    text-align: left;
    position: absolute;
    z-index: 1;
+   padding: 14vw;
 }
 
 #intro-title {
    font-size: calc(10px + 14vmin);
 }
+
 #intro-body {
    margin-top: calc(-40px + 1vmin);
    font-size: calc(10px + 4vmin);

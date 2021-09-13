@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './style.css'
-import BackGroundShapes from './backGroundShapes.js'
 import Intro from './intro.js'
+import BackGroundShapes from './backGroundShapes.js'
 import ProjectBannerOne from './projectBannerOne'
 import ProjectBannerTwo from './projectBannerTwo'
 import ProjectBannerThree from './projectBannerThree'

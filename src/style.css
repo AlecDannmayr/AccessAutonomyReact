@@ -43,7 +43,11 @@ html body {
 }
 
 .intro-div #intro-title {
-  font-size: 30px;
+  font-size: 100px;
+}
+
+.intro-div #intro-body {
+  font-size: 40px;
 }
 
 .diagonal-box-one {

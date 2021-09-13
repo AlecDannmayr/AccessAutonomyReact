@@ -35,7 +35,6 @@ html {
       font-size: calc(10px + 2vmin);
    }
 }
-
 /*# sourceMappingURL=style.css.map */
 
 .intro-div {
@@ -44,7 +43,10 @@ html {
    z-index: 1;
    margin: 15% 20% 0% 20%;
    #intro-title {
-      font-size: 30px;
+      font-size: 100px;
+   }
+   #intro-body {
+      font-size: 40px;
    }
 }
 

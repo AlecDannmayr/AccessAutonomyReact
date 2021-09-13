@@ -143,6 +143,8 @@ html body {
 }
 
 #copyright-text {
-  margin-bottom: -400px;
+  background-color: #2d3748;
+  height: 100px;
+  margin-bottom: -6px;
 }
 /*# sourceMappingURL=style.css.map */

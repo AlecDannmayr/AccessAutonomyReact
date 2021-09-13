@@ -8,6 +8,8 @@ html body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden scroll;
+  height: 100%;
+  min-height: 100%;
 }
 
 .App {
@@ -141,10 +143,11 @@ html body {
 .ocean {
   height: 30%;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: 100%;
   background: #015871;
-  margin-top: 0%;
 }
 
 .wave {

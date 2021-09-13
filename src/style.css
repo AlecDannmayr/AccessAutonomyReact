@@ -10,6 +10,11 @@ html body {
   overflow: hidden scroll;
 }
 
+html a {
+  text-decoration: none;
+  color: #d5155a;
+}
+
 .App {
   text-align: center;
   font-family: 'Ropa Sans', sans-serif;

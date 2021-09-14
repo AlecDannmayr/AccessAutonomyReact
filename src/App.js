@@ -22,7 +22,9 @@ const App = () => {
       <Router>
          <div className="App">
             <Switch>
-               <Route path="/home"></Route>
+               <Route path="/home">
+                  <Home />
+               </Route>
             </Switch>
             <header className="nav"></header>
             <Intro />

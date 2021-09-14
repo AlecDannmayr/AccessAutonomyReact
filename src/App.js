@@ -29,7 +29,7 @@ const App = () => {
                <BackGroundShapes />
             </layout>
             <Switch>
-               <Route path="/getInTouch">
+               <Route exact path="/getInTouch">
                   <GetInTouch />
                </Route>
             </Switch>

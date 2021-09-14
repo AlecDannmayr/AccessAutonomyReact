@@ -22,27 +22,29 @@ const App = () => {
    return (
       <Router>
          <div className="App">
+            <header className="nav"></header>
+            <Intro />
+            <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
+               <BackGroundShapes />
+            </layout>
             <Switch>
                <Route path="/getInTouch">
                   <GetInTouch />
+                  <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+                     <ProjectBannerOne />
+                  </section>
+                  <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
+                     <ProjectBannerFour />
+                  </section>
+                  <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
+                     <ProjectBannerTwo />
+                  </section>
+                  <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
+                     <ProjectBannerThree />
+                  </section>
+                  <Footer />
                </Route>
             </Switch>
-            <header className="nav"></header>
-            <Intro />
-           
-            <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
-               <ProjectBannerOne />
-            </section>
-            <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
-               <ProjectBannerFour />
-            </section>
-            <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
-               <ProjectBannerTwo />
-            </section>
-            <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
-               <ProjectBannerThree />
-            </section>
-            <Footer />
             <Copyright />
          </div>
       </Router>

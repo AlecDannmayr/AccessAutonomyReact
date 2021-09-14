@@ -26,7 +26,9 @@ const App = () => {
             <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
                <BackGroundShapes />
             </layout>
-            <Route path="/getintouch" component={GetInTouch} />
+            <Route path="/getintouch" component={GetInTouch}>
+               <GetInTouch />
+            </Route>
             <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
                <ProjectBannerOne />
             </section>

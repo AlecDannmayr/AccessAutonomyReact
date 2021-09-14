@@ -9,7 +9,7 @@ import ProjectBannerOne from './components/projectBannerOne'
 import ProjectBannerTwo from './components/projectBannerTwo'
 import ProjectBannerThree from './components/projectBannerThree'
 import ProjectBannerFour from './components/projectBannerFour'
-import { Browser as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -21,6 +21,9 @@ const App = () => {
    return (
       <Router>
          <div className="App">
+            <Switch>
+               <Route path="/home"></Route>
+            </Switch>
             <header className="nav"></header>
             <Intro />
             <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>

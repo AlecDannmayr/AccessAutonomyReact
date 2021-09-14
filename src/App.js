@@ -4,6 +4,7 @@ import './css/responsive.css'
 import Intro from './components/intro.js'
 import Footer from './components/footer.js'
 import Copyright from './components/copyright.js'
+import GetInTouch from './pages/getInTouch.js'
 import BackGroundShapes from './components/backGroundShapes.js'
 import ProjectBannerOne from './components/projectBannerOne'
 import ProjectBannerTwo from './components/projectBannerTwo'
@@ -23,7 +24,7 @@ const App = () => {
          <div className="App">
             <Switch>
                <Route path="/home">
-                  <Home />
+                  <GetInTouch />
                </Route>
             </Switch>
             <header className="nav"></header>

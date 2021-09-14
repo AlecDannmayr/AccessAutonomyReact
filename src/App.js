@@ -23,15 +23,13 @@ const App = () => {
       <Router>
          <div className="App">
             <Switch>
-               <Route path="/home">
+               <Route path="/getInTouch">
                   <GetInTouch />
                </Route>
             </Switch>
             <header className="nav"></header>
             <Intro />
-            <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
-               <BackGroundShapes />
-            </layout>
+           
             <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
                <ProjectBannerOne />
             </section>

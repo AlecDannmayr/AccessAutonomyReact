@@ -1,5 +1,5 @@
 import React from 'react'
-import './shapeStyle.css'
+import '../css/shapeStyle.css'
 
 function arrowUp() {
    return (

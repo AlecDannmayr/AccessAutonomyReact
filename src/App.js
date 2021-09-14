@@ -5,6 +5,7 @@ import Intro from './components/intro.js'
 import Footer from './components/footer.js'
 import Copyright from './components/copyright.js'
 import GetInTouch from './pages/getInTouch.js'
+
 import BackGroundShapes from './components/backGroundShapes.js'
 import ProjectBannerOne from './components/projectBannerOne'
 import ProjectBannerTwo from './components/projectBannerTwo'
@@ -30,21 +31,21 @@ const App = () => {
             <Switch>
                <Route path="/getInTouch">
                   <GetInTouch />
-                  <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
-                     <ProjectBannerOne />
-                  </section>
-                  <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
-                     <ProjectBannerFour />
-                  </section>
-                  <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
-                     <ProjectBannerTwo />
-                  </section>
-                  <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
-                     <ProjectBannerThree />
-                  </section>
-                  <Footer />
                </Route>
             </Switch>
+            <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+               <ProjectBannerOne />
+            </section>
+            <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
+               <ProjectBannerFour />
+            </section>
+            <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
+               <ProjectBannerTwo />
+            </section>
+            <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
+               <ProjectBannerThree />
+            </section>
+            <Footer />
             <Copyright />
          </div>
       </Router>

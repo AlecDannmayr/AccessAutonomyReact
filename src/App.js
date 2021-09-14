@@ -12,7 +12,6 @@ import ProjectBannerThree from './components/projectBannerThree'
 import ProjectBannerFour from './components/projectBannerFour'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
    const handleScroll = () => setOffsetY(window.pageYOffset)
@@ -23,41 +22,28 @@ const App = () => {
    return (
       <Router>
          <div className="App">
+            <Intro />
             <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
                <BackGroundShapes />
             </layout>
-            <Route path="/" component={App} />
             <Route path="/getintouch" component={GetInTouch} />
-
+            <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
+               <ProjectBannerOne />
+            </section>
+            <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
+               <ProjectBannerFour />
+            </section>
+            <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
+               <ProjectBannerTwo />
+            </section>
+            <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
+               <ProjectBannerThree />
+            </section>
+            <Footer />
             <Copyright />
          </div>
       </Router>
    )
 }
-
-const Home = () => {
-    const [offsetY, setOffsetY] = useState(0)
-   const handleScroll = () => setOffsetY(window.pageYOffset)
-   useEffect(() => {
-      window.addEventListener('scroll', handleScroll)
-      return () => window.removeEventListener('scroll', handleScroll)
-   }, [])
-   <div>
-      <Intro />
-      <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
-         <ProjectBannerOne />
-      </section>
-      <section style={{ transform: `translateY(${offsetY * 0}px)` }}>
-         <ProjectBannerFour />
-      </section>
-      <section style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
-         <ProjectBannerTwo />
-      </section>
-      <section style={{ transform: `translateY(${offsetY * -0.2}px)` }}>
-         <ProjectBannerThree />
-      </section>
-      <Footer />
-   </div>
-)
 
 export default App

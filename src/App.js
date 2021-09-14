@@ -4,6 +4,7 @@ import './css/responsive.css'
 import Intro from './components/intro.js'
 import Footer from './components/footer.js'
 import Copyright from './components/copyright.js'
+import Projects from './components/projects.js'
 import GetInTouch from './pages/getInTouch.js'
 import BackGroundShapes from './components/backGroundShapes.js'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
@@ -22,6 +23,7 @@ const App = () => {
             <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
                <BackGroundShapes />
             </layout>
+            <Projects />
             <Route path="/" component={App} />
             <Route path="/getintouch" component={GetInTouch} />
             <Footer />

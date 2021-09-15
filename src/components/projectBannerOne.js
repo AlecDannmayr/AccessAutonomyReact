@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/style.css'
 import projectImgOne from './projectImgOne.js'
-import phone from 'public/phone.svg'
+import phone from '../images/phone.svg'
 
 const projectBannerOne = () => {
    return (
@@ -13,7 +13,7 @@ const projectBannerOne = () => {
             </p>
             <figure>
                <div class="frame">
-                  <img src={} alt={"Scoreboard Phone"}></img>
+                  <img src={phone} alt={'Scoreboard Phone'}></img>
                </div>
             </figure>
          </div>

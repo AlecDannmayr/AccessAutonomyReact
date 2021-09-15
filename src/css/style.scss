@@ -62,11 +62,17 @@ html {
    height: 60vw;
    text-align: left;
    opacity: 0.9;
+   display: flex;
    .content-one {
-      max-width: 50em;
+      max-width: 40em;
       margin: 0 auto;
       transform: skewY(7deg);
       display: flex;
+   }
+   .frame {
+      img {
+         width: 400px;
+      }
    }
 }
 
@@ -136,10 +142,4 @@ html {
    height: 100px;
    margin: -1px 0px 0px -6px;
    font-size: 0.8em;
-}
-
-.frame {
-   img {
-      width: 200px;
-   }
 }

@@ -66,16 +66,23 @@ html a:hover {
   height: 60vw;
   text-align: left;
   opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .diagonal-box-one .content-one {
-  max-width: 50em;
+  max-width: 40em;
   margin: 0 auto;
   -webkit-transform: skewY(7deg);
           transform: skewY(7deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.diagonal-box-one .frame img {
+  width: 400px;
 }
 
 .diagonal-box-two {
@@ -160,9 +167,5 @@ html a:hover {
   height: 100px;
   margin: -1px 0px 0px -6px;
   font-size: 0.8em;
-}
-
-.frame img {
-  width: 200px;
 }
 /*# sourceMappingURL=style.css.map */

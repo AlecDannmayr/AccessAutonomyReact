@@ -59,7 +59,7 @@ html {
 .diagonal-box-one {
    background-image: linear-gradient(45deg, #29bfff, #695bce);
    transform: skewY(-7deg);
-   height: 60vw;
+   height: 50vw;
    text-align: left;
    opacity: 0.9;
    display: flex;
@@ -67,12 +67,14 @@ html {
    .content-one {
       transform: skewY(7deg);
       display: flex;
-      margin-left: 100px;
+
+      margin: 00px 0px 100px 0px;
+      margin-left: 200px;
    }
    .frame {
       img {
          width: 400px;
-         margin-right: 100px;
+         margin: 100px 00px 100px 0px;
       }
    }
 }

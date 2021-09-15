@@ -9,8 +9,8 @@ import GetInTouch from './pages/getInTouch.js'
 import BackGroundShapes from './components/backGroundShapes.js'
 import ProjectBannerOne from './components/projectBannerOne'
 import ProjectBannerTwo from './components/projectBannerTwo'
+import ProjectBannerFour from './components/projectBannerFour'
 import ProjectBannerThree from './components/projectBannerThree'
-import projectImgOne from './components/projectImgOne'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)

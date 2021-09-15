@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/style.css'
+import projectImgOne from './projectImgOne.js'
 
 const projectBannerOne = () => {
    return (

@@ -89,11 +89,14 @@ html a:hover {
   height: 400px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url(http://want2scrap.com/store/images/large/Cat%20Frame%20DC_LRG.jpg) iframe;
-  background-image-position: relative;
-  background-image-top: 165px;
-  background-image-left: 100px;
-  background-image-width: 250px;
+  background-image: url(../images/phone.svg);
+}
+
+.diagonal-box-one .frame iframe {
+  position: relative;
+  top: 165px;
+  left: 100px;
+  width: 250px;
 }
 
 .diagonal-box-two {

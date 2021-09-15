@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
 import Intro from './components/intro.js'
@@ -9,8 +10,7 @@ import BackGroundShapes from './components/backGroundShapes.js'
 import ProjectBannerOne from './components/projectBannerOne'
 import ProjectBannerTwo from './components/projectBannerTwo'
 import ProjectBannerThree from './components/projectBannerThree'
-import ProjectBannerFour from './components/projectBannerFour'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import projectImgOne from './components/projectImgOne'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)

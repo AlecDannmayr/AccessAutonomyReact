@@ -161,4 +161,8 @@ html a:hover {
   margin: -1px 0px 0px -6px;
   font-size: 0.8em;
 }
+
+.frame img {
+  width: 200px;
+}
 /*# sourceMappingURL=style.css.map */

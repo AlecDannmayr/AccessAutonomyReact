@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/style.css'
 import projectImgOne from './projectImgOne.js'
+import phone from 'public/phone.svg'
 
 const projectBannerOne = () => {
    return (
@@ -12,7 +13,7 @@ const projectBannerOne = () => {
             </p>
             <figure>
                <div class="frame">
-                  <iframe src="http://example.com" />
+                  <img src={} alt={"Scoreboard Phone"}></img>
                </div>
             </figure>
          </div>

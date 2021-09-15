@@ -69,20 +69,23 @@ html a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .diagonal-box-one .content-one {
-  max-width: 40em;
-  margin: 0 auto;
   -webkit-transform: skewY(7deg);
           transform: skewY(7deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 100px;
 }
 
 .diagonal-box-one .frame img {
   width: 400px;
+  margin-right: 100px;
 }
 
 .diagonal-box-two {

@@ -63,15 +63,16 @@ html {
    text-align: left;
    opacity: 0.9;
    display: flex;
+   justify-content: center;
    .content-one {
-      max-width: 40em;
-      margin: 0 auto;
       transform: skewY(7deg);
       display: flex;
+      margin-left: 100px;
    }
    .frame {
       img {
          width: 400px;
+         margin-right: 100px;
       }
    }
 }

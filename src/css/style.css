@@ -84,9 +84,16 @@ html a:hover {
   margin-left: 200px;
 }
 
-.diagonal-box-one .frame img {
+.diagonal-box-one .frame {
   width: 400px;
-  margin: 100px 00px 100px 0px;
+  height: 400px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(http://want2scrap.com/store/images/large/Cat%20Frame%20DC_LRG.jpg) iframe;
+  background-image-position: relative;
+  background-image-top: 165px;
+  background-image-left: 100px;
+  background-image-width: 250px;
 }
 
 .diagonal-box-two {

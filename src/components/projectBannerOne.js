@@ -13,10 +13,8 @@ const projectBannerOne = () => {
             </p>
          </div>
          <figure>
-            <div className="frame">
-               <img src={phone} alt={'Scoreboard Phone'}>
-                  <iframe src="./WidgetSubBasic/index.html" />
-               </img>
+            <div class="frame">
+               <iframe src="../WidgetSubBasic/index.html" />
             </div>
          </figure>
       </div>

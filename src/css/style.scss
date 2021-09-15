@@ -72,9 +72,16 @@ html {
       margin-left: 200px;
    }
    .frame {
-      img {
-         width: 400px;
-         margin: 100px 00px 100px 0px;
+      width:400px;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(http://want2scrap.com/store/images/large/Cat%20Frame%20DC_LRG.jpg)  
+      iframe {
+         position: relative;
+         top: 165px;
+         left: 100px;
+         width: 250px;
       }
    }
 }

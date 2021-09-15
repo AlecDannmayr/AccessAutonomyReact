@@ -11,7 +11,9 @@ const projectBannerOne = () => {
                effect can be quite lovely, sometimes you don't want the content to inherit the given transformation. To reset everything back to normal, you have to reverse the transition:
             </p>
             <figure>
-               <img></img>
+               <div class="frame">
+                  <iframe src="http://example.com" />
+               </div>
             </figure>
          </div>
       </div>

@@ -68,24 +68,8 @@ html {
       margin: 200px 0px 100px 0px;
       margin-left: 200px;
    }
-   .frame {
-      width: 331.2px;
-      height: 660.8px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      background-image: url(../images/phone.svg);
-       position: relative;
-      iframe {
-         position: relative;
-         z-index: -1;
-         width: 311.55px;
-         height: 631.74672px;
-         border: none;
-         margin-top: 12px;
-      }
-   }
-}
 
+  
 .diagonal-box-two {
    background-image: linear-gradient(45deg, #d5155a, #fbaf3b);
    transform: skewY(-7deg);

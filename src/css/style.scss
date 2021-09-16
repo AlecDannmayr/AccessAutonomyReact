@@ -67,7 +67,6 @@ html {
    .content-one {
       transform: skewY(7deg);
       display: flex;
-
       margin: 200px 0px 100px 0px;
       margin-left: 200px;
    }
@@ -77,6 +76,7 @@ html {
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-image: url(../images/phone.svg);
+      transform: skewY(7deg);
       iframe {
          position: relative;
          z-index: -1;

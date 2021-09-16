@@ -64,14 +64,15 @@ html {
    display: flex;
    justify-content: center;
    iframe {
-     outline: none;
+    border: none; height: 865px;
+   
    }
    .content-one {
       display: flex;
       margin: 200px 0px 100px 0px;
       margin-left: 200px;
    }
-
+}
   
 .diagonal-box-two {
    background-image: linear-gradient(45deg, #d5155a, #fbaf3b);

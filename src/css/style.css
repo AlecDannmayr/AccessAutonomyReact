@@ -59,6 +59,32 @@ html a:hover {
   font-size: 40px;
 }
 
+.diagonal-box-one {
+  background-image: linear-gradient(45deg, #29bfff, #695bce);
+  height: 50vw;
+  text-align: left;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.diagonal-box-one iframe {
+  border: none;
+  height: 865px;
+}
+
+.diagonal-box-one .content-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 200px 0px 100px 0px;
+  margin-left: 200px;
+}
+
 .diagonal-box-two {
   background-image: linear-gradient(45deg, #d5155a, #fbaf3b);
   -webkit-transform: skewY(-7deg);

@@ -14,7 +14,7 @@ const projectBannerOne = () => {
          </div>
          <figure>
             <div class="frame">
-               <iframe src="" />
+               <iframe src="../../WidgetSubBasic" />
             </div>
          </figure>
       </div>

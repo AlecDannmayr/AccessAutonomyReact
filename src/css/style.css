@@ -74,6 +74,8 @@ html a:hover {
 
 .diagonal-box-one iframe {
   border: none;
+  margin-right: 300px;
+  width: 500px;
 }
 
 .diagonal-box-one .content-one {
@@ -81,7 +83,7 @@ html a:hover {
   display: -ms-flexbox;
   display: flex;
   margin: 200px 0px 100px 0px;
-  margin-left: 200px;
+  margin-right: 600px;
 }
 
 .diagonal-box-two {

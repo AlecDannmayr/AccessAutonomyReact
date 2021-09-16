@@ -86,15 +86,17 @@ html a:hover {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url(../images/phone.svg);
+  position: relative;
 }
 
 .diagonal-box-one .frame iframe {
   position: relative;
   z-index: -1;
-  width: 331.2px;
-  height: 640.976px;
+  width: 311.55px;
+  height: 631.74672px;
   border: none;
-  position: absolute;
+  margin-top: 12px;
+  position: relative;
 }
 
 .diagonal-box-two {

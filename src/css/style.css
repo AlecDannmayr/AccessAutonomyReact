@@ -85,8 +85,8 @@ html a:hover {
 }
 
 .diagonal-box-one .frame {
-  width: 400px;
-  height: 400px;
+  width: 414px;
+  height: 826px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url(../images/phone.svg);
@@ -95,8 +95,8 @@ html a:hover {
 .diagonal-box-one .frame iframe {
   position: relative;
   z-index: -1;
-  -webkit-transform: rotateY(45deg);
-          transform: rotateY(45deg);
+  width: 414px;
+  height: 826px;
 }
 
 .diagonal-box-two {

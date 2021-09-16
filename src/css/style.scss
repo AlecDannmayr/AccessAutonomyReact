@@ -72,15 +72,16 @@ html {
       margin-left: 200px;
    }
    .frame {
-      width: 400px;
-      height: 400px;
+      width: 414px;
+      height: 826px;
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-image: url(../images/phone.svg);
       iframe {
          position: relative;
          z-index: -1;
-         transform: rotateY(45deg);
+         width: 414px;
+         height: 826px;
       }
    }
 }

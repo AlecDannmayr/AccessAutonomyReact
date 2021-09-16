@@ -79,9 +79,8 @@ html {
       background-image: url(../images/phone.svg);
       iframe {
          position: relative;
-         top: 165px;
-         left: 100px;
-         width: 250px;
+         z-index: -1;
+         transform: rotateY(45deg);
       }
    }
 }

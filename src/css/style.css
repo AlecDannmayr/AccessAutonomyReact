@@ -94,9 +94,9 @@ html a:hover {
 
 .diagonal-box-one .frame iframe {
   position: relative;
-  top: 165px;
-  left: 100px;
-  width: 250px;
+  z-index: -1;
+  -webkit-transform: rotateY(45deg);
+          transform: rotateY(45deg);
 }
 
 .diagonal-box-two {

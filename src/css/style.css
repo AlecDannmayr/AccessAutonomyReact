@@ -1,184 +1,145 @@
 html {
-   background-color: #141821;
+  background-color: #141821;
 }
 
 html body {
-   margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   overflow: hidden scroll;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden scroll;
 }
 
 html a {
-   text-decoration: none;
-   color: #fbaf3b;
+  text-decoration: none;
+  color: #fbaf3b;
 }
 
 html a:hover {
-   color: #d5155a;
+  color: #d5155a;
 }
 
 .App {
-   text-align: center;
-   font-family: 'Ropa Sans', sans-serif;
-   background-color: #141821;
-   color: white;
-   font-size: calc(10px + 2vmin);
+  text-align: center;
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: #141821;
+  color: white;
+  font-size: calc(10px + 2vmin);
 }
 
 .App .background {
-   min-height: 100vh;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: column;
-   flex-direction: column;
-   -webkit-box-align: center;
-   -ms-flex-align: center;
-   align-items: center;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
-   font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 .intro-div {
-   text-align: left;
-   position: absolute;
-   z-index: 1;
-   margin: 15% 20% 0% 20%;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  margin: 15% 20% 0% 20%;
 }
 
 .intro-div #intro-title {
-   font-size: 100px;
+  font-size: 100px;
 }
 
 .intro-div #intro-body {
-   font-size: 40px;
-}
-
-.diagonal-box-one {
-   background-image: linear-gradient(45deg, #29bfff, #695bce);
-   height: 50vw;
-   text-align: left;
-   opacity: 0.9;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
-}
-
-.diagonal-box-one .content-one {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   margin: 200px 0px 100px 0px;
-   margin-left: 200px;
-}
-
-.diagonal-box-one .frame {
-   width: 331.2px;
-   height: 660.8px;
-   background-size: 100% 100%;
-   background-repeat: no-repeat;
-   background-image: url(../images/phone.svg);
-   position: relative;
-}
-
-.diagonal-box-one .frame iframe {
-   position: relative;
-   z-index: -1;
-   width: 311.55px;
-   height: 631.74672px;
-   border: none;
-   margin-top: 12px;
+  font-size: 40px;
 }
 
 .diagonal-box-two {
-   background-image: linear-gradient(45deg, #d5155a, #fbaf3b);
-   -webkit-transform: skewY(-7deg);
-   transform: skewY(-7deg);
-   height: 40vw;
-   margin-top: calc(120px + 1vmin);
-   text-align: left;
-   opacity: 0.9;
+  background-image: linear-gradient(45deg, #d5155a, #fbaf3b);
+  -webkit-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+  height: 40vw;
+  margin-top: calc(120px + 1vmin);
+  text-align: left;
+  opacity: 0.9;
 }
 
 .diagonal-box-two .content-two {
-   max-width: 50em;
-   margin: 0 auto;
-   -webkit-transform: skewY(7deg);
-   transform: skewY(7deg);
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
+  max-width: 50em;
+  margin: 0 auto;
+  -webkit-transform: skewY(7deg);
+          transform: skewY(7deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .diagonal-box-three {
-   background-image: linear-gradient(45deg, #259345, #faed21);
-   -webkit-transform: skewY(7deg);
-   transform: skewY(7deg);
-   height: 40vw;
-   margin-top: calc(120px + 1vmin);
-   text-align: left;
-   opacity: 0.9;
+  background-image: linear-gradient(45deg, #259345, #faed21);
+  -webkit-transform: skewY(7deg);
+          transform: skewY(7deg);
+  height: 40vw;
+  margin-top: calc(120px + 1vmin);
+  text-align: left;
+  opacity: 0.9;
 }
 
 .diagonal-box-three .content-three {
-   max-width: 50em;
-   margin: 0 auto;
-   -webkit-transform: skewY(-7deg);
-   transform: skewY(-7deg);
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
+  max-width: 50em;
+  margin: 0 auto;
+  -webkit-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .diagonal-box-four {
-   background-image: linear-gradient(45deg, #d486ff, #3ff5ee);
-   -webkit-transform: skewY(7deg);
-   transform: skewY(7deg);
-   height: 40vw;
-   margin-top: calc(120px + 1vmin);
-   text-align: left;
-   opacity: 0.9;
+  background-image: linear-gradient(45deg, #d486ff, #3ff5ee);
+  -webkit-transform: skewY(7deg);
+          transform: skewY(7deg);
+  height: 40vw;
+  margin-top: calc(120px + 1vmin);
+  text-align: left;
+  opacity: 0.9;
 }
 
 .diagonal-box-four .content-four {
-   max-width: 50em;
-   margin: 0 auto;
-   -webkit-transform: skewY(-7deg);
-   transform: skewY(-7deg);
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
+  max-width: 50em;
+  margin: 0 auto;
+  -webkit-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer-div {
-   text-align: left;
-   margin: 15% 20% 0% 20%;
-   position: absolute;
-   z-index: 1;
-   margin-top: 50%;
+  text-align: left;
+  margin: 15% 20% 0% 20%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 50%;
 }
 
 .footer-div #footer-title {
-   color: #fbaf3b;
+  color: #fbaf3b;
 }
 
 #wave {
-   margin-top: 1000px;
-   margin-bottom: -6px;
+  margin-top: 1000px;
+  margin-bottom: -6px;
 }
 
 #copyright-text {
-   background-color: #2d3748;
-   height: 100px;
-   margin: -1px 0px 0px -6px;
-   font-size: 0.8em;
+  background-color: #2d3748;
+  height: 100px;
+  margin: -1px 0px 0px -6px;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */

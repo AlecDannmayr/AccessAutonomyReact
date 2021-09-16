@@ -14,7 +14,7 @@ const projectBannerOne = () => {
          </div>
          <figure>
             <div class="frame">
-               <iframe src="http://google.com" />
+               <iframe src="https://www.accessautonomy.com/" />
             </div>
          </figure>
       </div>

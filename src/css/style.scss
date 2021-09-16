@@ -58,21 +58,19 @@ html {
 
 .diagonal-box-one {
    background-image: linear-gradient(45deg, #29bfff, #695bce);
-   transform: skewY(-7deg);
    height: 50vw;
    text-align: left;
    opacity: 0.9;
    display: flex;
    justify-content: center;
    .content-one {
-      transform: skewY(7deg);
       display: flex;
       margin: 200px 0px 100px 0px;
       margin-left: 200px;
    }
    .frame {
-      width: 414px;
-      height: 826px;
+      width: 331.2px;
+      height: 660.8px;
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-image: url(../images/phone.svg);

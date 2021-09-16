@@ -12,7 +12,7 @@ const projectBannerOne = () => {
                effect can be quite lovely, sometimes you don't want the content to inherit the given transformation. To reset everything back to normal, you have to reverse the transition:
             </p>
          </div>
-         <iframe allowtransparency={true} src="../../WidgetSubBasic" />
+         <iframe src="../../WidgetSubBasic" />
       </div>
    )
 }

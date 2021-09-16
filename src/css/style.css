@@ -72,17 +72,17 @@ html a:hover {
           justify-content: center;
 }
 
-.diagonal-box-one iframe {
-  border: none;
-  width: 500px;
-}
-
 .diagonal-box-one .content-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 200px 0px 100px 0px;
   margin-right: 600px;
+}
+
+iframe {
+  border: none;
+  width: 500px;
 }
 
 .diagonal-box-two {

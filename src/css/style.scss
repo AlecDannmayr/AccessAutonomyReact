@@ -63,15 +63,16 @@ html {
    opacity: 0.9;
    display: flex;
    justify-content: center;
-   iframe {
-      border: none;
-      width: 500px;
-   }
    .content-one {
       display: flex;
       margin: 200px 0px 100px 0px;
       margin-right: 600px;
    }
+}
+
+iframe {
+   border: none;
+   width: 500px;
 }
 
 .diagonal-box-two {

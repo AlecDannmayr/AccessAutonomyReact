@@ -90,8 +90,6 @@ html a:hover {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url(../images/phone.svg);
-  -webkit-transform: skewY(7deg);
-          transform: skewY(7deg);
 }
 
 .diagonal-box-one .frame iframe {

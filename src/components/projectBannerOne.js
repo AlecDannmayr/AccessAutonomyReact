@@ -1,7 +1,5 @@
 import React from 'react'
 import '../css/style.css'
-import projectImgOne from './projectImgOne.js'
-import phone from '../images/phone.svg'
 
 const projectBannerOne = () => {
    return (

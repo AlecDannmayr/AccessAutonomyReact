@@ -5,8 +5,9 @@ import projectImgOne from './projectImgOne.js'
 const projectBannerOne = () => {
    return (
       <div class="diagonal-box-one">
-         <div class="content-one"></div>
-         <iframe src="../../WidgetSubBasic" />
+         <div class="content-one">
+            <iframe title="Basic Scoreboard Iframe" src="../public/WidgetSubBasic" />
+         </div>
       </div>
    )
 }

@@ -6,7 +6,7 @@ const projectBannerOne = () => {
    return (
       <div class="diagonal-box-one">
          <div class="content-one"></div>
-         <iframe src="../public/WidgetSubBasic/index.html" />
+         <iframe src="../../WidgetSubBasic" />
       </div>
    )
 }

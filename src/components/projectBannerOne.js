@@ -7,7 +7,7 @@ const projectBannerOne = () => {
          <div className="content-one">
             <p style={{ opacity: 1 }}></p>
          </div>
-         <iframe src="//codepen.io/ycw/embed/JqwbQw/?height=265&theme-id=0&default-tab=js,result" title="Item" />
+         <iframe src="../../WidgetSubBasic" title="Item" />
       </div>
    )
 }

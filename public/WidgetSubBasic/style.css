@@ -272,7 +272,7 @@ td,
           justify-content: center;
   margin-top: 20px;
   position: relative;
-  z-index: -20;
+  z-index: 10;
 }
 
 #win-probability-done {

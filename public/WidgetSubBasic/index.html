@@ -10,8 +10,8 @@
     <meta http-equiv="expires" content="0" />
     <script src="script_v29.js" async></script>
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 
         body {
             margin: -2px;
@@ -97,16 +97,10 @@
         .second-header {
             background-color: #2483c5;
             color: #ffffff;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             margin-left: 0;
             height: 50px;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
             align-items: center;
             border-radius: 40px 40px 0px 0px;
         }
@@ -126,18 +120,9 @@
         }
 
         .third-header {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
             flex-direction: column;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
             align-items: center;
             vertical-align: middle;
             height: 51px;
@@ -157,7 +142,6 @@
         #winner-image-team-two {
             width: 20px;
             height: auto;
-            -webkit-transform: rotate(-20deg);
             transform: rotate(-20deg);
             display: none;
         }
@@ -173,7 +157,7 @@
         }
 
         #main-body {
-            background-image: url("cricketGround.png");
+            background-image: url('cricketGround.png');
             background-repeat: no-repeat;
             background-position-y: 96px;
             height: 357px;
@@ -196,8 +180,6 @@
         }
 
         .overs-and-score {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
             position: absolute;
             right: 1.5rem;
@@ -223,8 +205,6 @@
         }
 
         .team-scores-grid {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
             margin-top: 50px;
             font-size: 18px;
@@ -233,12 +213,7 @@
         }
 
         .icon-block {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
             flex-direction: column;
             margin-top: 14px;
         }
@@ -277,11 +252,7 @@
         }
 
         .win-probability-bar-section {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             margin-top: 20px;
             position: relative;
@@ -294,17 +265,12 @@
             width: 0%;
             position: absolute;
             left: 0;
-            -webkit-transition: 0.8s ease 0.3s;
             transition: 0.8s ease 0.3s;
             border-radius: 100px;
         }
 
         #win-probability-bar {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             width: 90%;
             height: 18px;
@@ -314,36 +280,22 @@
         }
 
         .win-probability-team {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
             font-weight: 700;
         }
 
         .win-probability-team {
-            display: -ms-grid;
             display: grid;
-            -ms-grid-columns: auto auto auto;
             grid-template-columns: auto auto auto;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
             justify-content: space-between;
             margin-left: 10px;
             margin-right: 10px;
         }
 
         .win-probability-team>div {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
             justify-content: space-between;
         }
 
@@ -404,9 +356,7 @@
         }
 
         .scorecard-grid {
-            display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[6];
             grid-template-columns: repeat(6, 1fr);
             word-wrap: none;
             white-space: nowrap;
@@ -415,31 +365,24 @@
             font-size: 14px;
             padding-left: 0px;
             padding-right: 0px;
-            -ms-grid-rows: 30px;
             grid-template-rows: 30px;
-            -ms-grid-columns: auto auto auto auto auto auto;
             grid-template-columns: auto auto auto auto auto auto;
             font-weight: 400;
         }
 
         .extras {
-            display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[2];
             grid-template-columns: repeat(2, 1fr);
             margin-right: 0;
             margin-left: 10px;
             font-size: 14px;
             padding-left: 0px;
             padding-right: 0px;
-            -ms-grid-columns: 50% 50%;
             grid-template-columns: 50% 50%;
         }
 
         .scorecard-grid-bowl {
-            display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[6];
             grid-template-columns: repeat(6, 1fr);
             word-wrap: none;
             white-space: nowrap;
@@ -450,7 +393,6 @@
             padding-top: 1px;
             padding-left: 0px;
             padding-right: 0px;
-            -ms-grid-columns: 32.5% 13.5% 13.5% 13.5% 13.5% 13.5%;
             grid-template-columns: 32.5% 13.5% 13.5% 13.5% 13.5% 13.5%;
             font-weight: 400;
         }
@@ -527,7 +469,7 @@
             font-weight: 600;
             left: 10px;
             font-weight: 800;
-            padding: 0 10px 00px 10px;
+            padding: 0px 0px 00px 10px;
             margin-top: 68px;
             padding-bottom: 410px;
             border-radius: 0px 0px 50px 50px;
@@ -544,9 +486,7 @@
 
         .teams-grid-data,
         .teams-grid-data-team-two {
-            display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[4];
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 0px;
             word-wrap: none;
@@ -557,7 +497,6 @@
             padding-right: 0px;
             font-weight: 400;
             text-align: left;
-            -ms-grid-rows: 38px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
             grid-template-rows: 38px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
             margin-top: 119px;
             padding-top: 10px;
@@ -606,7 +545,6 @@
             left: -20px;
             background-color: #221f1f;
             overflow-x: hidden;
-            -webkit-transition: 0.5s;
             transition: 0.5s;
             padding-top: 90px;
             opacity: 100%;
@@ -618,7 +556,6 @@
             padding: 8px 8px 8px 32px;
             text-decoration: none;
             color: #818181;
-            -webkit-transition: 0.3s;
             transition: 0.3s;
         }
 
@@ -628,21 +565,6 @@
             top: 0;
             right: 25px;
             font-size: 40px;
-        }
-
-        ::-webkit-input-placeholder {
-            color: #221f1f;
-            opacity: 0.4;
-        }
-
-        :-ms-input-placeholder {
-            color: #221f1f;
-            opacity: 0.4;
-        }
-
-        ::-ms-input-placeholder {
-            color: #221f1f;
-            opacity: 0.4;
         }
 
         ::placeholder {
@@ -655,11 +577,7 @@
             margin-top: 20px;
             margin-bottom: 300px;
             margin-left: 20px;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
         }
 
@@ -727,11 +645,7 @@
         }
 
         .resetButton {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             margin-top: 300px;
             margin-left: 20px;
@@ -794,7 +708,6 @@
         #all-data-section {
             display: none;
             visibility: hidden;
-            padding-top: 4px;
             background-color: blue;
             border-radius: 0px 0px 50px 50px;
             height: 350px;
@@ -830,11 +743,7 @@
         #recent p,
         .gami,
         #ins-now {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: left;
-            -ms-flex-pack: left;
             justify-content: left;
             margin-left: 22px;
             font-weight: bold;
@@ -853,11 +762,7 @@
         }
 
         #recent table {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             border-spacing: 4.8px;
             margin: 0 20px 0 20px;
@@ -926,8 +831,6 @@
 
         #loader-1 {
             display: none;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
             justify-content: center;
             position: relative;
             margin-top: 50%;
@@ -939,9 +842,6 @@
         #load-tx {
             color: #fff;
             display: none;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
             flex-direction: column;
             position: absolute;
             left: 21%;
@@ -961,6 +861,8 @@
             border-radius: 50%;
             z-index: 0;
             -webkit-animation: spin 2s linear infinite;
+            -moz-animation: spin 2s linear infinite;
+            -o-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
         }
 
@@ -976,6 +878,8 @@
             border-top-color: #f65b06;
             border-radius: 50%;
             -webkit-animation: spin 3s linear infinite;
+            -moz-animation: spin 3s linear infinite;
+            -o-animation: spin 3s linear infinite;
             animation: spin 3s linear infinite;
         }
 
@@ -991,22 +895,67 @@
             z-index: 0;
             border-radius: 50%;
             -webkit-animation: spin 1.5s linear infinite;
+            -moz-animation: spin 1.5s linear infinite;
+            -o-animation: spin 1.5s linear infinite;
             animation: spin 1.5s linear infinite;
         }
 
         @-webkit-keyframes spin {
             0% {
                 -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
                 transform: rotate(0deg);
             }
 
             50% {
                 -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
                 transform: rotate(180deg);
             }
 
             100% {
                 -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-moz-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(180deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-o-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(180deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
                 transform: rotate(360deg);
             }
         }
@@ -1014,16 +963,19 @@
         @keyframes spin {
             0% {
                 -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
                 transform: rotate(0deg);
             }
 
             50% {
                 -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
                 transform: rotate(180deg);
             }
 
             100% {
                 -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
                 transform: rotate(360deg);
             }
         }

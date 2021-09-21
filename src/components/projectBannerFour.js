@@ -3,8 +3,8 @@ import '../css/style.css'
 
 const projectBannerThree = () => {
    return (
-      <div class="diagonal-box-four">
-         <div class="content-four">
+      <div className="diagonal-box-four">
+         <div className="content-four">
             <figure>
             </figure>
             <p style={{ opacity: 1 }}>

@@ -6,9 +6,8 @@ import phone from '../images/phone.svg'
 const projectBannerOne = () => {
    return (
       <div class="diagonal-box-one">
-         <div class="content-one">
-         </div>
-         <iframe src="../../WidgetSubBasic" />
+         <div class="content-one"></div>
+         <iframe src="../../public/WidgetSubBasic/" />
       </div>
    )
 }

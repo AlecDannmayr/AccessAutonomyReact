@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "App.js", "public/WidgetSubBasic"  ]
+, "App.js", "public/widget"  ]
 }

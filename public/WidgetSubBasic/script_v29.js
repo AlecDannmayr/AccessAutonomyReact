@@ -661,11 +661,11 @@ socket.onmessage = function (event) {
             intn = parseInt(current_over) - 1,
             cint = int.toString(),
             covb = parseInt(current_over_balls, 10)
-         for (k = 0; k < coms.length; k++) {
-            const crtbl = parseInt([k], 10) + 1
-
-            let covb0, covb1, covb2, covb3, covb4, covb5
-               if (current_over == 0 && current_over_balls <= 5) {
+         for (k = 0; k < commentaries.inns1.length; k++) {
+            console.log(coms.length, commentaries.inns1, commentaries.inns1.length)
+            /*const crtbl = parseInt([k], 10) + 1
+              let covb0, covb1, covb2, covb3, covb4, covb5
+            if (current_over == 0 && current_over_balls <= 5) {
                   switch (covb) {
                      case 0:
                         covb0 = ''
@@ -867,12 +867,8 @@ socket.onmessage = function (event) {
                         covb5 = 1
                         break
                   }
-                  for (k = 0; k < commentaries.inns1.length; k++) {
-                     for (ki = 0; ki < coms, length; ki++) {
-                        coms[ki].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
-                     }
-                  }
-            }
+                  */
+               coms[k].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
          }
          break
 
@@ -1149,6 +1145,8 @@ socket.onmessage = function (event) {
             }
          }
          break
+         default:
+         break;
    }
 }
 //}

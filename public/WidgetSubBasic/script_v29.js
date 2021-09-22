@@ -334,7 +334,7 @@ socket.onmessage = function (event) {
 
       case 'scorecard':
          var { bat_now, inns_now, inns1, inns2, inns3, inns4 } = msg.scorecard,
-            totl1 = document.getElementsByClassName('totl1')[0]
+            totl1 = document.getElementsByClassName('totl1')[1]
          btnw = bat_now
          igsn = inns_now
 

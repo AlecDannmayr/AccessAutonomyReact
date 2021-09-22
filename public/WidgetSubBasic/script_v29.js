@@ -668,12 +668,12 @@ socket.onmessage = function (event) {
             if (commentaries.inns1[k].ball <= 0.6) {
                coms[k].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
             } else {
-               coms[k].innerHTML = commentaries.inns1.slice(-1)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-1)[0].commentary
-               coms[k].innerHTML = commentaries.inns1.slice(-2)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-2)[0].commentary
-               coms[k].innerHTML = commentaries.inns1.slice(-3)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-3)[0].commentary
-               coms[k].innerHTML = commentaries.inns1.slice(-4)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-4)[0].commentary
-               coms[k].innerHTML = commentaries.inns1.slice(-5)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-5)[0].commentary
-               coms[k].innerHTML = commentaries.inns1.slice(-6)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-6)[0].commentary
+               coms[0].innerHTML = commentaries.inns1.slice(-1)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-1)[0].commentary
+               coms[1].innerHTML = commentaries.inns1.slice(-2)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-2)[0].commentary
+               coms[2].innerHTML = commentaries.inns1.slice(-3)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-3)[0].commentary
+               coms[3].innerHTML = commentaries.inns1.slice(-4)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-4)[0].commentary
+               coms[4].innerHTML = commentaries.inns1.slice(-5)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-5)[0].commentary
+               coms[5].innerHTML = commentaries.inns1.slice(-6)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-6)[0].commentary
             }
             console.log(commentaries.inns1.slice(-1)[0].ball, commentaries.inns1.slice(-1)[0].commentary)
          }

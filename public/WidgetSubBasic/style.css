@@ -780,7 +780,7 @@ td,
 #all-data-section {
   display: none;
   visibility: hidden;
-  background-color: blue;
+  background-color: #fff;
   border-radius: 0px 0px 50px 50px;
   height: 350px;
 }

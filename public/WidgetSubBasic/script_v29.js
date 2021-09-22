@@ -333,7 +333,8 @@ socket.onmessage = function (event) {
       // Scorecard case
 
       case 'scorecard':
-         var { bat_now, inns_now, inns1, inns2, inns3, inns4 } = msg.scorecard
+         var { bat_now, inns_now, inns1, inns2, inns3, inns4 } = msg.scorecard,
+            totl1 = document.querySelector('.totl1')
          btnw = bat_now
          igsn = inns_now
 
@@ -375,6 +376,10 @@ socket.onmessage = function (event) {
             t2bw222 = document.getElementsByClassName('bw1nb2')
 
          // switch statement looks for inning no
+
+         if (b1sn2.textContent == '') {
+            totl1.innerHTML = 'Total - Team not batted yet'
+         }
 
          switch (inns_now) {
             case 1:

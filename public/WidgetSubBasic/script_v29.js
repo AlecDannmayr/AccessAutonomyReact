@@ -377,8 +377,8 @@ socket.onmessage = function (event) {
 
          // switch statement looks for inning no
 
-         if (b1sn2 == '') {
-            totl1.innerHTML = 'Total - Team not batted yet'
+         if (b1sn2[0] == '') {
+            totl1[0].innerHTML = 'Total - Team not batted yet'
          }
 
          console.log(b1sn2)
@@ -660,25 +660,6 @@ socket.onmessage = function (event) {
          }
          break
 
-      case 'commentary':
-         var { commentaries, current_over, current_over_balls } = msg.commentary,
-            coms = document.getElementsByClassName('cms')
-
-         for (k = 0; k < commentaries.inns1.length; k++) {
-            if (commentaries.inns1[k].ball <= 0.6) {
-               coms[k].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
-            } else {
-               coms[0].innerHTML = commentaries.inns1.slice(-1)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-1)[0].commentary
-               coms[1].innerHTML = commentaries.inns1.slice(-2)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-2)[0].commentary
-               coms[2].innerHTML = commentaries.inns1.slice(-3)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-3)[0].commentary
-               coms[3].innerHTML = commentaries.inns1.slice(-4)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-4)[0].commentary
-               coms[4].innerHTML = commentaries.inns1.slice(-5)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-5)[0].commentary
-               coms[5].innerHTML = commentaries.inns1.slice(-6)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-6)[0].commentary
-            }
-            console.log(commentaries.inns1.slice(-1)[0].ball, commentaries.inns1.slice(-1)[0].commentary)
-         }
-         break
-
       case 'scoregrid':
          const { overs } = msg.scoregrid
 
@@ -953,6 +934,24 @@ socket.onmessage = function (event) {
          }
          break
       default:
+         break
+
+      case 'commentary':
+         var { commentaries, current_over, current_over_balls } = msg.commentary,
+            coms = document.getElementsByClassName('cms')
+
+         for (k = 0; k < commentaries.inns1.length; k++) {
+            if (commentaries.inns1[k].ball <= 0.6) {
+               coms[k].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
+            } else {
+               coms[0].innerHTML = commentaries.inns1.slice(-1)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-1)[0].commentary
+               coms[1].innerHTML = commentaries.inns1.slice(-2)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-2)[0].commentary
+               coms[2].innerHTML = commentaries.inns1.slice(-3)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-3)[0].commentary
+               coms[3].innerHTML = commentaries.inns1.slice(-4)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-4)[0].commentary
+               coms[4].innerHTML = commentaries.inns1.slice(-5)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-5)[0].commentary
+               coms[5].innerHTML = commentaries.inns1.slice(-6)[0].ball + '  ' + '| ' + commentaries.inns1.slice(-6)[0].commentary
+            }
+         }
          break
    }
 }

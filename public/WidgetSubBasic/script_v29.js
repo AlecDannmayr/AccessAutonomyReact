@@ -1,7 +1,7 @@
 // Uncomment to use demo widget without menu.
 // Switch Iframe to online version to use online and local version to use localy
 
-let socket = new WebSocket('ws://demo-feed-widget-uat.decimalcricket.com/DEMO:Wi')
+//let socket = new WebSocket('ws://demo-feed-widget-uat.decimalcricket.com/DEMO:Wi')
 //var socket = 0 /*remove commenting for socket = 0 and comment out socket.open below when intergrated into menu */
 
 socket.onopen = function () {
@@ -622,7 +622,7 @@ socket.onmessage = function (event) {
             if (btnw == teams[0].name) {
                t1p[i].innerHTML = teams[0].players[i].name
                t2p[i].innerHTML = teams[1].players[i].name
-               hdbw1[i].innerHTML = teams[01].players[i].bowler_style
+               hdbw1[i].innerHTML = teams[1].players[i].bowler_style
                hdbw2[i].innerHTML = teams[1].players[i].bowler_style
                bhcp = teams[0].players[i].bat_hand.split('-')[0]
                bhcp2 = teams[1].players[i].bat_hand.split('-')[0]

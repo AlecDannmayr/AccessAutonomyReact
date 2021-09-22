@@ -1,7 +1,7 @@
 // Uncomment to use demo widget without menu.
 // Switch Iframe to online version to use online and local version to use localy
 
-//let socket = new WebSocket('ws://demo-feed-widget-uat.decimalcricket.com/DEMO:Wi')
+let socket = new WebSocket('ws://demo-feed-widget-uat.decimalcricket.com/DEMO:Wi')
 //var socket = 0 /*remove commenting for socket = 0 and comment out socket.open below when intergrated into menu */
 
 socket.onopen = function () {
@@ -665,7 +665,6 @@ socket.onmessage = function (event) {
             const crtbl = parseInt([k], 10) + 1
 
             let covb0, covb1, covb2, covb3, covb4, covb5
-            if (current_over_balls != '') {
                if (current_over == 0 && current_over_balls <= 5) {
                   switch (covb) {
                      case 0:
@@ -873,10 +872,8 @@ socket.onmessage = function (event) {
                         coms[ki].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
                      }
                   }
-               }
             }
          }
-
          break
 
       case 'scoregrid':

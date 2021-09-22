@@ -668,14 +668,14 @@ socket.onmessage = function (event) {
             if (commentaries.inns1[k].ball <= 0.6) {
                coms[k].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
             } else {
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-1)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-1)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-2)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-2)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-3)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-3)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-4)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-4)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-5)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-5)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-6)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-6)[0]
+               coms[k].innerHTML = commentaries.slice(-1)[0].inns1[k].ball + '  ' + '| ' + commentaries.slice(-1)[0].inns1[k].commentary
+               coms[k].innerHTML = commentaries.slice(-2)[0].inns1[k].ball + '  ' + '| ' + commentaries.slice(-2)[0].inns1[k].commentary
+               coms[k].innerHTML = commentaries.slice(-3)[0].inns1[k].ball + '  ' + '| ' + commentaries.slice(-3)[0].inns1[k].commentary
+               coms[k].innerHTML = commentaries.slice(-4)[0].inns1[k].ball + '  ' + '| ' + commentaries.slice(-4)[0].inns1[k].commentary
+               coms[k].innerHTML = commentaries.slice(-5)[0].inns1[k].ball + '  ' + '| ' + commentaries.slice(-5)[0].inns1[k].commentary
+               coms[k].innerHTML = commentaries.slice(-6)[0].inns1[k].ball + '  ' + '| ' + commentaries.slice(-6)[0].inns1[k].commentary
             }
-            console.log(commentaries.inns1[k].commentary.slice(-1))
+            console.log(commentaries.slice(-1).inns1[k].commentary)
          }
          break
 

@@ -377,10 +377,10 @@ socket.onmessage = function (event) {
 
          // switch statement looks for inning no
 
-         if (b1sn2[1] == '') {
+         if (b1sn2[0] == '') {
             totl1.textContent = 'Total - Team not yet batted yet'
          }
-         //     totl1.textContent = 'Total - Team not yet batted yet'
+         totl1.textContent = 'Total - Team not yet batted yet'
 
          switch (inns_now) {
             case 1:
@@ -936,7 +936,7 @@ socket.onmessage = function (event) {
          break
 
       case 'commentary':
-         var { commentaries, current_over, current_over_balls } = msg.commentary,
+         var { commentaries } = msg.commentary,
             coms = document.getElementsByClassName('cms')
 
          for (k = 0; k < commentaries.inns1.length; k++) {

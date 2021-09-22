@@ -30,7 +30,7 @@ const App = () => {
             </layout>
             <Route path="/getintouch" component={GetInTouch}>
                <GetInTouch />
-            </Route>
+            </Route>-
             <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
                <ProjectBannerOne />
             </section>

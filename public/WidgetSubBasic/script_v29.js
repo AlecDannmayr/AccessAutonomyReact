@@ -381,6 +381,8 @@ socket.onmessage = function (event) {
             totl1.innerHTML = 'Total - Team not batted yet'
          }
 
+         console.log(b1sn2.textContent)
+
          switch (inns_now) {
             case 1:
                insNo = inns1

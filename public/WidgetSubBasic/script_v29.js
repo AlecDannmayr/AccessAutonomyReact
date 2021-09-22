@@ -658,17 +658,12 @@ socket.onmessage = function (event) {
             coms = document.getElementsByClassName('cms')
 
          for (k = 0; k < commentaries.inns1.length; k++) {
-            if (commentaries.inns1.ball <= 0.6) {
+            if (commentaries.inns1[k].ball <= 0.6) {
                coms[k].innerHTML = commentaries.inns1[k].ball + '  ' + '| ' + commentaries.inns1[k].commentary
             } else {
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-1)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-1)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-2)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-2)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-3)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-3)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-4)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-4)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-5)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-5)[0]
-               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-6)[0] + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-6)[0]
+               coms[k].innerHTML = commentaries.inns1[k].ball.slice(-1) + '  ' + '| ' + commentaries.inns1[k].commentary.slice(-1)
             }
-            console.log(commentaries.inns1[k].commentary.slice(-1)[0])
+            console.log(commentaries.inns1[k].commentary.slice(-1))
          }
          break
 

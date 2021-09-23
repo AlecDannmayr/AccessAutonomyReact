@@ -29,6 +29,16 @@
    top: 80%;
 }
 
+#triangle {
+   position: absolute;
+   stroke: currentColor;
+   fill: none;
+   color: ORANGE;
+   width: 13rem;
+   left: 10%;
+   top: 20%;
+}
+
 #square {
    position: absolute;
    stroke: none;

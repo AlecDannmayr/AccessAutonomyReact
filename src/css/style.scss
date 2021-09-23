@@ -120,6 +120,14 @@ html {
    }
 }
 
+.footer {
+   position: relative;
+   width: 100%;
+   #wave {
+      margin-bottom: -6px;
+   }
+}
+
 #copyright-text {
    background-color: #2d3748;
    height: 100px;

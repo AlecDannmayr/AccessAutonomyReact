@@ -1,5 +1,6 @@
 html {
    background-color: #141821;
+
    body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
@@ -22,24 +23,6 @@ html {
    background-color: #141821;
    color: white;
    font-size: calc(10px + 2vmin);
-
-   .background {
-      height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      font-size: calc(10px + 2vmin);
-   }
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -121,6 +104,8 @@ html {
 }
 
 .footer {
+   position: absolute;
+   top: 99%;
    width: 100%;
    #wave {
       margin-bottom: -6px;

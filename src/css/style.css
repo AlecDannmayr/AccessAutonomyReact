@@ -145,11 +145,6 @@ html a:hover {
   display: flex;
 }
 
-#wave {
-  margin-top: 1000px;
-  margin-bottom: -6px;
-}
-
 #copyright-text {
   background-color: #2d3748;
   height: 100px;

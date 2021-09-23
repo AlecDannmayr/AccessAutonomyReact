@@ -21,17 +21,17 @@ html a:hover {
 }
 
 ::-moz-selection {
-  background: #d5155a;
+  background: #4a5568;
   /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #d5155a;
+  background: #4a5568;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #d5155a;
+  background: #4a5568;
   /* Gecko Browsers */
 }
 

@@ -6,6 +6,7 @@ import Intro from './components/intro.js'
 //import Footer from './components/footer.js'
 import BackGroundShapes from './components/backGroundShapes.js'
 // import Widget from './components/widget.js'
+import Nav from './components/nav.js'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -17,6 +18,7 @@ const App = () => {
    return (
       <Router>
          <div className="App">
+            <Nav />
             <Intro />
             <BackGroundShapes />
             {/*<Widget />*/}

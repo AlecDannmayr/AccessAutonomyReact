@@ -6,7 +6,7 @@ import Intro from './components/intro.js'
 import Footer from './components/footer.js'
 import GetInTouch from './pages/getInTouch.js'
 import BackGroundShapes from './components/backGroundShapes.js'
-import ProjectBannerOne from './components/projectBannerOne'
+import Widget from './components/widget.js'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -27,7 +27,7 @@ const App = () => {
             </Route>
             -
             <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
-               <ProjectBannerOne />
+               <Widget />
             </section>
             <Footer />
          </div>

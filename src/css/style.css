@@ -8,7 +8,6 @@ html body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden scroll;
-  height: 1000px;
 }
 
 html a {
@@ -26,7 +25,6 @@ html a:hover {
   background-color: #141821;
   color: white;
   font-size: calc(10px + 2vmin);
-  height: 1000px;
 }
 
 .App .background {

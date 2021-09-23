@@ -69,6 +69,7 @@ html {
    z-index: 1;
    margin: 15% 20% 0% 20%;
    #intro-title {
+      display: flex;
       font-size: 100px;
       text-shadow: 2px 2px #ff0000;
    }

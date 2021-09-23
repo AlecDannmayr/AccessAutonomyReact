@@ -90,6 +90,9 @@ html a:hover {
 }
 
 .intro-div #intro-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 100px;
   text-shadow: 2px 2px #ff0000;
 }

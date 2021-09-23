@@ -1,10 +1,6 @@
-#triangle {
-  position: absolute;
-  stroke: currentColor;
-  fill: none;
-  color: ORANGE;
-  width: 13rem;
-  left: 10%;
-  top: 20%;
+@media only screen and (max-width: 800px) {
+  .intro-div {
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

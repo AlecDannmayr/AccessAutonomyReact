@@ -4,7 +4,6 @@ import './css/style.css'
 import './css/responsive.css'
 import Intro from './components/intro.js'
 //import Footer from './components/footer.js'
-import GetInTouch from './pages/getInTouch.js'
 import BackGroundShapes from './components/backGroundShapes.js'
 // import Widget from './components/widget.js'
 
@@ -20,9 +19,6 @@ const App = () => {
          <div className="App">
             <Intro />
             <BackGroundShapes />
-            <Route path="/getintouch" component={GetInTouch}>
-               <GetInTouch />
-            </Route>
             {/*<Widget />*/}
             {/*<Footer />*/}
          </div>

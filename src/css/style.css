@@ -41,7 +41,8 @@ html a:hover {
   width: 90px;
 }
 
-.nav-main #nav-main-list {
+.nav-main #nav-main-list,
+.nav-main #nav-main-social {
   padding: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,7 +57,13 @@ html a:hover {
           justify-content: end;
 }
 
-.nav-main #nav-main-list > * {
+.nav-main #nav-main-social {
+  position: absolute;
+  bottom: 6%;
+}
+
+.nav-main #nav-main-list,
+.nav-main .nav-main-social > * {
   padding: 30px 0px;
 }
 

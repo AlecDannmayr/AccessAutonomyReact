@@ -1,8 +1,13 @@
 @media screen and (max-width: 280px) {
-   .intro-div #intro-title {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 30vw;
+   .intro-div {
+      #intro-title {
+         flex-direction: column;
+         margin: 35% 0% 0% 11%;
+         font-size: 30vw;
+      }
+      #intro-body {
+         margin: 25% 0% 0% 11%;
+         font-size: 15vw;
+      }
    }
 }

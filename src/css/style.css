@@ -26,6 +26,16 @@ html a:hover {
   color: white;
   font-size: calc(10px + 2vmin);
 }
+
+.nav-main {
+  width: 4%;
+  background-color: #d5155a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
 .intro-div {
   text-align: left;
   position: absolute;

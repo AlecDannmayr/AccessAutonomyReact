@@ -24,7 +24,15 @@ html {
    color: white;
    font-size: calc(10px + 2vmin);
 }
-/*# sourceMappingURL=style.css.map */
+
+.nav-main {
+   width: 4%;
+   background-color: #d5155a;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+}
 
 .intro-div {
    text-align: left;
@@ -72,3 +80,5 @@ html {
    margin: -1px 0px 0px -6px;
    font-size: 0.8em;
 }
+
+/*# sourceMappingURL=style.css.map */

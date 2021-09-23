@@ -76,10 +76,12 @@ html a:hover {
 
 .intro-div #intro-title {
   font-size: 100px;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .intro-div #intro-body {
   font-size: 40px;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .diagonal-box-one {

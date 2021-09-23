@@ -26,21 +26,17 @@ html {
 }
 
 .nav-main {
-   width: 4%;
    background-color: #181818;
    position: absolute;
    top: 0;
    left: 0;
    height: 100%;
-
    #nav-main-logo {
       img {
-         width: 77px;
+         width: 47px;
       }
    }
    #nav-main-list {
-      display: flex;
-      flex-direction: column;
    }
 }
 

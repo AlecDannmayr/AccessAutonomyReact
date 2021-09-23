@@ -1,6 +1,7 @@
 @media screen and (max-width: 280px) {
   .intro-div #intro-title {
-    font-size: 10px;
+    font-size: 17vw;
+    display: block;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

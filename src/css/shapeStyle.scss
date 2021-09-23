@@ -4,15 +4,18 @@
    position: absolute;
    stroke: none;
    fill: currentcolor;
+   z-index: -100;
 }
 
 @mixin position-stroke {
    position: absolute;
    stroke: currentColor;
+   z-index: -100;
 }
 
 @mixin theme() {
    @include position;
+   z-index: -100;
 }
 
 #arrowDown {

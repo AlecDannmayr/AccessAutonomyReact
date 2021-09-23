@@ -8,13 +8,10 @@ const nav = () => {
             <img src={Logo}></img>
          </div>
          <ul id={'nav-main-list'}>
-            <li>
-               <i className="fas fa-lg fa-trash-alt"></i>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <i className="fas fa-lg fa-trash-alt"></i>
+            <i className="fas fa-lg fa-trash-alt"></i>
+            <i className="fas fa-lg fa-trash-alt"></i>
+            <i className="fas fa-lg fa-trash-alt"></i>
          </ul>
       </div>
    )

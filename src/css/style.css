@@ -20,6 +20,21 @@ html a:hover {
   color: #d5155a;
 }
 
+::-moz-selection {
+  background: #d5155a;
+  /* WebKit/Blink Browsers */
+}
+
+::selection {
+  background: #d5155a;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #d5155a;
+  /* Gecko Browsers */
+}
+
 .App {
   text-align: center;
   font-family: 'Ropa Sans', sans-serif;

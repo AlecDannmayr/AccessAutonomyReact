@@ -15,6 +15,10 @@ const nav = () => {
             <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
          </ul>
+         <ul id={'nav-main-social'}>
+            <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
+         </ul>
       </div>
    )
 }

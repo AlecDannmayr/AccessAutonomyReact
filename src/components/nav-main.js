@@ -4,7 +4,13 @@ const nav = () => {
    return (
       <div className="nav-main">
          <div id={'nav-main-logo'}></div>
-         <div id={'nav-main-item'}></div>
+         <ul id={'nav-main-list'}>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
       </div>
    )
 }

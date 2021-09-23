@@ -19,7 +19,7 @@ const nav = () => {
             <a href="https://github.com/AlecDannmayr" target="_blank">
                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-            <a href="https://www.linkedin.com/company/12601742" target="_blank">
+            <a href="https://www.linkedin.com/company/12601742/admin/" target="_blank">
                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
          </ul>

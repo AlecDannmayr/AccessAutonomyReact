@@ -13,7 +13,7 @@ const nav = () => {
             <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
             <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+            <FontAwesomeIcon id={'list-fourth-item'} icon={faEnvelope}></FontAwesomeIcon>
          </ul>
          <ul id={'nav-main-social'}>
             <a href="https://github.com/AlecDannmayr" target="_blank">

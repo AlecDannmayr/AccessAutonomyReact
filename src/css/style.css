@@ -145,18 +145,6 @@ html a:hover {
   display: flex;
 }
 
-.footer-div {
-  text-align: left;
-  margin: 15% 20% 0% 20%;
-  position: absolute;
-  z-index: 1;
-  bottom: 1%;
-}
-
-.footer-div #footer-title {
-  color: #fbaf3b;
-}
-
 #wave {
   margin-top: 1000px;
   margin-bottom: -6px;

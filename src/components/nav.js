@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../images/Accesss-Autonomy-Logo.ico'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const nav = () => {
    return (
@@ -8,10 +10,7 @@ const nav = () => {
             <img src={Logo}></img>
          </div>
          <ul id={'nav-main-list'}>
-            <i className="fas fa-lg fa-trash-alt"></i>
-            <i className="fas fa-lg fa-trash-alt"></i>
-            <i className="fas fa-lg fa-trash-alt"></i>
-            <i className="fas fa-lg fa-trash-alt"></i>
+            <FontAwesomeIcon icon={['far', 'coffee']} />
          </ul>
       </div>
    )

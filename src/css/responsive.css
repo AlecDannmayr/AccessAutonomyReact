@@ -12,4 +12,8 @@
     font-size: 15vw;
   }
 }
+
+#square {
+  display: none;
+}
 /*# sourceMappingURL=responsive.css.map */

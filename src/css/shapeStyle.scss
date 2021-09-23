@@ -1,5 +1,9 @@
 @import 'responsive.css';
 
+@mixin all {
+   z-index: -100;
+}
+
 @mixin position {
    position: absolute;
    stroke: none;
@@ -20,9 +24,11 @@
 
 #arrowDown {
    background-color: yellow;
+   @include all;
 }
 
 #doubleArrow {
+   @include all;
    position: absolute;
    stroke: none;
    fill: currentcolor;
@@ -33,7 +39,7 @@
 }
 
 #triangle {
-   position: absolute;
+   @include all position: absolute;
    stroke: currentColor;
    fill: none;
    color: ORANGE;
@@ -43,7 +49,7 @@
 }
 
 #square {
-   position: absolute;
+   @include all position: absolute;
    stroke: none;
    fill: currentcolor;
    color: #805ad5;
@@ -53,7 +59,7 @@
 }
 
 #cross {
-   position: absolute;
+   @include all position: absolute;
    stroke: currentColor;
    fill: none;
    color: #ed64a6;
@@ -63,11 +69,11 @@
 }
 
 #arrowUp {
-   background-color: purple;
+   @include all background-color: purple;
 }
 
 #hexagon {
-   position: absolute;
+   @include all position: absolute;
    stroke: currentColor;
    fill: none;
    color: #e53e3e;

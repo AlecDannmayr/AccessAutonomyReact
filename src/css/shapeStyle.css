@@ -1,9 +1,11 @@
 @import url(/Users/alecdannmayr/Projects-2021/AccessAutonomyReact/src/css/responsive.css);
 #arrowDown {
   background-color: yellow;
+  z-index: -100;
 }
 
 #doubleArrow {
+  z-index: -100;
   position: absolute;
   stroke: none;
   fill: currentcolor;
@@ -14,6 +16,7 @@
 }
 
 #triangle {
+  z-index: -100;
   position: absolute;
   stroke: currentColor;
   fill: none;
@@ -24,6 +27,7 @@
 }
 
 #square {
+  z-index: -100;
   position: absolute;
   stroke: none;
   fill: currentcolor;
@@ -34,6 +38,7 @@
 }
 
 #cross {
+  z-index: -100;
   position: absolute;
   stroke: currentColor;
   fill: none;
@@ -44,10 +49,12 @@
 }
 
 #arrowUp {
+  z-index: -100;
   background-color: purple;
 }
 
 #hexagon {
+  z-index: -100;
   position: absolute;
   stroke: currentColor;
   fill: none;

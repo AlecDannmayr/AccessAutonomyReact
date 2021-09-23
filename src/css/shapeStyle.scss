@@ -1,4 +1,4 @@
-@use 'responsive';
+@import './responsive.css';
 
 @mixin position {
    position: absolute;

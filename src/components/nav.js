@@ -16,7 +16,9 @@ const nav = () => {
             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
          </ul>
          <ul id={'nav-main-social'}>
-            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            <a href="https://github.com/AlecDannmayr" target="_blank">
+               <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            </a>
             <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
          </ul>
       </div>

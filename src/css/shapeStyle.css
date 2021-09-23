@@ -1,13 +1,4 @@
-#triangle {
-  position: absolute;
-  stroke: currentColor;
-  fill: none;
-  color: ORANGE;
-  width: 43rem;
-  left: 10%;
-  top: 20%;
-}
-
+@use 'responsive';
 #arrowDown {
   background-color: yellow;
 }

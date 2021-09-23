@@ -1,4 +1,13 @@
-@import url(/Users/alecdannmayr/Projects-2021/AccessAutonomyReact/src/css/responsive.css);
+#triangle {
+  position: absolute;
+  stroke: currentColor;
+  fill: none;
+  color: ORANGE;
+  width: 43rem;
+  left: 10%;
+  top: 20%;
+}
+
 #arrowDown {
   background-color: yellow;
 }

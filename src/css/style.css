@@ -37,8 +37,7 @@ html a:hover {
 }
 
 .nav-main #nav-main-logo img {
-  width: 85px;
-  background-color: #000;
+  width: 90px;
 }
 
 .nav-main #nav-main-list {
@@ -50,7 +49,8 @@ html a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 20px;
+  margin-left: 27px;
+  margin-top: 40%;
 }
 
 .intro-div {

@@ -6,7 +6,7 @@ html {
       font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      overflow: hidden scroll;
+      overflow: hidden;
    }
    a {
       text-decoration: none;
@@ -41,7 +41,7 @@ html {
 
 .diagonal-box-one {
    /*background-image: linear-gradient(45deg, #29bfff, #695bce); */
-
+   height: 50vw;
    text-align: left;
    opacity: 1;
    display: flex;

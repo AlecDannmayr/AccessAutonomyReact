@@ -67,69 +67,9 @@ html a:hover {
   margin-right: 600px;
 }
 
-.diagonal-box-two {
-  background-image: linear-gradient(45deg, #d5155a, #fbaf3b);
-  -webkit-transform: skewY(-7deg);
-          transform: skewY(-7deg);
-  height: 40vw;
-  margin-top: calc(120px + 1vmin);
-  text-align: left;
-  opacity: 0.9;
-}
-
-.diagonal-box-two .content-two {
-  max-width: 50em;
-  margin: 0 auto;
-  -webkit-transform: skewY(7deg);
-          transform: skewY(7deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.diagonal-box-three {
-  background-image: linear-gradient(45deg, #259345, #faed21);
-  -webkit-transform: skewY(7deg);
-          transform: skewY(7deg);
-  height: 40vw;
-  margin-top: calc(120px + 1vmin);
-  text-align: left;
-  opacity: 0.9;
-}
-
-.diagonal-box-three .content-three {
-  max-width: 50em;
-  margin: 0 auto;
-  -webkit-transform: skewY(-7deg);
-          transform: skewY(-7deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.diagonal-box-four {
-  background-image: linear-gradient(45deg, #d486ff, #3ff5ee);
-  -webkit-transform: skewY(7deg);
-          transform: skewY(7deg);
-  height: 40vw;
-  margin-top: calc(120px + 1vmin);
-  text-align: left;
-  opacity: 0.9;
-}
-
-.diagonal-box-four .content-four {
-  max-width: 50em;
-  margin: 0 auto;
-  -webkit-transform: skewY(-7deg);
-          transform: skewY(-7deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .footer {
   position: absolute;
-  top: 99%;
+  bottom: 0;
   width: 100%;
 }
 

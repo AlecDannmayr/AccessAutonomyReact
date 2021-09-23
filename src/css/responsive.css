@@ -11,9 +11,12 @@
     margin: 25% 0% 0% 11%;
     font-size: 15vw;
   }
-}
-
-#square {
-  display: none;
+  #square,
+  #doubleArrow,
+  #triangle,
+  #static-doubleArrow-1,
+  #static-triangle-1 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

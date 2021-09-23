@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../images/Accesss-Autonomy-Logo.ico'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouseUser, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faHouseUser, faAddressCard, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons'
 const nav = () => {
    return (
@@ -11,7 +11,9 @@ const nav = () => {
          </div>
          <ul id={'nav-main-list'}>
             <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
          </ul>
       </div>
    )

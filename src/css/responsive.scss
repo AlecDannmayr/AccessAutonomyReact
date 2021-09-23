@@ -1,4 +1,4 @@
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 414px) {
    .intro-div {
       #intro-title {
          flex-direction: column;
@@ -18,7 +18,8 @@
    #doubleTriangle,
    #static-square-1,
    #static-triangle-3,
-   #hexagon {
+   #hexagon,
+   #static-hexagon-5 {
       display: none;
    }
 }

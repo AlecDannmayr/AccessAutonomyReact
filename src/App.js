@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route /*Switch*/ } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
 import Intro from './components/intro.js'
-import Footer from './components/footer.js'
+//import Footer from './components/footer.js'
 import GetInTouch from './pages/getInTouch.js'
 import BackGroundShapes from './components/backGroundShapes.js'
-import Widget from './components/widget.js'
+// import Widget from './components/widget.js'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -19,17 +19,12 @@ const App = () => {
       <Router>
          <div className="App">
             <Intro />
-            <layout className="background" style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
-               <BackGroundShapes />
-            </layout>
+            <BackGroundShapes />
             <Route path="/getintouch" component={GetInTouch}>
                <GetInTouch />
             </Route>
-            -
-            <section style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
-               <Widget />
-            </section>
-            <Footer />
+            {/*<Widget />*/}
+            {/*<Footer />*/}
          </div>
       </Router>
    )

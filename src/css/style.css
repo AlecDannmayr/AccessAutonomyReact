@@ -86,12 +86,12 @@ html a:hover {
   display: -ms-flexbox;
   display: flex;
   font-size: 100px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #ffae00;
 }
 
 .intro-div #intro-body {
   font-size: 40px;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #ffae00;
 }
 
 .diagonal-box-one {

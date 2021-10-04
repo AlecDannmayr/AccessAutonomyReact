@@ -6,6 +6,7 @@ import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import Widget from './components/widget.js'
+import Footer from './components/footer.js'
 import Copyright from './components/copyright.js'
 
 const App = () => {
@@ -19,8 +20,9 @@ const App = () => {
       <div className="App">
          <Nav />
          <Router>
-            <Route path="/Intro" component={Intro} />
+            <Route path="/intro" component={Intro} />
             <Route path="/widget" component={Widget} />
+            <Route path="/footer" component={Footer} />
          </Router>
          <BackGroundShapes />
          <Copyright />

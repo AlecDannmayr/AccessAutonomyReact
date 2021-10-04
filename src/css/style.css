@@ -132,13 +132,13 @@ html a:hover {
   margin-right: 600px;
 }
 
-.footer {
+.copyright {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-.footer #wave {
+.copyright #wave {
   margin-bottom: -6px;
   position: relative;
   z-index: -101;
@@ -149,8 +149,7 @@ html a:hover {
   bottom: -10%;
   width: 100%;
   text-align: center;
-  height: 70px;
-  margin: -1px 0px 0px -6px;
+  margin-bottom: 40px;
   font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */

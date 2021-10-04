@@ -13,6 +13,7 @@ const nav = () => {
          </div>
          <ul id={'nav-main-list'}>
             <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
+            <Link />
             <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
             <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             <FontAwesomeIcon id={'list-fourth-item'} icon={faEnvelope}></FontAwesomeIcon>

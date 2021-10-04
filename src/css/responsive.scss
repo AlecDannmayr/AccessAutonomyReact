@@ -1,15 +1,9 @@
-@media screen and (max-width: 765px) {
-   #nav-main {
-      display: none;
-   }
-}
-
 @media screen and (max-width: 414px) {
    .intro-div {
       #intro-title {
          flex-direction: column;
          margin: 35% 0% 0% 11%;
-         font-size: 30vw;
+         font-size: 20vw;
       }
       #intro-body {
          margin: 25% 0% 0% 11%;

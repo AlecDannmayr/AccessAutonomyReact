@@ -6,7 +6,8 @@ import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import About from './components/about.js'
-import Footer from './components/footer.js'
+import Projects from './components/projects.js'
+import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
             <Route path="/intro" component={Intro} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            <Route path="/footer" component={Footer} />
+            <Route path="/contacts" component={Contacts} />
          </Router>
          <BackGroundShapes />
          <Copyright />

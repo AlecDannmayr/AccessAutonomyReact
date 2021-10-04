@@ -6,7 +6,7 @@ import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import Widget from './components/widget.js'
-import Footer from './components/footer.js'
+import Copyright from './components/copyright.js'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -18,10 +18,10 @@ const App = () => {
    return (
       <div className="App">
          <Nav />
+         <Copyright />
          <Router>
             <Route path="/Intro" component={Intro} />
             <Route path="/widget" component={Widget} />
-            <Route path="/footer" component={Footer} />
          </Router>
          <BackGroundShapes />
       </div>

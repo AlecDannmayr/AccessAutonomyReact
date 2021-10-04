@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/style.css'
 import { Link } from 'react-router-dom'
 
-const footer = () => {
+const copyright = () => {
    return (
       <div className={'footer'}>
          <Link to="./getintouch">
@@ -17,4 +17,4 @@ const footer = () => {
    )
 }
 
-export default footer
+export default copyright

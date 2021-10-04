@@ -18,8 +18,8 @@ const App = () => {
    }, [])
    return (
       <div className="App">
-         <Nav />
          <Router>
+            <Nav />
             <Route path="/intro" component={Intro} />
             <Route path="/widget" component={Widget} />
             <Route path="/footer" component={Footer} />

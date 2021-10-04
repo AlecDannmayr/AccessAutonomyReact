@@ -12,7 +12,7 @@ const nav = () => {
             <img src={Logo}></img>
          </div>
          <ul id={'nav-main-list'}>
-            <Link to="/intro">
+            <Link to="/intro" alt="">
                <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             </Link>
             <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>

@@ -36,6 +36,7 @@
    width: 6rem;
    left: 40%;
    top: 70%;
+   z-index: -101;
 }
 
 #triangle {
@@ -53,9 +54,9 @@
    stroke: none;
    fill: currentcolor;
    color: #805ad5;
-   width: 17rem;
+   width: 8rem;
    left: 5%;
-   top: 60%;
+   top: 90%;
 }
 
 #cross {

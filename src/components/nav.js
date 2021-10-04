@@ -3,6 +3,8 @@ import Logo from '../images/Accesss-Autonomy-Logo.ico'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouseUser, faAddressCard, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
+
 const nav = () => {
    return (
       <div className="nav-main">

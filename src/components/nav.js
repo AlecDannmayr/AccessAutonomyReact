@@ -11,7 +11,7 @@ const nav = () => {
          <div id={'nav-main-logo'}>
             <img src={Logo} alt="AccessAutonomy Logo"></img>
          </div>
-         <ul id={'nav-main-list'}>
+         <div id={'nav-main-list'}>
             <Link to="/intro">
                <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             </Link>
@@ -30,7 +30,7 @@ const nav = () => {
             <a href="https://www.linkedin.com/company/12601742/admin/" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
-         </ul>
+         </div>
       </div>
    )
 }

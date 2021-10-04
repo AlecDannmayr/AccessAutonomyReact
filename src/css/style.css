@@ -74,7 +74,7 @@ html a:hover {
   padding: 30px 0px;
 }
 
-.nav-main #nav-main-list ul li:nth-child(2) {
+.nav-main #nav-main-list a:nth-child(5) {
   margin-top: 100px;
 }
 

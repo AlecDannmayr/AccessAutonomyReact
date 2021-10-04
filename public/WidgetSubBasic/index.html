@@ -10,8 +10,8 @@
     <meta http-equiv="expires" content="0" />
     <script src="script_v29.js" async></script>
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-        @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 
         body {
             margin: -2px;
@@ -19,8 +19,8 @@
             padding: 0;
             font-family: 'Lato', sans-serif;
             color: #221f1f;
-            width: 290.5px;
-            height: 624px;
+            min-width: 414px;
+            height: 826px;
             position: relative;
             z-index: 90;
             overflow: scroll;
@@ -34,29 +34,29 @@
         }
 
         .cover {
-            width: 267px;
-            height: 556px;
+            width: 414px;
+            height: 832px;
             position: absolute;
             z-index: 99;
             background-color: #221f1f;
             opacity: 0.99;
             display: none;
-            border-radius: 40px;
-            margin-left: 14px;
+            border-radius: 50px;
+            margin: 19px;
         }
 
         #phone {
             position: absolute;
             z-index: 100;
-            width: 290.5px;
+            width: 448px;
             pointer-events: none;
         }
 
         .wrapper {
             max-width: 414px;
-            width: 263px;
-            height: 624px;
-            margin-left: 16px;
+            width: 410px;
+            height: 826px;
+            padding: 20px 23px;
         }
 
         h1 {
@@ -88,6 +88,10 @@
         #addVs {
             position: absolute;
             text-align: center;
+        }
+
+        #third-header-game-info {
+            margin-bottom: 10px;
         }
 
         .second-header {
@@ -136,6 +140,7 @@
             -ms-flex-align: center;
             align-items: center;
             vertical-align: middle;
+            height: 51px;
             background-color: #5ec6cd;
             color: #ffffff;
             text-align: center;
@@ -168,18 +173,17 @@
         }
 
         #main-body {
-            background-image: url("cricketGround.png");
+            background-image: url('cricketGround.png');
             background-repeat: no-repeat;
-            background-position-y: 89px;
-            background-size: 100%;
-            height: 270px;
+            background-position-y: 96px;
+            height: 357px;
             z-index: 20;
             background-color: #fff;
         }
 
         #score-body {
             padding: 0px;
-            margin-top: -200px;
+            margin-top: -50px;
             visibility: hidden;
             background-color: #fff;
             height: 258px;
@@ -402,7 +406,7 @@
         .scorecard-grid {
             display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[6];
+            -ms-grid-columns: (1fr) [6];
             grid-template-columns: repeat(6, 1fr);
             word-wrap: none;
             white-space: nowrap;
@@ -420,7 +424,7 @@
         .extras {
             display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[2];
+            -ms-grid-columns: (1fr) [2];
             grid-template-columns: repeat(2, 1fr);
             margin-right: 0;
             margin-left: 10px;
@@ -434,7 +438,7 @@
         .scorecard-grid-bowl {
             display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[6];
+            -ms-grid-columns: (1fr) [6];
             grid-template-columns: repeat(6, 1fr);
             word-wrap: none;
             white-space: nowrap;
@@ -542,7 +546,7 @@
         .teams-grid-data-team-two {
             display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[4];
+            -ms-grid-columns: (1fr) [4];
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 0px;
             word-wrap: none;
@@ -795,13 +799,14 @@
         }
 
         .ngi {
-            margin-top: -2px;
-            width: 263.5px;
+            margin-top: -4px;
+            height: 506px;
+            max-width: 414px;
             background-repeat: no-repeat;
             background-image: url(lowerCricketGround1.png);
             background-repeat: no-repeat;
-            border-radius: 0px 00px 30px 30px;
-            height: 304px;
+            border-radius: 0px 00px 50px 50px;
+            height: 402px;
             z-index: 30;
             position: relative;
         }
@@ -920,34 +925,36 @@
         }
 
         #loader-1 {
-            display: block;
+            display: none;
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
             position: relative;
+            margin-top: 50%;
+            margin-right: 0 auto;
+            margin-left: 0 auto;
             z-index: 120;
         }
 
         #load-tx {
             color: #fff;
-            display: block;
+            display: none;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
             -ms-flex-direction: column;
             flex-direction: column;
             position: absolute;
-            left: 6%;
+            left: 21%;
             z-index: 121;
             text-align: center;
-            top: 32%;
-            font-size: 15px;
+            top: 28%;
         }
 
         #loader-1 #loader {
             position: fixed;
             height: 80px;
             width: 80px;
-            margin-left: 60px;
+            margin: 0;
             border: 12px solid transparent;
             border-top-color: #2483c5;
             border-bottom-color: #2483c5;

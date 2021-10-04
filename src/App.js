@@ -7,7 +7,6 @@ import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import Widget from './components/widget.js'
 import Footer from './components/footer.js'
-import Projects from './components/projects.js'
 import Copyright from './components/copyright.js'
 
 const App = () => {
@@ -22,8 +21,7 @@ const App = () => {
          <Router>
             <Nav />
             <Route path="/intro" component={Intro} />
-            <Route path="/projects" component={Projects} />
-            {/*<Route path="/widget" component={Widget} />*/}
+            <Route path="/widget" component={Widget} />
             <Route path="/footer" component={Footer} />
          </Router>
          <BackGroundShapes />

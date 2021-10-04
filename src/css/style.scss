@@ -100,7 +100,8 @@ html {
    }
 }
 
-.copyright {
+.copyright,
+.footer {
    position: absolute;
    bottom: 0;
    width: 100%;
@@ -109,6 +110,10 @@ html {
       position: relative;
       z-index: -101;
    }
+}
+
+.footer {
+   margin-bottom: 24%;
 }
 
 #copyright-text {

@@ -132,16 +132,22 @@ html a:hover {
   margin-right: 600px;
 }
 
-.copyright {
+.copyright,
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-.copyright #wave {
+.copyright #wave,
+.footer #wave {
   margin-bottom: -6px;
   position: relative;
   z-index: -101;
+}
+
+.footer {
+  margin-bottom: 24%;
 }
 
 #copyright-text {

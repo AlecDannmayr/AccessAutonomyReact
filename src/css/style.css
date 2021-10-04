@@ -140,6 +140,7 @@ html a:hover {
 
 .footer #wave {
   margin-bottom: -6px;
+  z-index: -100;
 }
 
 #copyright-text {

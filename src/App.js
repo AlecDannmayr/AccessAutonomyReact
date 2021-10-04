@@ -21,7 +21,7 @@ const App = () => {
          <Router>
             <Route path="/Intro" component={Intro} />
             <Route path="/widget" component={Widget} />
-            {/*<Footer />*/}
+            <Route path="/footer" component={Footer} />
          </Router>
          <BackGroundShapes />
       </div>

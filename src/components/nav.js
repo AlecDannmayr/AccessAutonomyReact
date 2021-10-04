@@ -12,10 +12,12 @@ const nav = () => {
             <img src={Logo}></img>
          </div>
          <ul id={'nav-main-list'}>
-            <Link to="/intro" alt="">
+            <Link to="/intro">
                <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             </Link>
-            <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
+            <Link to="/intro">
+               <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
+            </Link>
             <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             <FontAwesomeIcon id={'list-fourth-item'} icon={faEnvelope}></FontAwesomeIcon>
          </ul>

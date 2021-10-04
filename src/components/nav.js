@@ -9,7 +9,7 @@ const nav = () => {
    return (
       <div className="nav-main">
          <div id={'nav-main-logo'}>
-            <img src={Logo}></img>
+            <img src={Logo} alt="AccessAutonomy Logo"></img>
          </div>
          <ul id={'nav-main-list'}>
             <Link to="/intro">
@@ -26,10 +26,10 @@ const nav = () => {
             </Link>
          </ul>
          <ul id={'nav-main-social'}>
-            <a href="https://github.com/AlecDannmayr" target="_blank">
+            <a href="https://github.com/AlecDannmayr" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>
-            <a href="https://www.linkedin.com/company/12601742/admin/" target="_blank">
+            <a href="https://www.linkedin.com/company/12601742/admin/" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
             </a>
          </ul>

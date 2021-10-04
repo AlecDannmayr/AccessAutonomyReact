@@ -22,7 +22,7 @@ const nav = () => {
                <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             </Link>
             <Link to="/contacts">
-               <FontAwesomeIcon id={'list-fourth-item'} icon={faEnvelope}></FontAwesomeIcon>
+               <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
             </Link>
          </ul>
          <ul id={'nav-main-social'}>

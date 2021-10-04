@@ -11,7 +11,7 @@ import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 
 const App = () => {
-   const [offsetY, setOffsetY] = useState(0)
+   const [setOffsetY] = useState(0)
    const handleScroll = () => setOffsetY(window.pageYOffset)
    useEffect(() => {
       window.addEventListener('scroll', handleScroll)

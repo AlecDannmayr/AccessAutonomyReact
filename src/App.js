@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route /*Switch*/ } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
-import Intro from './components/intro.js'
-//import Footer from './components/footer.js'
 import BackGroundShapes from './components/backGroundShapes.js'
-// import Widget from './components/widget.js'
 import Nav from './components/nav.js'
+import Intro from './components/intro.js'
+// import Widget from './components/widget.js'
+//import Footer from './components/footer.js'
 
 const App = () => {
    const [offsetY, setOffsetY] = useState(0)
@@ -16,15 +16,15 @@ const App = () => {
       return () => window.removeEventListener('scroll', handleScroll)
    }, [])
    return (
-      <Router>
-         <div className="App">
-            <Nav />
-            <Intro />
+      <div className="App">
+         <Nav />
+         <Router>
+            <Route path="/Intro" component={} />
             <BackGroundShapes />
             {/*<Widget />*/}
             {/*<Footer />*/}
-         </div>
-      </Router>
+         </Router>
+      </div>
    )
 }
 

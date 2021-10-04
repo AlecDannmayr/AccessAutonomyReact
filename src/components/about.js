@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/style.css'
 
-const widget = () => {
+const about = () => {
    return (
       <div className="diagonal-box-one">
          <div className="content-one">
@@ -12,4 +12,4 @@ const widget = () => {
    )
 }
 
-export default widget
+export default about

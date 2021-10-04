@@ -15,11 +15,15 @@ const nav = () => {
             <Link to="/intro">
                <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             </Link>
-            <Link to="/intro">
+            <Link to="/about">
                <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
             </Link>
-            <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
-            <FontAwesomeIcon id={'list-fourth-item'} icon={faEnvelope}></FontAwesomeIcon>
+            <Link to="/projects">
+               <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
+            </Link>
+            <Link to="/contacts">
+               <FontAwesomeIcon id={'list-fourth-item'} icon={faEnvelope}></FontAwesomeIcon>
+            </Link>
          </ul>
          <ul id={'nav-main-social'}>
             <a href="https://github.com/AlecDannmayr" target="_blank">

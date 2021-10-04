@@ -5,7 +5,7 @@ import './css/responsive.css'
 import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
-import Widget from './components/widget.js'
+import About from './components/about.js'
 import Footer from './components/footer.js'
 import Copyright from './components/copyright.js'
 
@@ -21,7 +21,8 @@ const App = () => {
          <Router>
             <Nav />
             <Route path="/intro" component={Intro} />
-            <Route path="/widget" component={Widget} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
             <Route path="/footer" component={Footer} />
          </Router>
          <BackGroundShapes />

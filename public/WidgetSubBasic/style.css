@@ -544,9 +544,9 @@ td,
    padding-right: 0px;
    font-weight: 400;
    text-align: left;
-   -ms-grid-rows: 38px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
-   grid-template-rows: 38px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
-   margin-top: 119px;
+   -ms-grid-rows: 24px 18px 18px 18px 18px 18px 18px 18px 18px 18px 18px;
+   grid-template-rows: 24px 18px 18px 18px 18px 18px 18px 18px 18px 18px 18px;
+   margin-top: 118px;
    background-color: #fff;
    border-radius: 0px 00px 50px 50px;
 }

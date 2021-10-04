@@ -24,8 +24,6 @@ const nav = () => {
             <Link to="/contacts">
                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
             </Link>
-         </ul>
-         <ul id={'nav-main-social'}>
             <a href="https://github.com/AlecDannmayr" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
             </a>

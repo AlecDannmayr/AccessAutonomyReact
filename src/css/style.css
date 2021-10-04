@@ -55,9 +55,7 @@ html a:hover {
   width: 90px;
 }
 
-.nav-main #nav-main-list,
-.nav-main #nav-main-social {
-  padding: 0px;
+.nav-main #nav-main-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,9 +63,6 @@ html a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
 }
 
 .nav-main #nav-main-social {
@@ -75,9 +70,12 @@ html a:hover {
   bottom: 0%;
 }
 
-.nav-main #nav-main-list > *,
-.nav-main #nav-main-social > * {
-  padding: 0px 0px;
+.nav-main #nav-main-list > * {
+  padding: 30px 0px;
+}
+
+.nav-main #nav-main-list ul li:nth-child(2) {
+  margin-top: 100px;
 }
 
 .intro-div {

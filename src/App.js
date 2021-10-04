@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route /*Switch*/ } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
 import BackGroundShapes from './components/backGroundShapes.js'
-import Copyright from './components/copyright'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import Widget from './components/widget.js'
@@ -25,7 +24,6 @@ const App = () => {
             <Route path="/footer" component={Footer} />
          </Router>
          <BackGroundShapes />
-         <Copyright />
       </div>
    )
 }

@@ -38,7 +38,7 @@ html a:hover {
 .App {
    text-align: center;
    font-family: 'Ropa Sans', sans-serif;
-   background-color: #141821;
+
    color: white;
    font-size: calc(10px + 2vmin);
 }
@@ -107,7 +107,6 @@ html a:hover {
 }
 
 .diagonal-box-one {
-   background-color: transparent;
    height: 50vw;
    text-align: left;
    opacity: 1;
@@ -122,14 +121,6 @@ html a:hover {
 .diagonal-box-one iframe {
    border: none;
    width: 500px;
-}
-
-.diagonal-box-one .content-one {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   margin: 200px 0px 100px 0px;
-   margin-right: 600px;
 }
 
 .copyright,

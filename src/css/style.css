@@ -1,161 +1,161 @@
 html {
-  background-color: #1d1d1d;
+   background-color: #1d1d1d;
 }
 
 html body {
-  margin: 0;
-  padding: 0px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+   margin: 0;
+   padding: 0px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   overflow: hidden;
 }
 
 html a {
-  text-decoration: none;
-  color: #fbaf3b;
+   text-decoration: none;
+   color: #fbaf3b;
 }
 
 html a:hover {
-  color: #d5155a;
+   color: #d5155a;
 }
 
 ::-moz-selection {
-  background: #4a5568;
-  /* WebKit/Blink Browsers */
+   background: #4a5568;
+   /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #4a5568;
-  /* WebKit/Blink Browsers */
+   background: #4a5568;
+   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #4a5568;
-  /* Gecko Browsers */
+   background: #4a5568;
+   /* Gecko Browsers */
 }
 
 .App {
-  text-align: center;
-  font-family: 'Ropa Sans', sans-serif;
-  background-color: #141821;
-  color: white;
-  font-size: calc(10px + 2vmin);
+   text-align: center;
+   font-family: 'Ropa Sans', sans-serif;
+   background-color: #141821;
+   color: white;
+   font-size: calc(10px + 2vmin);
 }
 
 .nav-main {
-  width: 90px;
-  background-color: #181818;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+   width: 90px;
+   background-color: #181818;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
 }
 
 .nav-main #nav-main-logo img {
-  width: 90px;
+   width: 90px;
 }
 
 .nav-main #nav-main-list,
 .nav-main #nav-main-social {
-  padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-left: 27px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+   padding: 0px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   margin-left: 27px;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+   justify-content: end;
 }
 
 .nav-main #nav-main-social {
-  position: absolute;
-  bottom: 0%;
+   position: absolute;
+   bottom: 0%;
 }
 
 .nav-main #nav-main-list > *,
 .nav-main #nav-main-social > * {
-  padding: 30px 0px;
+   padding: 30px 0px;
 }
 
 .nav-main #list-fourth-item {
-  margin-left: 4px;
+   margin-left: 4px;
 }
 
 .intro-div {
-  text-align: left;
-  position: absolute;
-  z-index: 1;
-  margin: 15% 20% 0% 20%;
+   text-align: left;
+   position: absolute;
+   z-index: 1;
+   margin: 15% 20% 0% 20%;
 }
 
 .intro-div #intro-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 100px;
-  text-shadow: 2px 2px #ff0000;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   font-size: 100px;
+   text-shadow: 2px 2px #ff0000;
 }
 
 .intro-div #intro-body {
-  font-size: 40px;
-  text-shadow: 2px 2px #ff0000;
+   font-size: 40px;
+   text-shadow: 2px 2px #ff0000;
 }
 
 .diagonal-box-one {
-  /*background-image: linear-gradient(45deg, #29bfff, #695bce); */
-  height: 50vw;
-  text-align: left;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+   background-color: transparent;
+   height: 50vw;
+   text-align: left;
+   opacity: 1;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
 }
 
 .diagonal-box-one iframe {
-  border: none;
-  width: 500px;
+   border: none;
+   width: 500px;
 }
 
 .diagonal-box-one .content-one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 200px 0px 100px 0px;
-  margin-right: 600px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   margin: 200px 0px 100px 0px;
+   margin-right: 600px;
 }
 
 .copyright,
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
 }
 
 .copyright #wave,
 .footer #wave {
-  margin-bottom: -6px;
-  position: relative;
-  z-index: -101;
+   margin-bottom: -6px;
+   position: relative;
+   z-index: -101;
 }
 
 .footer {
-  margin-bottom: 24%;
+   margin-bottom: 24%;
 }
 
 #copyright-text {
-  position: absolute;
-  bottom: -10%;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 12px;
+   position: absolute;
+   bottom: -10%;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */

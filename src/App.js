@@ -18,12 +18,12 @@ const App = () => {
    return (
       <div className="App">
          <Nav />
-         <Copyright />
          <Router>
             <Route path="/Intro" component={Intro} />
             <Route path="/widget" component={Widget} />
          </Router>
          <BackGroundShapes />
+         <Copyright />
       </div>
    )
 }

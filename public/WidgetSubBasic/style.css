@@ -92,11 +92,14 @@ td,
   -ms-flex-align: center;
   align-items: center;
   border-radius: 40px 40px 0px 0px;
+  z-index: 99;
+  position: relative;
+  padding-top: 10px;
 }
 
 .second-header h1:nth-child(2) {
   position: absolute;
-  left: 100px;
+  left: 40px;
 }
 
 .second-header h1:nth-child(3) {
@@ -105,7 +108,7 @@ td,
 
 .second-header h1:nth-child(4) {
   position: absolute;
-  right: 60px;
+  right: 40px;
 }
 
 .third-header {
@@ -126,13 +129,15 @@ td,
   background-color: #5ec6cd;
   color: #ffffff;
   text-align: center;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
 }
 
 .team-one-name-short,
 .team-two-name-short {
   vertical-align: middle;
+  font-size: 16px;
+  padding-top: 9px;
 }
 
 #winner-image-team-one,
@@ -165,8 +170,6 @@ td,
 }
 
 #score-body {
-  padding: 0px;
-  margin-top: -200px;
   visibility: hidden;
   background-color: #fff;
   height: 258px;
@@ -174,7 +177,7 @@ td,
 
 .overs-block {
   font-size: 12px;
-  margin-top: 8.5px;
+  margin-top: 0px;
   text-align: right;
 }
 
@@ -210,8 +213,8 @@ td,
   display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
-  font-size: 18px;
-  margin-left: 20px;
+  font-size: 12px;
+  margin-left: 4px;
   background-color: #fff;
 }
 
@@ -227,20 +230,20 @@ td,
 }
 
 .icon-block :nth-child(2) {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 
 #icon-team-two {
   display: none;
-  margin-top: 17px;
+  margin-top: 11.3px;
 }
 
 .bowling-circle-icon {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   background-color: #1c8389;
   border-radius: 50%;
-  margin-bottom: -2px;
+  margin-top: 2px;
 }
 
 .bowling-circle-icon-two img {
@@ -442,6 +445,7 @@ td,
   font-weight: 400;
   -ms-grid-rows: 16px;
       grid-template-rows: 16px;
+  padding-bottom: 15px;
 }
 
 .bw1sn,
@@ -784,9 +788,10 @@ td,
   display: none;
   visibility: hidden;
   background-color: #fff;
-  border-radius: 0px 0px 50px 50px;
-  height: 350px;
+  border-radius: 0px 0px 10px 10px;
+  height: 270px;
   padding-left: 4px;
+  overflow-y: auto;
 }
 
 .ngi {

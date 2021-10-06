@@ -378,9 +378,9 @@ socket.onmessage = function (event) {
          // switch statement looks for inning no
 
          if (b1sn2[0] == '') {
-            totl1.textContent = 'Total - Team not yet batted yet'
+            totl1.textContent = 'Total - Team to bat'
          }
-         totl1.textContent = 'Total - Team not yet batted yet'
+         totl1.textContent = 'Total - Team to bat'
 
          switch (inns_now) {
             case 1:

@@ -535,7 +535,7 @@ td,
    word-wrap: none;
    white-space: nowrap;
    margin-right: 0;
-   font-size: 12px;
+   font-size: 11px;
    padding-left: 1px;
    padding-right: 0px;
    font-weight: 400;
@@ -554,11 +554,6 @@ td,
 
 #team-two-Section-bowls {
    margin-top: -2px;
-}
-
-.teams-grid-data span:nth-child(4n + 2),
-.teams-grid-data-team-two span:nth-child(4n + 2) {
-   margin-left: -60px;
 }
 
 .teams-grid-data span:nth-child(4n + 0),

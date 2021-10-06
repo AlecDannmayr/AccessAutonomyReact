@@ -64,7 +64,7 @@ button {
 .selector-grid-two td,
 .selector-grid-teams td {
   border: 2px solid #ddd;
-  padding: 16px;
+  padding: 8px;
 }
 
 td,
@@ -427,8 +427,8 @@ td,
   white-space: nowrap;
   text-align: center;
   margin-right: 0;
-  margin-left: 10px;
-  font-size: 14px;
+  margin-left: 1px;
+  font-size: 12px;
   padding-top: 1px;
   padding-left: 0px;
   padding-right: 0px;
@@ -505,20 +505,19 @@ td,
 
 #comms-list {
   display: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   left: 10px;
   font-weight: 800;
-  padding: 0px 0px 00px 10px;
-  margin-top: 68px;
+  padding: 0px 0px 00px 1px;
+  margin-top: -20px;
   height: 399px;
   border-radius: 0px 0px 50px 50px;
   background-color: #fff;
 }
 
 .cms {
-  margin-bottom: 40px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .comms-grid-two div {
@@ -529,21 +528,19 @@ td,
 .teams-grid-data-team-two {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr [4];
-  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: 1fr [3];
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0px;
   word-wrap: none;
   white-space: nowrap;
   margin-right: 0;
-  font-size: 14px;
-  padding-left: 10px;
+  font-size: 11px;
+  padding-left: 1px;
   padding-right: 0px;
   font-weight: 400;
   text-align: left;
-  -ms-grid-rows: 38px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
-  grid-template-rows: 38px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
-  margin-top: 119px;
-  padding-top: 10px;
+  margin-top: 38px;
+  padding-top: 1px;
   background-color: #fff;
   border-radius: 0px 00px 50px 50px;
 }
@@ -556,11 +553,6 @@ td,
 
 #team-two-Section-bowls {
   margin-top: -2px;
-}
-
-.teams-grid-data span:nth-child(4n + 2),
-.teams-grid-data-team-two span:nth-child(4n + 2) {
-  margin-left: -60px;
 }
 
 .teams-grid-data span:nth-child(4n + 0),
@@ -761,6 +753,10 @@ td,
 .selector-grid-teams td:hover {
   color: #ffffff;
   background-color: #2483c5;
+}
+
+.selector-grid-teams {
+  font-size: 12px;
 }
 
 .selector-grid-one td:focus,

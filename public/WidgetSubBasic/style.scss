@@ -529,8 +529,8 @@ td,
 .teams-grid-data-team-two {
    display: -ms-grid;
    display: grid;
-   -ms-grid-columns: (1fr) [4];
-   grid-template-columns: repeat(4, 1fr);
+   -ms-grid-columns: (1fr) [3];
+   grid-template-columns: repeat(3, 1fr);
    grid-column-gap: 0px;
    word-wrap: none;
    white-space: nowrap;

@@ -431,7 +431,7 @@ socket.onmessage = function (event) {
          tl1[0].innerText = t1fis.textContent.replace(' / ', '') + '  ' + ' ( ' + t1fw.textContent + ' wkts' + ' ) '
 
          for (i = 0; i < t1b.length; i++) {
-            t1b[i].innerHTML = ino3.batting[i].name
+            t1b[i].innerHTML = ino3.batting[i].name.split(' ')[0]
             if (t1b[i].textContent == '') {
                t1b[i].style.display = 'none'
                stts[i].style.display = 'none'
@@ -450,7 +450,7 @@ socket.onmessage = function (event) {
          }
 
          for (i = 0; i < t2bw.length; i++) {
-            t2bw[i].innerHTML = ino3.bowling[i].name.splice(0)
+            t2bw[i].innerHTML = ino3.bowling[i].namesplit(' ')[0]
             if (ino3.bowling[i].name == '') {
                t2bnb[i].style.display = 'none'
                t2bo[i].style.display = 'none'

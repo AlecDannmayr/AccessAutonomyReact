@@ -490,13 +490,13 @@ td,
 #team-one-Section .scorecard-grid-bowl span:nth-child(-n + 6),
 #team-two-Section-bowls .scorecard-grid-bowl span:nth-child(6n + 1),
 #team-one-Section .scorecard-grid-bowl span:nth-child(6n + 1),
-.teams-grid-data span:nth-child(-n + 4),
-.teams-grid-data span:nth-child(4n + 1),
-.teams-grid-data-team-two span:nth-child(4n + 2),
-.teams-grid-data span:nth-child(4n + 2),
-.teams-grid-data-team-two span:nth-child(-n + 4),
-.teams-grid-data-team-two span:nth-child(4n + 1),
-.scorecard-grid-bowl span:nth-child(6n + 1),
+.teams-grid-data span:nth-child(-n + 3),
+.teams-grid-data span:nth-child(3n + 1),
+.teams-grid-data-team-two span:nth-child(3n + 2),
+.teams-grid-data span:nth-child(3n + 2),
+.teams-grid-data-team-two span:nth-child(-n + 3),
+.teams-grid-data-team-two span:nth-child(3n + 1),
+.scorecard-grid-bowl span:nth-child(3n + 1),
 .b1sn2 {
    font-weight: 800;
 }
@@ -545,6 +545,7 @@ td,
    padding-top: 1px;
    background-color: #fff;
    border-radius: 0px 00px 50px 50px;
+   grid-template-columns: 10% 45% 0%;
 }
 
 .teams-grid-data > span,

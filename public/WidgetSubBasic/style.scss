@@ -511,7 +511,7 @@ td,
    left: 10px;
    font-weight: 800;
    padding: 0px 0px 00px 10px;
-   margin-top: 68px;
+   margin-top: -40px;
    height: 399px;
    border-radius: 0px 0px 50px 50px;
    background-color: #fff;
@@ -762,6 +762,10 @@ td,
 .selector-grid-teams td:hover {
    color: #ffffff;
    background-color: #2483c5;
+}
+
+.selector-grid-teams {
+   font-size: 12px;
 }
 
 .selector-grid-one td:focus,

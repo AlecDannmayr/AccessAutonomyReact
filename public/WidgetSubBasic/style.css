@@ -394,9 +394,9 @@ td,
   word-wrap: none;
   white-space: nowrap;
   margin-right: 0;
-  margin-left: 10px;
-  font-size: 14px;
-  padding-top: 10px;
+  margin-left: 1px;
+  font-size: 12px;
+  padding-top: 1px;
   -ms-grid-rows: 30px;
   grid-template-rows: 30px;
   -ms-grid-columns: auto auto auto auto auto auto;
@@ -410,8 +410,8 @@ td,
   -ms-grid-columns: 1fr [2];
   grid-template-columns: repeat(2, 1fr);
   margin-right: 0;
-  margin-left: 10px;
-  font-size: 14px;
+  margin-left: 1px;
+  font-size: 12px;
   padding-left: 0px;
   padding-right: 0px;
   -ms-grid-columns: 50% 50%;
@@ -933,7 +933,6 @@ td,
   position: fixed;
   height: 80px;
   width: 80px;
-  margin-left: 60px;
   border: 12px solid transparent;
   border-top-color: #2483c5;
   border-bottom-color: #2483c5;

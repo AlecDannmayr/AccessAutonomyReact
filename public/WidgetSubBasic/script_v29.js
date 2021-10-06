@@ -450,7 +450,7 @@ socket.onmessage = function (event) {
          }
 
          for (i = 0; i < t2bw.length; i++) {
-            t2bw[i].innerHTML = ino3.bowling[i].namesplit(' ')[0]
+            t2bw[i].innerHTML = ino3.bowling[i].name.split(' ')[0]
             if (ino3.bowling[i].name == '') {
                t2bnb[i].style.display = 'none'
                t2bo[i].style.display = 'none'

@@ -64,7 +64,7 @@ button {
 .selector-grid-two td,
 .selector-grid-teams td {
   border: 2px solid #ddd;
-  padding: 8px;
+  padding: 10px;
 }
 
 td,
@@ -362,6 +362,7 @@ td,
   text-align: center;
   border-collapse: collapse;
   font-weight: 800;
+  font-size: 12px;
 }
 
 .selector-grid-one tr td,
@@ -775,6 +776,7 @@ td,
   background-color: #fff;
   border-radius: 0px 0px 50px 50px;
   height: 350px;
+  padding-left: 4px;
 }
 
 .ngi {

@@ -632,8 +632,6 @@ socket.onmessage = function (event) {
                hdbw2[i].innerHTML = teams[1].players[i].bowler_style
                bhcp = teams[0].players[i].bat_hand.split('-')[0]
                bhcp2 = teams[1].players[i].bat_hand.split('-')[0]
-               hdb1[i].innerHTML = bhcp.charAt(0).toUpperCase() + bhcp.slice(1)
-               hdb2[i].innerHTML = bhcp2.charAt(0).toUpperCase() + bhcp2.slice(1)
             } else {
                t1p[i].innerHTML = teams[1].players[i].name
                t2p[i].innerHTML = teams[0].players[i].name
@@ -641,8 +639,6 @@ socket.onmessage = function (event) {
                hdbw2[i].innerHTML = teams[0].players[i].bowler_style
                bhcp = teams[1].players[i].bat_hand.split('-')[0]
                bhcp2 = teams[0].players[i].bat_hand.split('-')[0]
-               hdb1[i].innerHTML = bhcp.charAt(0).toUpperCase() + bhcp.slice(1)
-               hdb2[i].innerHTML = bhcp2.charAt(0).toUpperCase() + bhcp2.slice(1)
             }
          }
 

@@ -95,11 +95,12 @@ td,
    border-radius: 40px 40px 0px 0px;
    z-index: 99;
    position: relative;
+   padding-top: 10px;
 }
 
 .second-header h1:nth-child(2) {
    position: absolute;
-   left: 100px;
+   left: 40px;
 }
 
 .second-header h1:nth-child(3) {
@@ -108,7 +109,7 @@ td,
 
 .second-header h1:nth-child(4) {
    position: absolute;
-   right: 60px;
+   right: 40px;
 }
 
 .third-header {
@@ -129,13 +130,14 @@ td,
    background-color: #5ec6cd;
    color: #ffffff;
    text-align: center;
-   font-size: 12px;
+   font-size: 10px;
    font-weight: 600;
 }
 
 .team-one-name-short,
 .team-two-name-short {
    vertical-align: middle;
+   font-size: 16px;
 }
 
 #winner-image-team-one,
@@ -169,7 +171,6 @@ td,
 
 #score-body {
    padding: 0px;
-   margin-top: -200px;
    visibility: hidden;
    background-color: #fff;
    height: 258px;

@@ -93,6 +93,8 @@ td,
    -ms-flex-align: center;
    align-items: center;
    border-radius: 40px 40px 0px 0px;
+   z-index: 99;
+   position: relative;
 }
 
 .second-header h1:nth-child(2) {

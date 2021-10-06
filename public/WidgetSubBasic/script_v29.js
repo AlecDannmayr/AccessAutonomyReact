@@ -450,7 +450,7 @@ socket.onmessage = function (event) {
          }
 
          for (i = 0; i < t2bw.length; i++) {
-            t2bw[i].innerHTML = ino3.bowling[i].name
+            t2bw[i].innerHTML = ino3.bowling[i].name.splice(0)
             if (ino3.bowling[i].name == '') {
                t2bnb[i].style.display = 'none'
                t2bo[i].style.display = 'none'
@@ -524,14 +524,14 @@ socket.onmessage = function (event) {
          let scrgl = document.querySelectorAll('.scorecard-grid')
          for (i = 0; i < scrgl.length; i++) {
             if (t1b[i].textContent != '') {
-               scrgl[i].style.cssText = 'grid-template-rows: 30px;'
+               scrgl[i].style.cssText = 'grid-template-rows: 16px;'
             }
          }
 
          let scrglb = document.querySelectorAll('.scorecard-grid-bowl')
          for (i = 0; i < scrglb.length; i++) {
             if (t2bw[i].textContent != '') {
-               scrglb[i].style.cssText = 'grid-template-rows: 30px;'
+               scrglb[i].style.cssText = 'grid-template-rows: 16px;'
             }
          }
 

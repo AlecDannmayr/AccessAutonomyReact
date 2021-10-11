@@ -11,7 +11,7 @@ const projects = () => {
          </h1>
          <div className="row project-cards">
             <div className="col s12 m7">
-               <div className="card">
+               <div className="card z-depth-5">
                   <div className="card-image">
                      <img src={ProjectImgOne}></img>
                      <span className="card-title">Card Title</span>

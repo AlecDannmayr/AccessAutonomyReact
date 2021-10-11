@@ -138,18 +138,22 @@ html a:hover {
   font-size: 12px;
 }
 
-.project-div {
+.project-div .project-cards {
   text-align: left;
-  position: absolute;
-  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.card {
+.project-div .card {
   width: 400px;
 }
 
-.card-content,
-.card-action {
+.project-div .card-content,
+.project-div .card-action {
   font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */

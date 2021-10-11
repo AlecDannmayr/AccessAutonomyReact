@@ -112,18 +112,19 @@ html {
 }
 
 .project-div {
-   text-align: left;
-   position: absolute;
-   z-index: 1;
-}
+   .project-cards {
+      text-align: left;
+      display: flex;
+      justify-content: center;
+   }
+   .card {
+      width: 400px;
+   }
 
-.card {
-   width: 400px;
-}
-
-.card-content,
-.card-action {
-   font-size: 12px;
+   .card-content,
+   .card-action {
+      font-size: 12px;
+   }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,7 +9,7 @@ const projects = () => {
          <h1 id={'project-title'}>
             <div>Projects</div>
          </h1>
-         <div class="row">
+         <div class="row project-cards">
             <div class="col s12 m7">
                <div class="card">
                   <div class="card-image">

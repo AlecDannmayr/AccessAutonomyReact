@@ -14,7 +14,6 @@ import News from './components/news/news'
 const App = () => {
    return (
       <div className="App">
-         <News />
          <Router>
             <Nav />
             <Route path="/intro" component={Intro} />

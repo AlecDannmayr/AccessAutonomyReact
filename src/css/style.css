@@ -25,8 +25,8 @@ html a:hover {
 }
 
 .card-div .card-image img {
-  width: 200px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
   -o-object-fit: cover;
      object-fit: cover;
 }

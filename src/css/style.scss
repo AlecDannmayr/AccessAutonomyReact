@@ -18,28 +18,6 @@ html {
    }
 }
 
-.card-div {
-   .card {
-      width: 200px;
-   }
-   .card-image img {
-      width: 200px;
-      height: 100px;
-      object-fit: cover;
-   }
-   .card-content {
-      font-size: 12px;
-      width: 200px;
-      padding: 0px;
-      height: 60px;
-      background-color: rgba($color: #695252, $alpha: 0.1);
-   }
-   .card-action {
-      font-size: 14px;
-      padding: 0px;
-   }
-}
-
 ::selection {
    background: #4a5568; /* WebKit/Blink Browsers */
 }

@@ -20,30 +20,6 @@ html a:hover {
   color: #d5155a;
 }
 
-.card-div .card {
-  width: 200px;
-}
-
-.card-div .card-image img {
-  width: 10vw;
-  height: 10vw;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.card-div .card-content {
-  font-size: 12px;
-  width: 200px;
-  padding: 0px;
-  height: 60px;
-  background-color: rgba(105, 82, 82, 0.1);
-}
-
-.card-div .card-action {
-  font-size: 14px;
-  padding: 0px;
-}
-
 ::-moz-selection {
   background: #4a5568;
   /* WebKit/Blink Browsers */
@@ -160,5 +136,9 @@ html a:hover {
   text-align: center;
   margin-bottom: 40px;
   font-size: 12px;
+}
+
+.card {
+  width: 100px;
 }
 /*# sourceMappingURL=style.css.map */

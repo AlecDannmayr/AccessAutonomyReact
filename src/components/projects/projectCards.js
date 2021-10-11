@@ -14,6 +14,15 @@ const projectCards = () => {
             </div>
             <div className="card-action"></div>
          </div>
+         <div className="card">
+            <div className="card-image">
+               <img src={ProjectImgOne} alt={'Access Autonomy Logo'} />
+            </div>
+            <div className="card-content">
+               <p></p>
+            </div>
+            <div className="card-action"></div>
+         </div>
       </div>
    )
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Component } from 'react'
-import { BrowserRouter as Router, Route /*Switch*/ } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
 import BackGroundShapes from './components/backGroundShapes.js'
@@ -16,10 +16,12 @@ const App = () => {
       <div className="App">
          <Router>
             <Nav />
-            <Route path="/intro" component={Intro} />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contacts" component={Contacts} />
+            <Switch>
+               <Route path="/" component={Intro} />
+               <Route path="/about" component={About} />
+               <Route path="/projects" component={Projects} />
+               <Route path="/contacts" component={Contacts} />
+            </Switch>
          </Router>
          <BackGroundShapes />
          <Copyright />

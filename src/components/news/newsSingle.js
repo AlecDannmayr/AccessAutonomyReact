@@ -5,6 +5,8 @@ var str = 'Hello Folks!'
 var firstStringChar = str.charAt(0) //H
 console.log(firstStringChar)
 
+const Child1 = React.forwardRef((props, ref) => {})
+
 const NewsSingle = ({ item }) => (
    <div className="col s1 card-div">
       <div className="card">

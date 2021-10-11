@@ -154,7 +154,7 @@ html a:hover {
 
 .project-div .card {
   width: 400px;
-  background-color: #112dc7;
+  background-color: rgba(255, 166, 0, 0.39);
 }
 
 .project-div #project-title {

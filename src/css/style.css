@@ -138,6 +138,10 @@ html a:hover {
   font-size: 12px;
 }
 
+.project-div {
+  text-align: left;
+}
+
 .project-div .project-cards {
   text-align: left;
   display: -webkit-box;
@@ -150,6 +154,10 @@ html a:hover {
 
 .project-div .card {
   width: 400px;
+}
+
+.project-div .project-title {
+  margin-left: 300px;
 }
 
 .project-div .card-content,

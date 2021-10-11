@@ -112,6 +112,7 @@ html {
 }
 
 .project-div {
+   text-align: left;
    .project-cards {
       text-align: left;
       display: flex;
@@ -119,6 +120,9 @@ html {
    }
    .card {
       width: 400px;
+   }
+   .project-title {
+      margin-left: 300px;
    }
 
    .card-content,

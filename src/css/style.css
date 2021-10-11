@@ -33,6 +33,7 @@ html a:hover {
 
 .card-div .card-content {
   font-size: 12px;
+  height: 10px;
 }
 
 .card-div .card-action {

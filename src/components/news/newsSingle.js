@@ -1,13 +1,6 @@
 import React from 'react'
 import '../../css/style.css'
 
-var str = 'Hello Folks!'
-var firstStringChar = str.charAt(0) //H
-console.log(firstStringChar)
-
-const cardContent = 'Hello'
-console.log(cardContent)
-
 const NewsSingle = ({ item }) => (
    <div className="col s1 card-div">
       <div className="card">

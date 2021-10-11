@@ -19,7 +19,9 @@ html {
 }
 
 .card-div {
-   background-color: #837d757c;
+   .card {
+      width: 200px;
+   }
 
    .card-image img {
       width: 200px;
@@ -28,6 +30,9 @@ html {
    }
    .card-content {
       font-size: 12px;
+   }
+   .card-action {
+      font-size: 14px;
    }
 }
 

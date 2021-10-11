@@ -22,9 +22,12 @@ html {
    background-color: #837d757c;
 
    .card-image img {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 150px;
       object-fit: cover;
+   }
+   .card-content {
+      font-size: 12px;
    }
 }
 

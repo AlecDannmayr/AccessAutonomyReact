@@ -23,11 +23,12 @@ html a:hover {
 .card-div .card {
   width: 200px;
   color: black;
+  margin: 0px 100px;
 }
 
 .card-div .card-image img {
   width: 200px;
-  height: 150px;
+  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -36,6 +37,8 @@ html a:hover {
   font-size: 12px;
   width: 200px;
   padding: 0px;
+  height: 60px;
+  background-color: rgba(105, 82, 82, 0.1);
 }
 
 .card-div .card-action {

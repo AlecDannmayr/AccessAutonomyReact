@@ -156,6 +156,7 @@ html a:hover {
 .project-div .card {
   width: 400px;
   margin: 30px;
+  background-color: #1d1d1d;
 }
 
 .project-div #project-title {

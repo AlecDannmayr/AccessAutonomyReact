@@ -20,8 +20,11 @@ html {
 
 .card-div {
    background-color: #837d757c;
-   img {
-      width: 10vw;
+
+   .card-image img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
    }
 }
 

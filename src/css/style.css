@@ -24,8 +24,11 @@ html a:hover {
   background-color: #837d757c;
 }
 
-.card-div img {
-  width: 10vw;
+.card-div .card-image img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 ::-moz-selection {

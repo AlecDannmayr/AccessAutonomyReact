@@ -154,6 +154,7 @@ html a:hover {
 
 .project-div .card {
   width: 400px;
+  margin: 30px;
 }
 
 .project-div #project-title {

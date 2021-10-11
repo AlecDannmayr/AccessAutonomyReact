@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Component } from 'react'
 import { BrowserRouter as Router, Route /*Switch*/ } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
@@ -9,6 +9,8 @@ import About from './components/about.js'
 import Projects from './components/projects.js'
 import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
+import News from './components/news/news'
+import Sidenews from './components/news/Sidenews'
 
 const App = () => {
    const [setOffsetY] = useState(0)

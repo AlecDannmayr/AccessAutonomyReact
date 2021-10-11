@@ -26,11 +26,28 @@ html a:hover {
   display: flex;
 }
 
-.card {
+.card-div .card {
+  width: 200px;
+}
+
+.card-div .card-image img {
   width: 200px;
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.card-div .card-content {
+  font-size: 12px;
+  width: 200px;
+  padding: 0px;
+  height: 60px;
+  background-color: rgba(105, 82, 82, 0.1);
+}
+
+.card-div .card-action {
+  font-size: 14px;
+  padding: 0px;
 }
 
 ::-moz-selection {

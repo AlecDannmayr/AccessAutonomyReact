@@ -2,15 +2,15 @@ import React from 'react'
 import '../../css/style.css'
 
 const NewsSingle = ({ item }) => (
-   <div className="card-container">
-      <div className="card">
-         <div className="card-image">
+   <div className="card-div">
+      <div className="car">
+         <div className="">
             <img src={item.urlToImage} alt={item.title} />
          </div>
-         <div className="card-content">
+         <div className="">
             <p ref={this.cardText}>{item.title}</p>
          </div>
-         <div className="card-action">
+         <div className="">
             <a href={item.url} target="_blank">
                Full article
             </a>

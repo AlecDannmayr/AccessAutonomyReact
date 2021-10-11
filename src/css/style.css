@@ -137,4 +137,12 @@ html a:hover {
   margin-bottom: 40px;
   font-size: 12px;
 }
+
+.card {
+  width: 400px;
+}
+
+.card-content {
+  font-size: 12px;
+}
 /*# sourceMappingURL=style.css.map */

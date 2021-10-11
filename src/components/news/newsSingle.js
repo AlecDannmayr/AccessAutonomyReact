@@ -1,6 +1,10 @@
 import React from 'react'
 import '../../css/style.css'
 
+var str = 'Hello Folks!'
+var firstStringChar = str.charAt(0) //H
+console.log(firstStringChar)
+
 const NewsSingle = ({ item }) => (
    <div className="col s1 card-div">
       <div className="card">
@@ -8,7 +12,7 @@ const NewsSingle = ({ item }) => (
             <img src={item.urlToImage} alt={item.title} />
          </div>
          <div className="card-content">
-            <text numberOfLines={1}>{item.title}</text>
+            <p id="card-content-text">{item.title}</p>
          </div>
          <div className="card-action">
             <a href={item.url} target="_blank">

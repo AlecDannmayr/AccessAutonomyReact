@@ -12,7 +12,7 @@ const NewsSingle = ({ item }) => (
             <img src={item.urlToImage} alt={item.title} />
          </div>
          <div className="card-content">
-            <p id="card-content-text">{item.title}</p>
+            <p ref={this.cardText}>{item.title}</p>
          </div>
          <div className="card-action">
             <a href={item.url} target="_blank">

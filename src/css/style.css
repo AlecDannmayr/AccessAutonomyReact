@@ -24,6 +24,13 @@ html a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-div .card {
@@ -31,7 +38,7 @@ html a:hover {
 }
 
 .card-div .card-image img {
-  width: 200px;
+  width: 100px;
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;

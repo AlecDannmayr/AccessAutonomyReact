@@ -4,7 +4,7 @@ import '../../css/style.css'
 const NewsSingle = ({ item }) => (
    <div className="card-div">
       <div className="car">
-         <div className="">
+         <div className="card-image">
             <img src={item.urlToImage} alt={item.title} />
          </div>
          <div className="">

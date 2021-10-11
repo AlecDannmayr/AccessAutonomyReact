@@ -111,11 +111,18 @@ html {
    font-size: 12px;
 }
 
+.project-div {
+   text-align: left;
+   position: absolute;
+   z-index: 1;
+}
+
 .card {
    width: 400px;
 }
 
-.card-content {
+.card-content,
+.card-action {
    font-size: 12px;
 }
 

@@ -5,8 +5,8 @@ var str = 'Hello Folks!'
 var firstStringChar = str.charAt(0) //H
 console.log(firstStringChar)
 
-render() 
-let 
+const cardContent = document.querySelector('.card-content')
+console.log(cardContent)
 
 const NewsSingle = ({ item }) => (
    <div className="col s1 card-div">

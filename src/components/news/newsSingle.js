@@ -8,7 +8,7 @@ const NewsSingle = ({ item }) => (
             <img src={item.urlToImage} alt={item.title} />
          </div>
          <div className="card-content">
-            <p>{item.title}</p>
+            <text numberOfLines={1}>{item.title}</text>
          </div>
          <div className="card-action">
             <a href={item.url} target="_blank">

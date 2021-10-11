@@ -31,6 +31,9 @@ html {
    .card-content {
       font-size: 12px;
       height: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
    }
    .card-action {
       font-size: 14px;

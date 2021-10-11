@@ -34,6 +34,9 @@ html a:hover {
 .card-div .card-content {
   font-size: 12px;
   height: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-div .card-action {

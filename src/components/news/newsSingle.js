@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../css/style.css'
 
-var str = 'Hello Folks!'
-var firstStringChar = str.charAt(0)
+const contentText = document.querySelectorAll('.card-content')
+var contentText = str.charAt(0)
 console.log(firstStringChar)
 
 const NewsSingle = ({ item }) => (

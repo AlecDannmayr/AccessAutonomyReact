@@ -12,27 +12,44 @@ import Copyright from './components/copyright.js'
 import News from './components/news/news'
 import Sidenews from './components/news/Sidenews'
 
-const App = () => {
-   const [setOffsetY] = useState(0)
-   const handleScroll = () => setOffsetY(window.pageYOffset)
-   useEffect(() => {
-      window.addEventListener('scroll', handleScroll)
-      return () => window.removeEventListener('scroll', handleScroll)
-   }, [])
-   return (
-      <div className="App">
-         <News />
-         <Router>
-            <Nav />
-            <Route path="/intro" component={Intro} />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contacts" component={Contacts} />
-         </Router>
-         <BackGroundShapes />
-         <Copyright />
-      </div>
-   )
-}
+class App extends Component {
+   constructor(props) {
+      super(props)
+      this.state = {
+         news1: {
+            type: 'everything',
+            query: 'domains=techcrunch.com&language=en',
+         },
+         news2: {
+            type: 'top-headlines',
+            query: 'sources=bbc-news',
+         },
+         news3: {
+            type: 'everything',
+            query: 'domains=tesla.com&language=en',
+         },
+      }
 
+      const [setOffsetY] = useState(0)
+      const handleScroll = () => setOffsetY(window.pageYOffset)
+      useEffect(() => {
+         window.addEventListener('scroll', handleScroll)
+         return () => window.removeEventListener('scroll', handleScroll)
+      }, [])
+      return (
+         <div className="App">
+            <Sidenews />
+            <Router>
+               <Nav />
+               <Route path="/intro" component={Intro} />
+               <Route path="/about" component={About} />
+               <Route path="/projects" component={Projects} />
+               <Route path="/contacts" component={Contacts} />
+            </Router>
+            <BackGroundShapes />
+            <Copyright />
+         </div>
+      )
+   }
+}
 export default App

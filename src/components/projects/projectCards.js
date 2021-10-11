@@ -4,15 +4,15 @@ import '../../css/style.css'
 const projectCards = () => {
    return (
       <div className="col s2">
-         <div className="">
+         <div className="card">
             <div className="">
-               <img src={item.urlToImage} alt={item.title} />
+               <img src={} alt={} />
             </div>
             <div className="">
-               <p ref={this.cardText}>{item.title}</p>
+               <p ref={}>{}</p>
             </div>
             <div className="">
-               <a href={item.url} target="_blank">
+               <a href={} target="_blank">
                   Full article
                </a>
             </div>

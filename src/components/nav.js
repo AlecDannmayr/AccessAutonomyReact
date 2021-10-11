@@ -12,7 +12,7 @@ const nav = () => {
             <img src={Logo} alt="AccessAutonomy Logo"></img>
          </div>
          <div id={'nav-main-list'}>
-            <Link to="/intro">
+            <Link to="/">
                <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             </Link>
             <Link to="/about">

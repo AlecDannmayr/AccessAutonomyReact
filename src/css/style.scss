@@ -21,8 +21,8 @@ html {
 .card-div {
    .card {
       width: 200px;
+      color: black;
    }
-
    .card-image img {
       width: 200px;
       height: 150px;
@@ -30,13 +30,12 @@ html {
    }
    .card-content {
       font-size: 12px;
-      height: 10px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      width: 200px;
+      padding: 0px;
    }
    .card-action {
       font-size: 14px;
+      padding: 0px;
    }
 }
 

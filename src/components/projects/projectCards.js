@@ -1,18 +1,18 @@
 import React from 'react'
 import '../../css/style.css'
-import ProjectImgOne from '../../Accesss-Autonomy-Logo.ico'
+import ProjectImgOne from '../../images/Accesss-Autonomy-Logo.ico'
 
 const projectCards = () => {
    return (
       <div className="col s2">
          <div className="card">
-            <div className="">
+            <div className="card-image">
                <img src={ProjectImgOne} alt={'Access Autonomy Logo'} />
             </div>
-            <div className="">
+            <div className="card-content">
                <p></p>
             </div>
-            <div className=""></div>
+            <div className="card-action"></div>
          </div>
       </div>
    )

@@ -20,25 +20,12 @@ html a:hover {
   color: #d5155a;
 }
 
-.card-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .card-div .card {
   width: 200px;
 }
 
 .card-div .card-image img {
-  width: 100px;
+  width: 200px;
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;

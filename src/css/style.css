@@ -94,6 +94,12 @@ html a:hover {
   text-shadow: 2px 2px #112dc7;
 }
 
+.services img {
+  width: 300px;
+  -webkit-box-shadow: #181818 30px;
+          box-shadow: #181818 30px;
+}
+
 .diagonal-box-one {
   height: 50vw;
   text-align: left;

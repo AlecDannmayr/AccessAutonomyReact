@@ -75,11 +75,14 @@ html {
 }
 
 .services {
-   display: grid;
-   grid-template-columns: auto auto auto;
+   display: flex;
+   justify-content: center;
+   margin: 40px;
+   margin-left: 90px;
    img {
-      width: 300px;
+      width: 280px;
       box-shadow: 15px 29px 35px 8px #000000;
+      margin: 40px;
    }
 }
 

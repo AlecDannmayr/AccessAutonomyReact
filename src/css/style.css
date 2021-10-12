@@ -95,16 +95,21 @@ html a:hover {
 }
 
 .services {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+  margin-left: 90px;
 }
 
 .services img {
-  width: 300px;
+  width: 280px;
   -webkit-box-shadow: 15px 29px 35px 8px #000000;
           box-shadow: 15px 29px 35px 8px #000000;
+  margin: 40px;
 }
 
 .diagonal-box-one {

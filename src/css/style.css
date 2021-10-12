@@ -94,6 +94,13 @@ html a:hover {
   text-shadow: 2px 2px #112dc7;
 }
 
+.services {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
 .services img {
   width: 300px;
   -webkit-box-shadow: 15px 29px 35px 8px #000000;

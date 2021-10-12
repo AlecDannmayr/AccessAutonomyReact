@@ -75,6 +75,8 @@ html {
 }
 
 .services {
+   display: grid;
+   grid-template-columns: auto auto auto;
    img {
       width: 300px;
       box-shadow: 15px 29px 35px 8px #000000;

@@ -96,8 +96,8 @@ html a:hover {
 
 .services img {
   width: 300px;
-  -webkit-box-shadow: #181818 30px;
-          box-shadow: #181818 30px;
+  -webkit-box-shadow: 15px 29px 35px 8px #000000;
+          box-shadow: 15px 29px 35px 8px #000000;
 }
 
 .diagonal-box-one {

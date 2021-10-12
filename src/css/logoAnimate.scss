@@ -1,0 +1,30 @@
+.logo-animate {
+   width: 6%;
+   position: absolute;
+   top: 42.3%;
+   animation: animateLogo 0.5s linear forwards;
+   animation-delay: 4.3s;
+   left: -10%;
+   z-index: 1;
+}
+
+@keyframes animateLogo {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+      left: 63%;
+   }
+}
+
+@keyframes animateSwipeOut {
+   0% {
+      left: 0%;
+   }
+
+   100% {
+      left: 100%;
+   }
+}

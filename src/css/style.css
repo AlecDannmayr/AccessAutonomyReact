@@ -101,15 +101,15 @@ html a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 40px;
-  margin-left: 90px;
+  margin: 100px;
+  margin-right: -50px;
 }
 
 .services img {
   width: 280px;
   -webkit-box-shadow: 15px 29px 35px 8px #000000;
           box-shadow: 15px 29px 35px 8px #000000;
-  margin: 40px;
+  margin: 30px;
 }
 
 .diagonal-box-one {

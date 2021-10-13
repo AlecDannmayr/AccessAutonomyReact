@@ -10,7 +10,7 @@ const about = () => {
    return (
       <div className="services">
          <h1 id={'services-title'}>
-            <div>Projects</div>
+            <div>Services</div>
          </h1>
          <img src={Development}></img>
          <img src={Design}></img>

@@ -15,6 +15,7 @@
   padding: 0px;
   position: absolute;
   top: 40%;
+  left: -100px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 100%;

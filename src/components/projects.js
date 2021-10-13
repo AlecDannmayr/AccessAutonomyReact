@@ -3,11 +3,12 @@ import '../css/style.css'
 import '../css/responsive.css'
 import ProjectImgOne from '../images/image-one.png'
 import ProjectImgTwo from '../images/image-two.png'
-import ProjectImgThree from '../images/image-three.png'
-import ProjectImgFour from '../images/image-four.png'
-import ProjectImgFive from '../images/image-five.png'
-import ProjectImgSix from '../images/image-six.png'
-import ProjectImgSeven from '../images/image-seven.png'
+
+//import ProjectImgThree from '../images/image-three.png'
+//import ProjectImgFour from '../images/image-four.png'
+//import ProjectImgFive from '../images/image-five.png'
+//import ProjectImgSix from '../images/image-six.png'
+//import ProjectImgSeven from '../images/image-seven.png'
 
 const projects = () => {
    return (
@@ -18,7 +19,7 @@ const projects = () => {
          <div className="row project-cards">
             <div className="card z-depth-5 transparent">
                <div className="card-image">
-                  <img src={ProjectImgOne}></img>
+                  <img src={ProjectImgTwo}></img>
                </div>
                <div className="card-content">
                   <span className="card-title">Card Title</span>

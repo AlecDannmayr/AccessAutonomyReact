@@ -5,7 +5,7 @@ import './css/responsive.css'
 import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
-import About from './components/about.js'
+import Services from './components/services.js'
 import Projects from './components/projects.js'
 import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
@@ -20,7 +20,7 @@ const App = () => {
             <Nav />
             <Switch>
                <Route path="/" exact component={Intro} />
-               <Route path="/about" component={About} />
+               <Route path="/services" component={Services} />
                <Route path="/projects" component={Projects} />
                <Route path="/contacts" component={Contacts} />
             </Switch>

@@ -1,11 +1,11 @@
 .logo-animate {
   width: 6%;
   position: absolute;
-  top: 39.3%;
+  top: 40.3%;
   -webkit-animation: animateLogo 0.5s linear forwards;
           animation: animateLogo 0.5s linear forwards;
-  -webkit-animation-delay: 5.3s;
-          animation-delay: 5.3s;
+  -webkit-animation-delay: 7.3s;
+          animation-delay: 7.3s;
   left: -10%;
   z-index: 1;
 }

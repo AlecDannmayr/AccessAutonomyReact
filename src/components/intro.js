@@ -9,7 +9,7 @@ const intro = () => {
             <div>Access</div>
             <div>Autonomy</div>
          </h1>
-         <p id={'intro-body'}>We solve complex design problems using a finesse for technology.</p>
+         <p id={'intro-body'}>Solving complex design problems using a finesse for technology.</p>
       </div>
    )
 }

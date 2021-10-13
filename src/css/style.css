@@ -183,6 +183,10 @@ html a:hover {
   margin: 18px 100px;
 }
 
+.project-div #services-title {
+  margin-top: -225px;
+}
+
 .project-div .card-content,
 .project-div .card-action {
   font-size: 12px;

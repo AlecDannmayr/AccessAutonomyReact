@@ -139,9 +139,12 @@ html {
       background-color: #1d1d1d;
    }
 
-   #project-title,
-   #s {
+   #project-title {
       margin: 18px 100px;
+   }
+
+   #services-title {
+      margin-top: -225px;
    }
    .card-content,
    .card-action {

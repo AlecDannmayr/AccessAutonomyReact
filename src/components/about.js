@@ -9,7 +9,7 @@ import Consult from '../images/consult.svg'
 const about = () => {
    return (
       <div className="services">
-         <h1 id={'about-title'}>
+         <h1 id={'services-title'}>
             <div>Projects</div>
          </h1>
          <img src={Development}></img>

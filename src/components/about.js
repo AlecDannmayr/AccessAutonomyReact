@@ -9,9 +9,6 @@ import Consult from '../images/consult.svg'
 const about = () => {
    return (
       <div className="services">
-         <h1 id={'services-title'}>
-            <div>Services</div>
-         </h1>
          <img src={Development}></img>
          <img src={Design}></img>
          <img src={Maintain}></img>

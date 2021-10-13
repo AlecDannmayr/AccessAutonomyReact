@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/style.css'
+import '../css/smoke.css'
 import Video from '../video/smoke.mp4'
 import Logo from '../images/accessautonomy.svg'
 

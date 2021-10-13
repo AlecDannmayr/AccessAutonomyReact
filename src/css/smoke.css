@@ -6,8 +6,8 @@
   background-color: #000000;
   -webkit-animation: animateSwipeOut 0.5s ease-out forwards;
           animation: animateSwipeOut 0.5s ease-out forwards;
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
 }
 
 .open h1 {
@@ -27,7 +27,7 @@
 
 .open h1 span:nth-child(1),
 .open h1 span:nth-child(7) {
-  font-size: 70px;
+  font-size: 200px;
 }
 
 h1 span {

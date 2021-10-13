@@ -7,7 +7,7 @@ const smoke = () => {
    return (
       <section class="open">
          <div class="open-animation">
-            <video src={Video} autoplay muted></video>
+            <video src={Video} autoPlay muted></video>
             <h1>
                <span>A</span>
                <span>C</span>

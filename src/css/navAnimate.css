@@ -1,0 +1,48 @@
+.nav-list li {
+  -webkit-animation: AnimationList 0.5s linear forwards;
+          animation: AnimationList 0.5s linear forwards;
+  margin-left: -200px;
+  cursor: pointer;
+}
+
+.nav-list li:first-child {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.nav-list li:nth-child(2) {
+  -webkit-animation-delay: 7.2s;
+          animation-delay: 7.2s;
+}
+
+.nav-list li:nth-child(3) {
+  -webkit-animation-delay: 7.4s;
+          animation-delay: 7.4s;
+}
+
+.nav-list li:nth-child(4) {
+  -webkit-animation-delay: 7.6s;
+          animation-delay: 7.6s;
+}
+
+.nav-list li:nth-child(5) {
+  -webkit-animation-delay: 7.8s;
+          animation-delay: 7.8s;
+}
+
+@-webkit-keyframes AnimationList {
+  0% {
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes AnimationList {
+  0% {
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=navAnimate.css.map */

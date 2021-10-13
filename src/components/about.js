@@ -6,10 +6,10 @@ import Maintain from '../images/maintain.svg'
 import Teach from '../images/teach.svg'
 import Consult from '../images/consult.svg'
 
-const services = () => {
+const about = () => {
    return (
       <div className="services">
-         <h1 id={'project-title'}>
+         <h1 id={'about-title'}>
             <div>Projects</div>
          </h1>
          <img src={Development}></img>
@@ -21,4 +21,4 @@ const services = () => {
    )
 }
 
-export default services
+export default about

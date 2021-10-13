@@ -3,7 +3,6 @@ import '../css/style.css'
 import '../css/responsive.css'
 import ProjectImgOne from '../images/image-one.png'
 import ProjectImgTwo from '../images/image-two.png'
-
 import ProjectImgThree from '../images/image-three.png'
 import ProjectImgFour from '../images/image-four.png'
 import ProjectImgFive from '../images/image-five.png'

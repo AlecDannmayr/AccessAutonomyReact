@@ -7,7 +7,7 @@ import ProjectImgTwo from '../images/image-two.png'
 import ProjectImgThree from '../images/image-three.png'
 import ProjectImgFour from '../images/image-four.png'
 import ProjectImgFive from '../images/image-five.png'
-//import ProjectImgSix from '../images/image-six.png'
+import ProjectImgSix from '../images/image-six.png'
 //import ProjectImgSeven from '../images/image-seven.png'
 
 const projects = () => {
@@ -69,7 +69,7 @@ const projects = () => {
             </div>
             <div className="card z-depth-5 transparent">
                <div className="card-image">
-                  <img src={ProjectImgOne}></img>
+                  <img src={ProjectImgSix}></img>
                </div>
                <div className="card-content">
                   <span className="card-title">Card Title</span>

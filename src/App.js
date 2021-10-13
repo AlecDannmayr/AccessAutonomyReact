@@ -15,6 +15,7 @@ import Smoke from './components/smoke'
 const App = () => {
    return (
       <div className="App">
+         <Smoke />
          <Router>
             <Nav />
             <Switch>

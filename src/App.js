@@ -10,6 +10,7 @@ import Projects from './components/projects.js'
 import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 import News from './components/news/news'
+import Smoke from './components/smoke'
 
 const App = () => {
    return (

@@ -69,7 +69,7 @@ const projects = () => {
             </div>
             <div className="card z-depth-5 transparent">
                <div className="card-image">
-                  <img src={ProjectImgSeven}></img>
+                  <img src={ProjectImgOne}></img>
                </div>
                <div className="card-content">
                   <span className="card-title">Card Title</span>
@@ -81,7 +81,7 @@ const projects = () => {
             </div>
             <div className="card z-depth-5 transparent">
                <div className="card-image">
-                  <img src={ProjectImgOne}></img>
+                  <img src={ProjectImgSeven}></img>
                </div>
                <div className="card-content">
                   <span className="card-title">Card Title</span>

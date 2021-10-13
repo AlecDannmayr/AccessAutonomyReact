@@ -12,9 +12,6 @@ import ProjectImgSeven from '../images/image-seven.png'
 const projects = () => {
    return (
       <div className={'project-div'}>
-         <h1 id={'project-title'}>
-            <div>Projects</div>
-         </h1>
          <div className="row project-cards">
             <div className="card z-depth-5 transparent">
                <div className="card-image">

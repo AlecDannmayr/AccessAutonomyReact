@@ -3,6 +3,10 @@ import styled from 'styled-components'
 import { CgSun } from 'react-icons/cg'
 import { HiMoon } from 'react-icons/hi'
 
+const Toggle = styled.button`
+   background-color: ${(props) => props.theme.titleColor};
+`
+
 const Page = styled.div`
    background-color: ${(props) => props.theme.titleColor};
 `
@@ -24,10 +28,10 @@ const TagLine = styled.span`
 
 function Splash(props) {
    function changeTheme() {
-      if (props.theme === 'light') {
-         props.setTheme('dark')
+      if (this.props.theme === 'light') {
+         this.props.setTheme('dark')
       } else {
-         props.setTheme('light')
+         this.props.setTheme('light')
       }
    }
 

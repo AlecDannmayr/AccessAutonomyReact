@@ -13,9 +13,6 @@ import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
 import News from './components/news/news'
-import styled from 'styled-components'
-import { CgSun } from 'react-icons/cg'
-import { HiMoon } from 'react-icons/hi'
 
 const LightTheme = {
    pageBackground: 'white',
@@ -34,21 +31,8 @@ const themes = {
    dark: DarkTheme,
 }
 
-const [theme, setTheme] = useState('light')
-
-function Splash(props) {
-   function changeTime() {
-      if (props.theme === 'light') {
-         props.setTheme('dark')
-      } else {
-         props.setTheme('light')
-      }
-   }
-}
-
-const icon = this.props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
-
 const App = () => {
+   const [theme, setTheme] = useState('light')
    return (
       <div className="App">
          <ThemeProvider theme={themes[theme]}>

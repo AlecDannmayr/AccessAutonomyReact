@@ -13,7 +13,9 @@ import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
 import News from './components/news/news'
-import Splash from './components/SplashScreen'
+import styled from 'styled-components'
+import { CgSun } from 'react-icons/cg'
+import { HiMoon } from 'react-icons/hi'
 
 const LightTheme = {
    pageBackground: 'white',

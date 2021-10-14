@@ -37,9 +37,9 @@ const App = () => {
    return (
       <div className="App">
          <ThemeProvider theme={themes[theme]}>
+            <Splash />
             <Router>
                <Nav />
-               <Splash />
                <Switch>
                   <Route path="/" exact component={Intro} />
                   <Route path="/about" component={About} />

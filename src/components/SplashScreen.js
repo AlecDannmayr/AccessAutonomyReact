@@ -28,10 +28,10 @@ const TagLine = styled.span`
 
 function Splash(props) {
    function changeTheme() {
-      if (this.props.theme === 'light') {
-         this.props.setTheme('dark')
+      if (props.theme === 'light') {
+         props.setTheme('dark')
       } else {
-         this.props.setTheme('light')
+         props.setTheme('light')
       }
    }
 

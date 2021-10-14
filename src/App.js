@@ -13,6 +13,7 @@ import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
 import News from './components/news/news'
+import Splash from './components/SplashScreen'
 
 const LightTheme = {
    pageBackground: 'white',
@@ -38,6 +39,7 @@ const App = () => {
          <ThemeProvider theme={themes[theme]}>
             <Router>
                <Nav />
+               <Splash />
                <Switch>
                   <Route path="/" exact component={Intro} />
                   <Route path="/about" component={About} />

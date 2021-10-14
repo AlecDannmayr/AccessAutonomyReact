@@ -6,7 +6,8 @@ import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import About from './components/about.js'
-import Projects from './components/projects.js'
+import Blog from './components/blog.js'
+import Contacts from './components/contacts.js'
 import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
@@ -21,6 +22,7 @@ const App = () => {
                <Route path="/" exact component={Intro} />
                <Route path="/about" component={About} />
                <Route path="/projects" component={Projects} />
+               <Route path="/blog" component={Blog} />
                <Route path="/contacts" component={Contacts} />
             </Switch>
          </Router>

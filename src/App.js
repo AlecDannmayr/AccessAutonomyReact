@@ -38,19 +38,19 @@ const App = () => {
       <div className="App">
          <ThemeProvider theme={themes[theme]}>
             <Splash />
-            <Router>
-               <Nav />
-               <Switch>
-                  <Route path="/" exact component={Intro} />
-                  <Route path="/about" component={About} />
-                  <Route path="/projects" component={Projects} />
-                  <Route path="/blog" component={Blog} />
-                  <Route path="/contacts" component={Contacts} />
-               </Switch>
-            </Router>
-            <BackGroundShapes maxWidth="lg" />
-            <Copyright />
          </ThemeProvider>
+         <Router>
+            <Nav />
+            <Switch>
+               <Route path="/" exact component={Intro} />
+               <Route path="/about" component={About} />
+               <Route path="/projects" component={Projects} />
+               <Route path="/blog" component={Blog} />
+               <Route path="/contacts" component={Contacts} />
+            </Switch>
+         </Router>
+         <BackGroundShapes maxWidth="lg" />
+         <Copyright />
       </div>
    )
 }

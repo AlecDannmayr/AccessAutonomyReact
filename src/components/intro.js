@@ -38,18 +38,22 @@ function Splash(props) {
    }
 
    const icon = props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
-
-   const intro = () => {
-      return (
+}
+const intro = () => {
+   return (
+      <>
          <div className={'intro-div'}>
             <h1 id={'intro-title'}>
                <div>Access</div>
                <div>Autonomy</div>
-               <Toggle onClick={changeTheme}>{icon}</Toggle>
             </h1>
             <p id={'intro-body'}>Solving complex design problems using a finesse for technology.</p>
          </div>
-      )
-   }
+         <div>
+            <Toggle onClick={changeTheme}>{icon}</Toggle>
+         </div>
+      </>
+   )
 }
+
 export default intro

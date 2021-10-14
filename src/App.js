@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { MakeStyle } from '@material-ui/core/style'
 import './css/style.css'
 import './css/responsive.css'
 import BackGroundShapes from './components/backGroundShapes.js'
@@ -7,7 +8,7 @@ import Nav from './components/nav.js'
 import Intro from './components/intro.js'
 import About from './components/about.js'
 import Blog from './components/blog.js'
-import Contacts from './components/contacts.js'
+import Projects from './components/projects.js'
 import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
@@ -26,7 +27,7 @@ const App = () => {
                <Route path="/contacts" component={Contacts} />
             </Switch>
          </Router>
-         <BackGroundShapes />
+         <BackGroundShapes maxWidth="lg" />
          <Copyright />
       </div>
    )

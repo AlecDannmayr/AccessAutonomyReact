@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { CgSun } from 'react-icons/cg'
 import { HiMoon } from 'react-icons/hi'
 
+const 
+
 function Splash(props) {
    function changeTheme() {
       if (props.theme === 'light') {

@@ -16,6 +16,7 @@ import News from './components/news/news'
 import styled from 'styled-components'
 import { CgSun } from 'react-icons/cg'
 import { HiMoon } from 'react-icons/hi'
+import Splash from './components/SplashScreen'
 
 const LightTheme = {
    pageBackground: 'white',

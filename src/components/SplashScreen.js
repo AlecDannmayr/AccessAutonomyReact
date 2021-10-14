@@ -20,9 +20,11 @@ function Splash(props) {
 
    return (
       <Page>
-         <button onClick={changeTheme}>{icon}</button>
-         <h1>Coding with Chaim</h1>
-         <p>Level up your web development skills</p>
+         <Container>
+         <Toggle onClick={changeTheme}>{icon}</Toggle>
+         <Title>Coding with Chaim</Title>
+         <TagLine>Level up your web development skills</TagLine>
+         <Container />
       </Page>
    )
 }

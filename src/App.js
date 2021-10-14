@@ -15,7 +15,6 @@ import News from './components/news/news'
 const App = () => {
    return (
       <div className="App">
-         <Smoke />
          <Router>
             <Nav />
             <Switch>

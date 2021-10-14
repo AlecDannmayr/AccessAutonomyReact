@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../images/Accesss-Autonomy-Logo.ico'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouseUser, faAddressCard, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHouseUser, faAddressCard, faCode, faEnvelope, faBlog } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
 
@@ -22,7 +22,7 @@ const nav = () => {
                <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             </Link>
             <Link to="/blog">
-               <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+               <FontAwesomeIcon icon={faBlog}></FontAwesomeIcon>
             </Link>
             <Link to="/contacts">
                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>

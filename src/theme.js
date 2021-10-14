@@ -14,3 +14,5 @@ const theme = createTheme({
       default: '#ffffff',
    },
 })
+
+export default theme

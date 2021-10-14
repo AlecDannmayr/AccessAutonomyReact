@@ -14,7 +14,7 @@ import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
 import News from './components/news/news'
 import styled from 'styled-components'
-import { CgMoon } from 'react-icons/cg'
+import { CgSun } from 'react-icons/cg'
 import { HiMoon } from 'react-icons/hi'
 
 const LightTheme = {
@@ -34,6 +34,8 @@ const themes = {
    dark: DarkTheme,
 }
 
+const [theme, setTheme] = useState('light')
+
 function Splash(props) {
    function changeTime() {
       if (props.theme === 'light') {
@@ -44,10 +46,9 @@ function Splash(props) {
    }
 }
 
-const icon = props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
+const icon = this.props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
 
 const App = () => {
-   const [theme, setTheme] = useState('light')
    return (
       <div className="App">
          <ThemeProvider theme={themes[theme]}>

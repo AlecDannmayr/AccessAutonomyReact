@@ -16,6 +16,10 @@ const icon = this.props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={
 
 return (
    <page>
-      <container></container>
+      <Container>
+         <Toggle onClick={changeTheme}>{icon}</Toggle>
+         <Title>Coding with Chaim</Title>
+         <TagLine>Level up your web development skills</TagLine>
+      </Container>
    </page>
 )

@@ -40,7 +40,7 @@ const App = () => {
             <Router>
                <Nav />
                <Switch>
-                  <Route theme={theme} setTheme={setTheme} path="/" exact component={Intro} />
+                  <Route theme={theme} setTheme={setTheme} path="/  " exact component={Intro} />
                   <Route path="/about" component={About} />
                   <Route path="/projects" component={Projects} />
                   <Route path="/blog" component={Blog} />

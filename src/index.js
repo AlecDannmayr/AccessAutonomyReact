@@ -4,6 +4,8 @@ import './css/style.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
+ThemeProvider
+
 ReactDOM.render(
    <React.StrictMode>
       <App />

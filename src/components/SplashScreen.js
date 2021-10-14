@@ -3,7 +3,9 @@ import styled from 'styled-components'
 import { CgSun } from 'react-icons/cg'
 import { HiMoon } from 'react-icons/hi'
 
-const 
+const Page = styled.div`
+   background-color: ${(props) => props.theme.pageBackground};
+`
 
 function Splash(props) {
    function changeTheme() {
@@ -17,11 +19,11 @@ function Splash(props) {
    const icon = props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
 
    return (
-      <page>
+      <Page>
          <button onClick={changeTheme}>{icon}</button>
          <h1>Coding with Chaim</h1>
          <p>Level up your web development skills</p>
-      </page>
+      </Page>
    )
 }
 

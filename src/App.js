@@ -1,6 +1,5 @@
 import React, { useState, useEffect, Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
 import './css/style.css'
 import './css/responsive.css'
 import BackGroundShapes from './components/backGroundShapes.js'

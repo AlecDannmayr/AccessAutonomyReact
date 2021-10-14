@@ -32,6 +32,7 @@ const themes = {
 }
 
 const App = () => {
+   const [theme, setTheme] = useState('light')
    return (
       <div className="App">
          <Router>

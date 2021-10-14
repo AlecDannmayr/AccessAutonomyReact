@@ -12,7 +12,7 @@ function Splash(props) {
       }
    }
 
-   const icon = this.props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
+   const icon = props.theme === 'light' ? <HiMoon size={40} /> : <CgSun size={40} />
 
    return (
       <page>
@@ -22,3 +22,5 @@ function Splash(props) {
       </page>
    )
 }
+
+export default Splash

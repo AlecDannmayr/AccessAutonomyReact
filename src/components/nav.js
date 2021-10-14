@@ -13,19 +13,19 @@ const nav = () => {
          </div>
          <div id={'nav-main-list'}>
             <Link to="/">
-               <p>Home</p>
+               <FontAwesomeIcon icon={faHouseUser}></FontAwesomeIcon>
             </Link>
             <Link to="/about">
-               <p>about</p>
+               <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
             </Link>
             <Link to="/projects">
-               <p>Projeects</p>
+               <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
             </Link>
             <Link to="/blog">
-               <p>Blog</p>
+               <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
             </Link>
             <Link to="/contacts">
-               <p>contact</p>
+               <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
             </Link>
             <a href="https://github.com/AlecDannmayr" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>

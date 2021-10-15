@@ -59,8 +59,40 @@ const blog = () => {
                      </CardActions>
                   </Card>
                </Grid>
-               <Grid item xs={12} sm={6} md={4} container spacing={3}></Grid>
-               <Grid item xs={12} sm={6} md={4} container spacing={3}></Grid>
+               <Grid item xs={12} sm={6} md={4} container spacing={3}>
+                  <Card sx={{ maxWidth: 445 }}>
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                           React useContext
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                        </Typography>
+                     </CardContent>
+                     <CardActions>
+                        <Button size="medium">Share</Button>
+                        <Button size="medium">Learn More</Button>
+                     </CardActions>
+                  </Card>
+               </Grid>
+               <Grid item xs={12} sm={6} md={4} container spacing={3}>
+                  <Card sx={{ maxWidth: 445 }}>
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                           React useContext
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                        </Typography>
+                     </CardContent>
+                     <CardActions>
+                        <Button size="medium">Share</Button>
+                        <Button size="medium">Learn More</Button>
+                     </CardActions>
+                  </Card>
+               </Grid>
                <Grid item xs={12} sm={6} md={4} container spacing={3}></Grid>
             </Grid>
          </Container>

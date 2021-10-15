@@ -13,7 +13,17 @@ const useStyles = makeStyles((theme) => ({
       paddingNottom: theme.spacing(3),
    },
    hero: {
-      backGroundImage: `linear-gradient(rgba()0,0,0 0.5), rgba(0,0,0, 0.5)), url(../images/saveTheClimate.jpg)`,
+      backGroundImage: `linear-gradient(rgba()0,0,0 0.5), rgba(0,0,0, 0.5)), url('../images/saveTheClimate.jpg')`,
+      height: '500px',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      position: 'relative',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      color: '#fff',
+      fontSize: '4rem',
    },
 }))
 

@@ -1,12 +1,7 @@
 import React, { useState } from 'react'
-import { makeStyle } from '@material-ui/core/styles'
-import AppBar from '@material-ui/core/AppBar'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
-import { ThemeProvider } from 'styled-components'
 import BackGroundShapes from './components/backGroundShapes.js'
 import Nav from './components/nav.js'
 import Intro from './components/intro.js'
@@ -40,20 +35,18 @@ const App = () => {
    const [theme, setTheme] = useState('light')
    return (
       <div className="App">
-         <ThemeProvider theme={themes[theme]}>
-            <Router>
-               <Nav />
-               <Switch>
-                  <Route theme={theme} setTheme={setTheme} path="/  " exact component={Intro} />
-                  <Route path="/about" component={About} />
-                  <Route path="/projects" component={Projects} />
-                  <Route path="/blog" component={Blog} />
-                  <Route path="/contacts" component={Contacts} />
-               </Switch>
-            </Router>
-            <BackGroundShapes maxWidth="lg" />
-            <Copyright />
-         </ThemeProvider>
+         <Router>
+            <Nav />
+            <Switch>
+               <Route theme={theme} setTheme={setTheme} path="/  " exact component={Intro} />
+               <Route path="/about" component={About} />
+               <Route path="/projects" component={Projects} />
+               <Route path="/blog" component={Blog} />
+               <Route path="/contacts" component={Contacts} />
+            </Switch>
+         </Router>
+         <BackGroundShapes maxWidth="lg" />
+         <Copyright />
       </div>
    )
 }

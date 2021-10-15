@@ -3,6 +3,7 @@ import '../css/style.css'
 import '../css/responsive.css'
 import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
+import Box from '@material-ui/core/box'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {
@@ -10,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
    },
    blogTitle: {
       fontWeight: 800,
-      paddingNottom: theme.spacing(3),
+      paddingBottom: theme.spacing(3),
    },
    hero: {
       backGroundImage: `linear-gradient(rgba()0,0,0 0.5), rgba(0,0,0, 0.5)), url('../images/saveTheClimate.jpg')`,
@@ -34,6 +35,9 @@ const blog = () => {
          <Typography variant="h4" className={classes.blogTitle}>
             Articles
          </Typography>
+         <Box className={classes.hero}>
+            <Box>React Blog</Box>
+         </Box>
       </div>
    )
 }

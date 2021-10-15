@@ -43,7 +43,7 @@ const blog = () => {
             </Typography>
             <Grid container spacing={3}>
                <Grid item xs={12} sm={6} md={4} container spacing={3}>
-                  <Card sx={{ maxWidth: 345 }}>
+                  <Card sx={{ maxWidth: 445 }}>
                      <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">

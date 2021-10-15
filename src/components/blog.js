@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: 800,
       paddingNottom: theme.spacing(3),
    },
+   hero: {
+      backGroundImage: `linear-gradient(rgba()0,0,0 0.5), rgba(0,0,0, 0.5)), url(../images/saveTheClimate.jpg)`,
+   },
 }))
 
 const blog = () => {

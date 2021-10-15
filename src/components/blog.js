@@ -3,7 +3,7 @@ import '../css/style.css'
 import '../css/responsive.css'
 import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
-import Box from '@material-ui/core/box'
+import Box from '@material-ui/core/Box'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {

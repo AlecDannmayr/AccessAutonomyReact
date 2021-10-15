@@ -31,15 +31,9 @@ const themes = {
    dark: DarkTheme,
 }
 
-const useStyles = makeStyles((thene) => {
-   appBar: {
-      backgroundColor: 'none'
-   }
-})
-
 function App() {
    const [theme, setTheme] = useState('light')
-   const classes = useStyles()
+
    return (
       <div className="App">
          <Router>

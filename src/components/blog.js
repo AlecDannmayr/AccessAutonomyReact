@@ -17,6 +17,7 @@ const useStyles = makeStyle((theme) => ({
 }))
 
 const blog = () => {
+   const classes = useStyle()
    return (
       <div maxWidth="lg" className={classes.blogsContainer}>
          <Typography variant="h4" className={classes.blogTitle}>
@@ -25,4 +26,5 @@ const blog = () => {
       </div>
    )
 }
+
 export default blog

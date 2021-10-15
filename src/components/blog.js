@@ -6,15 +6,23 @@ import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Typography from '@material-ui/core/Typography'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyle((theme) => ({
    blogsContainer: {
       paddinTop: theme.spacing(3),
+   },
+   blogTitle: {
+      fontWeight: 800,
+      paddingNottom: theme.spacing(3),
    },
 }))
 
 const blog = () => {
-   return <div maxWidth="lg" className={classes.blogsContainer}>
-      <Typography
-   </div>
+   return (
+      <div maxWidth="lg" className={classes.blogsContainer}>
+         <Typography variant="h4" className={classes.blogTitle}>
+            Articles
+         </Typography>
+      </div>
+   )
 }
 export default blog

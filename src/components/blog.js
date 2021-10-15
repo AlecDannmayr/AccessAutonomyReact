@@ -4,6 +4,7 @@ import '../css/responsive.css'
 import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
+import Container from '@material-ui/core/Container'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {
@@ -31,13 +32,15 @@ const useStyles = makeStyles((theme) => ({
 const blog = () => {
    const classes = useStyles()
    return (
-      <div maxWidth="lg" className={classes.blogsContainer}>
-         <Typography variant="h4" className={classes.blogTitle}>
-            Articles
-         </Typography>
-         <Box className={classes.hero}>
-            <Box>React Blog</Box>
-         </Box>
+      <div>
+         <Container maxWidth="lg" className={classes.blogsContainer}>
+            <Box className={classes.hero}>
+               <Box>React Blog</Box>
+            </Box>
+            <Typography variant="h4" className={classes.blogTitle}>
+               Articles
+            </Typography>
+         </Container>
       </div>
    )
 }

@@ -11,6 +11,7 @@ import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
+import SaveTheClimate from '../public/saveTheClimate.jpg'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {
@@ -49,7 +50,7 @@ const blog = () => {
             <Grid container spacing={3}>
                <Grid item xs={12} sm={6} md={4} container spacing={3}>
                   <Card sx={{ maxWidth: 345 }}>
-                     <CardMedia component="img" height="140" image="/static/images/cards/contemplative-reptile.jpg" alt="green iguana" />
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            Lizard

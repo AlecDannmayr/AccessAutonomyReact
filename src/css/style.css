@@ -30,6 +30,7 @@ iframe {
 
 html {
   background-color: #1d1d1d;
+  cursor: url(../images/curso2.png), auto;
 }
 
 html body {
@@ -39,7 +40,6 @@ html body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-  cursor: url(../images/curso2.png), auto;
 }
 
 html a {

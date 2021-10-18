@@ -8,89 +8,20 @@ import ProjectImgFour from '../images/image-four.png'
 import ProjectImgFive from '../images/image-five.png'
 import ProjectImgSix from '../images/image-six.png'
 import ProjectImgSeven from '../images/image-seven.png'
+import ImageList from '@mui/material/ImageList'
+import itemData from '@mui/material/itemData'
+import ImageListItem from '@mui/material/ImageListItem'
 
 const projects = () => {
    return (
-      <div className={'project-div'}>
-         <h1 id={'project-title'}>
-            <div>Projects</div>
-         </h1>
-         <div className="row project-cards">
-            <div className="card z-depth-5 transparent">
-               <div className="card-image">
-                  <img src={ProjectImgThree}></img>
-               </div>
-               <div className="card-content">
-                  <span className="card-title">Card Title</span>
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-               </div>
-               <div className="card-action">
-                  <a href="#">This is a link</a>
-               </div>
-            </div>
-            <div className="card z-depth-5 transparent">
-               <div className="card-image">
-                  <img src={ProjectImgTwo}></img>
-               </div>
-               <div className="card-content">
-                  <span className="card-title">Card Title</span>
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-               </div>
-               <div className="card-action">
-                  <a href="#">This is a link</a>
-               </div>
-            </div>
-            <div className="card z-depth-5 transparent">
-               <div className="card-image">
-                  <img src={ProjectImgFour}></img>
-               </div>
-               <div className="card-content">
-                  <span className="card-title">Card Title</span>
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-               </div>
-               <div className="card-action">
-                  <a href="#">This is a link</a>
-               </div>
-            </div>
-         </div>
-         <div className="row project-cards">
-            <div className="card z-depth-5 transparent">
-               <div className="card-image">
-                  <img src={ProjectImgSeven}></img>
-               </div>
-               <div className="card-content">
-                  <span className="card-title">Card Title</span>
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-               </div>
-               <div className="card-action">
-                  <a href="#">This is a link</a>
-               </div>
-            </div>
-            <div className="card z-depth-5 transparent">
-               <div className="card-image">
-                  <img src={ProjectImgSix}></img>
-               </div>
-               <div className="card-content">
-                  <span className="card-title">Card Title</span>
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-               </div>
-               <div className="card-action">
-                  <a href="#">This is a link</a>
-               </div>
-            </div>
-            <div className="card z-depth-5 transparent">
-               <div className="card-image">
-                  <img src={ProjectImgFive}></img>
-               </div>
-               <div className="card-content">
-                  <span className="card-title">Card Title</span>
-                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-               </div>
-               <div className="card-action">
-                  <a href="#">This is a link</a>
-               </div>
-            </div>
-         </div>
+      <div>
+         <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+            {itemData.map((item) => (
+               <ImageListItem key={item.img}>
+                  <img src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+               </ImageListItem>
+            ))}
+         </ImageList>
       </div>
    )
 }

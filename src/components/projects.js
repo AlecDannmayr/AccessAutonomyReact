@@ -19,6 +19,11 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: '90px',
       marginTop: '0px',
    },
+   imageContainer:hover {
+      overflow: 'scroll',
+      marginLeft: '90px',
+      marginTop: '0px',
+   },
 }))
 
 export default function StandardImageList() {

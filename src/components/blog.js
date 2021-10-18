@@ -42,7 +42,6 @@ const useStyles = makeStyles((theme) => ({
    },
    author: {
       display: 'flex',
-      marginLeft: '-100px',
    },
 }))
 

@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
    },
    card: {
       maxWidth: '100%',
+      textAlign: 'left',
    },
    media: {
       height: '240px',
@@ -64,7 +65,7 @@ const blog = () => {
             <Grid container spacing={3}>
                <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext
@@ -93,7 +94,7 @@ const blog = () => {
                </Grid>
                <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext
@@ -122,7 +123,7 @@ const blog = () => {
                </Grid>
                <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext
@@ -151,7 +152,7 @@ const blog = () => {
                </Grid>
                <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext

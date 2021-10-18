@@ -10,6 +10,7 @@ import Card from '@material-ui/core/Card'
 import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
+import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import SaveTheClimate from '../images/saveTheClimate.jpg'
 
@@ -69,7 +70,12 @@ const blog = () => {
                      </CardContent>
                      <CardActions className={classes.cardActions}>
                         <Box className={classes.author}>
-                           <Avatar src=""></Avatar>
+                           <Avatar src="https://avatars.githubusercontent.com/u/19597027?v=4" />
+                        </Box>
+                        <Box ml={2}>
+                           <Typography variant="subtitle2" component="p">
+                              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                           </Typography>
                         </Box>
                      </CardActions>
                   </Card>

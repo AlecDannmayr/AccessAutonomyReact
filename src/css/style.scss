@@ -1,5 +1,5 @@
 :root {
-   --margin: 30%;
+   --margin: 70%;
 }
 
 html {
@@ -67,7 +67,7 @@ html {
    text-align: left;
    position: absolute;
    z-index: 1;
-   margin: var(--margin);
+   margin-top: 20%;
    #intro-title {
       display: flex;
       font-size: 100px;

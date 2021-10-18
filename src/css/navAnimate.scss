@@ -2,7 +2,7 @@
    li {
       animation: AnimationList 0.5s linear forwards;
       margin-left: -200px;
-      cursor: pointer;
+      cursor: url(../images/cursorHover.png);
    }
    li:first-child {
       animation-delay: 7s;

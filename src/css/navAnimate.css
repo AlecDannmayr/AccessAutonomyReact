@@ -2,7 +2,7 @@
   -webkit-animation: AnimationList 0.5s linear forwards;
           animation: AnimationList 0.5s linear forwards;
   margin-left: -200px;
-  cursor: pointer;
+  cursor: url(../images/cursorHover.png);
 }
 
 .nav-list li:first-child {

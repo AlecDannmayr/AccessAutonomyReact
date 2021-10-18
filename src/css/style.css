@@ -30,6 +30,7 @@ iframe {
 
 html {
   background-color: #1d1d1d;
+  cursor: url(cursor.svg), auto;
 }
 
 html body {

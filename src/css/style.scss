@@ -17,12 +17,17 @@ iframe {
    }
 
    #show {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
    }
 
    #imageContainer:hover + #show {
       display: block;
    }
 }
+
 html {
    background-color: #1d1d1d;
 

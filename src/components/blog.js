@@ -17,7 +17,7 @@ import SaveTheClimate from '../images/saveTheClimate.jpg'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {
-      paddinTop: theme.spacing(3),
+      paddingTop: theme.spacing(3),
    },
    blogTitle: {
       fontWeight: 800,

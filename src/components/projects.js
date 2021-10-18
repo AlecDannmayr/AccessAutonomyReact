@@ -1,6 +1,7 @@
 import * as React from 'react'
 import '../css/style.css'
 import '../css/responsive.css'
+import 'animate.css'
 import { makeStyles } from '@material-ui/core/styles'
 import ProjectImgOne from '../images/image-one.png'
 import ProjectImgTwo from '../images/image-two.png'

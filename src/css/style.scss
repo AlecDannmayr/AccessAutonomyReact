@@ -199,6 +199,11 @@ html {
       display: flex;
    }
 
+   #submit-form > * {
+      margin-right: 20px;
+      margin-left: 20px;
+   }
+
    input[type='text'],
    select {
       width: 100%;

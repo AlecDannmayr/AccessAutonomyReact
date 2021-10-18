@@ -256,6 +256,11 @@ html a:hover {
   display: flex;
 }
 
+.class-form #submit-form > * {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .class-form input[type='text'],
 .class-form select {
   width: 100%;

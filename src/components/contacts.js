@@ -24,13 +24,16 @@ const contacts = () => {
                      </label>
                      <br />
                      <input type="text" id="sName" name="secondName"></input>
-                     <label for="company" class="company">
-                        Company
+                     <label for="message" class="message">
+                        Let us know how we can help?
                      </label>
                      <br />
                      <textarea></textarea>
                   </div>
                   <div>
+                     <label for="company" class="company">
+                        Company
+                     </label>
                      <input id="company" type="text" id="company" name="company"></input>
                      <label for="email" class="email">
                         Contact Number

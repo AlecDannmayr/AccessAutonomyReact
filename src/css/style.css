@@ -1,3 +1,7 @@
+html {
+   background-color: #1d1d1d;
+}
+
 html body {
    margin: 0;
    padding: 0px;
@@ -36,12 +40,11 @@ html a:hover {
    font-family: 'Ropa Sans', sans-serif;
    color: white;
    font-size: calc(10px + 2vmin);
-   background-color: #1d1d1d;
 }
 
 .nav-main {
    width: 90px;
-   background-color: #1d1d1d;
+   background-color: #181818;
    position: absolute;
    top: 0;
    left: 0;

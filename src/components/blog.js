@@ -63,7 +63,94 @@ const blog = () => {
             </Typography>
             <Grid container spacing={3}>
                <Grid item xs={12} sm={6} md={4} container spacing={3}>
-                  <Card sx={{ maxWidth: 445 }}>
+                  <Card className={classes.card}>
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                           React useContext
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                        </Typography>
+                     </CardContent>
+                     <CardActions className={classes.cardActions}>
+                        <Box className={classes.author}>
+                           <Avatar src="https://avatars.githubusercontent.com/u/19597027?v=4" />
+                        </Box>
+                        <Box className={classes.authorInfo}>
+                           <Typography variant="subtitle2" component="p">
+                              Alec Dannmayr
+                           </Typography>
+                           <Typography variant="subtitle2" color="textSecondary" component="p">
+                              May 14, 2020
+                           </Typography>
+                        </Box>
+                        <Box>
+                           <BookmarkBorderIcon></BookmarkBorderIcon>
+                        </Box>
+                     </CardActions>
+                  </Card>
+               </Grid>
+               <Grid item xs={12} sm={6} md={4}>
+                  <Card className={classes.card}>
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                           React useContext
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                        </Typography>
+                     </CardContent>
+                     <CardActions className={classes.cardActions}>
+                        <Box className={classes.author}>
+                           <Avatar src="https://avatars.githubusercontent.com/u/19597027?v=4" />
+                        </Box>
+                        <Box className={classes.authorInfo}>
+                           <Typography variant="subtitle2" component="p">
+                              Alec Dannmayr
+                           </Typography>
+                           <Typography variant="subtitle2" color="textSecondary" component="p">
+                              May 14, 2020
+                           </Typography>
+                        </Box>
+                        <Box>
+                           <BookmarkBorderIcon></BookmarkBorderIcon>
+                        </Box>
+                     </CardActions>
+                  </Card>
+               </Grid>
+               <Grid item xs={12} sm={6} md={4}>
+                  <Card className={classes.card}>
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                           React useContext
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                           Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                        </Typography>
+                     </CardContent>
+                     <CardActions className={classes.cardActions}>
+                        <Box className={classes.author}>
+                           <Avatar src="https://avatars.githubusercontent.com/u/19597027?v=4" />
+                        </Box>
+                        <Box className={classes.authorInfo}>
+                           <Typography variant="subtitle2" component="p">
+                              Alec Dannmayr
+                           </Typography>
+                           <Typography variant="subtitle2" color="textSecondary" component="p">
+                              May 14, 2020
+                           </Typography>
+                        </Box>
+                        <Box>
+                           <BookmarkBorderIcon></BookmarkBorderIcon>
+                        </Box>
+                     </CardActions>
+                  </Card>
+               </Grid>
+               <Grid item xs={12} sm={6} md={4}>
+                  <Card className={classes.card}>
                      <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">

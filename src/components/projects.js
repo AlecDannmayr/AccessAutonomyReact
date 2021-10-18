@@ -17,14 +17,14 @@ const useStyles = makeStyles((theme) => ({
    imageContainer: {
       overflow: 'scroll',
       marginLeft: '90px',
-      marginTop: '-60px',
+      marginTop: '0px',
    },
 }))
 
 export default function StandardImageList() {
    const classes = useStyles()
    return (
-      <ImageList className={classes.imageContainer}>
+      <ImageList cols={3} className={classes.imageContainer}>
          {itemData.map((item) => (
             <ImageListItem key={item.img}>
                <img src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />

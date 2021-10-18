@@ -50,6 +50,7 @@ const useStyles = makeStyles((theme) => ({
    authorInfo: {
       marginRight: '175px',
       textAlign: 'left',
+      color: '#fff',
    },
 }))
 
@@ -65,7 +66,7 @@ const blog = () => {
                Articles
             </Typography>
             <Grid container spacing={3}>
-               <Grid item xs={12} md={6}>
+               <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
                      <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
@@ -89,12 +90,13 @@ const blog = () => {
                            </Typography>
                         </Box>
                         <Box>
-                           <BookmarkBorderIcon></BookmarkBorderIcon>
+                           <Button>Share</Button>
+                           <Button>Save for later</Button>
                         </Box>
                      </CardActions>
                   </Card>
                </Grid>
-               <Grid item xs={12} md={6}>
+               <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
                      <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
@@ -125,7 +127,7 @@ const blog = () => {
                </Grid>
                <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext

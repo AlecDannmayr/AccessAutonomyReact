@@ -250,6 +250,12 @@ html a:hover {
   margin-bottom: 30px;
 }
 
+.class-form #submit-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .class-form input[type='text'],
 .class-form select {
   width: 100%;

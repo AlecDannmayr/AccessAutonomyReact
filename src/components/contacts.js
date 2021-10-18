@@ -11,8 +11,9 @@ const contacts = () => {
          <p id={''}>Say Hi, and find us on LinkedIn</p>
          <div className="contact-type">
             <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=e20%201as&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <div class="class-form">
+
                <form action="submit-form" id="submit-form">
+                    <div>
                   <label for="fName" class="firstName">
                      First Name
                   </label>
@@ -28,6 +29,8 @@ const contacts = () => {
                   </label>
                   <br />
                   <input id="company" type="text" id="company" name="company"></input>
+                  </div>
+                  <div>
                   <label for="number" class="number">
                      Contact Number
                   </label>
@@ -38,11 +41,12 @@ const contacts = () => {
                   </label>
                   <br />
                   <input id="email" type="text" id="email" name="email"></input>
-
-                  <label for="submit" class="submit">
+                   <label for="submit" class="submit">
                      Submit
                   </label>
                   <input type="submit" id="submit" name="submit" value="Submit"></input>
+</div>
+                 
                </form>
             </div>
          </div>

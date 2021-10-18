@@ -1,3 +1,7 @@
+:root {
+   --margin: 30%;
+}
+
 html {
    background-color: #1d1d1d;
 
@@ -63,7 +67,7 @@ html {
    text-align: left;
    position: absolute;
    z-index: 1;
-   margin: 15% 20% 0% 20%;
+   margin: var(--margin);
    #intro-title {
       display: flex;
       font-size: 100px;

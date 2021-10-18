@@ -27,14 +27,12 @@ const useStyles = makeStyles((theme) => ({
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      color: '#fff',
+
       fontSize: '4rem',
    },
    card: {
       maxWidth: '100%',
       textAlign: 'left',
-      color: '#fff',
-      backgroundColor: 'transparent',
    },
    media: {
       height: '240px',
@@ -50,7 +48,6 @@ const useStyles = makeStyles((theme) => ({
    authorInfo: {
       marginRight: '175px',
       textAlign: 'left',
-      color: '#fff',
    },
 }))
 
@@ -90,8 +87,7 @@ const blog = () => {
                            </Typography>
                         </Box>
                         <Box>
-                           <Button>Share</Button>
-                           <Button>Save for later</Button>
+                           <BookmarkBorderIcon></BookmarkBorderIcon>
                         </Box>
                      </CardActions>
                   </Card>

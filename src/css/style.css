@@ -1,14 +1,6 @@
-:root {
-   --cgr: rgb(165, 55, 55);
-}
-
-html {
-   background-color: #1d1d1d;
-}
-
 html body {
    margin: 0;
-   padding: 0px;z
+   padding: 0px;
    font-family: -apple-system, BlinkMacSystemFont, 'Ropa Sans', 'Roboto', 'Verdana', 'Helvetica' sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
@@ -48,7 +40,7 @@ html a:hover {
 
 .nav-main {
    width: 90px;
-   background-color: var(--cgr);
+   background-color: #1d1d1d;
    position: absolute;
    top: 0;
    left: 0;

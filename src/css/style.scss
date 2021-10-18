@@ -1,11 +1,11 @@
 @mixin position {
    text-align: left;
-   z-index: 1;
    display: flex;
    justify-content: center;
+   z-index: 1;
    font-size: 100px;
-   text-shadow: 2px 2px #112dc7;
-   align-items: center;
+   text-shadow: 2px 2px #919297;
+   margin-top: 14%;
 }
 
 html {
@@ -70,6 +70,9 @@ html {
 
 .intro-div {
    @include position;
+   #intro-title {
+      font-size: 100px;
+   }
    #intro-body {
       font-size: 40px;
    }

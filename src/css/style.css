@@ -77,18 +77,20 @@ html a:hover {
 
 .intro-div {
   text-align: left;
-  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  z-index: 1;
   font-size: 100px;
-  text-shadow: 2px 2px #112dc7;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-shadow: 2px 2px #919297;
+  margin-top: 14%;
+}
+
+.intro-div #intro-title {
+  font-size: 100px;
 }
 
 .intro-div #intro-body {

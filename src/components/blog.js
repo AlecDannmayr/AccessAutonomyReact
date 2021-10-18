@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
    },
    author: {
       display: 'flex',
+      marginLeft: '-100px',
    },
 }))
 
@@ -74,7 +75,10 @@ const blog = () => {
                         </Box>
                         <Box ml={2}>
                            <Typography variant="subtitle2" component="p">
-                              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
+                              Alec Dannmayr
+                           </Typography>
+                           <Typography variant="subtitle2" color="textSecondary" component="p">
+                              May 14, 2020
                            </Typography>
                         </Box>
                      </CardActions>

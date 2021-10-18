@@ -3,6 +3,10 @@ iframe {
           filter: invert(80%);
 }
 
+#imageContainer {
+  position: relative;
+}
+
 #imageContainer #imageContainer:hover {
   -webkit-filter: blur(4px);
           filter: blur(4px);
@@ -10,10 +14,10 @@ iframe {
 
 #imageContainer #show {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-20%, -50%);
+          transform: translate(-20%, -50%);
 }
 
 #imageContainer #imageContainer:hover + #show {

@@ -85,7 +85,7 @@ html a:hover {
           justify-content: center;
   z-index: 1;
   font-size: 100px;
-  text-shadow: 2px 2px #919297;
+  text-shadow: 2px 1px #454549;
   margin-top: 14%;
 }
 
@@ -98,15 +98,18 @@ html a:hover {
 }
 
 .services {
+  text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 100px;
-  margin-right: 0px;
-  margin-top: 200px;
+  z-index: 1;
+  font-size: 100px;
+  text-shadow: 2px 1px #454549;
+  margin-top: 14%;
+  margin-top: 4%;
 }
 
 .services img {

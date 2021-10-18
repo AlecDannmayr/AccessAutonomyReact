@@ -4,7 +4,7 @@
    justify-content: center;
    z-index: 1;
    font-size: 100px;
-   text-shadow: 2px 2px #919297;
+   text-shadow: 2px 1px #454549;
    margin-top: 14%;
 }
 
@@ -79,11 +79,8 @@ html {
 }
 
 .services {
-   display: flex;
-   justify-content: center;
-   margin: 100px;
-   margin-right: 0px;
-   margin-top: 200px;
+   @include position;
+   margin-top: 4%;
    img {
       width: 280px;
       box-shadow: 15px 29px 35px 8px #000000;

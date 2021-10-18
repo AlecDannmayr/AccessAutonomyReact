@@ -33,7 +33,12 @@ const useStyles = makeStyles((theme) => ({
    },
    media: {
       height: 240;
-   }
+   },
+   cardActions: {
+      display: "flex",
+      margin: "0 10px",
+      justifyContent: "space-between"
+   },
 }))
 
 const blog = () => {
@@ -59,7 +64,7 @@ const blog = () => {
                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
                         </Typography>
                      </CardContent>
-                     <CardActions>
+                     <CardActions className={classes.cardActions}>
                         <Button size="medium">Share</Button>
                         <Button size="medium">Learn More</Button>
                      </CardActions>

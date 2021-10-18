@@ -39,6 +39,9 @@ const useStyles = makeStyles((theme) => ({
       margin: '0 10px',
       justifyContent: 'space-between',
    },
+   author: {
+      display: 'flex',
+   },
 }))
 
 const blog = () => {
@@ -65,8 +68,9 @@ const blog = () => {
                         </Typography>
                      </CardContent>
                      <CardActions className={classes.cardActions}>
-                        <Button size="medium">Share</Button>
-                        <Button size="medium">Learn More</Button>
+                        <Box className={classes.author}>
+                           <Avatar src=""></Avatar>
+                        </Box>
                      </CardActions>
                   </Card>
                </Grid>

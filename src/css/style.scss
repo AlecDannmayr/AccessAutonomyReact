@@ -1,4 +1,11 @@
-:root {
+@mixin position {
+   text-align: left;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   font-size: 100px;
+   text-shadow: 2px 2px #112dc7;
+   align-items: center;
 }
 
 html {
@@ -31,7 +38,6 @@ html {
 .App {
    text-align: center;
    font-family: 'Ropa Sans', sans-serif;
-
    color: white;
    font-size: calc(10px + 2vmin);
 }
@@ -63,12 +69,7 @@ html {
 }
 
 .intro-div {
-   text-align: left;
-   z-index: 1;
-   display: flex;
-   justify-content: center;
-   font-size: 100px;
-   text-shadow: 2px 2px #112dc7;
+   @include position;
    #intro-body {
       font-size: 40px;
    }

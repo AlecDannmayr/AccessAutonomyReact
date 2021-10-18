@@ -29,12 +29,16 @@ const useStyles = makeStyles((theme) => ({
       fontSize: '4rem',
    },
    card: {
-      maxWidth: "100%";
+      maxWidth: '100%',
    },
    media: {
-      height: 240;
-   }
-
+      height: '240px',
+   },
+   cardActions: {
+      display: 'flex',
+      margin: '0 10px',
+      justifyContent: 'space-between',
+   },
 }))
 
 const blog = () => {
@@ -66,7 +70,7 @@ const blog = () => {
                      </CardActions>
                   </Card>
                </Grid>
-
+            </Grid>
          </Container>
       </div>
    )

@@ -76,20 +76,16 @@ html a:hover {
 }
 
 .intro-div {
+  text-align: left;
   z-index: 1;
-  position: relative;
-}
-
-.intro-div #intro-title > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 100px;
   text-shadow: 2px 2px #112dc7;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .intro-div #intro-body {

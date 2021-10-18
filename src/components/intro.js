@@ -5,11 +5,10 @@ import '../css/responsive.css'
 const intro = () => {
    return (
       <div className={'intro-div'}>
-         <h1 id={'intro-title'}>
-            <div>Access</div>
-            <div>Autonomy</div>
-         </h1>
-         <p id={'intro-body'}>Solving complex design problems using a finesse for technology.</p>
+         <div>
+            <h1 id={'intro-title'}>Access Autonomy</h1>
+            <p id={'intro-body'}>Solving complex design problems using a finesse for technology.</p>
+         </div>
       </div>
    )
 }

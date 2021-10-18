@@ -22,6 +22,8 @@ iframe {
    transform: translate(-50%, -50%);
    display: none;
    color: #000000;
+   transition-property: display;
+   transition-duration: 2s;
 }
 
 #imageContainer:hover {

@@ -129,7 +129,6 @@ html {
 
 .copyright,
 .footer {
-   position: absolute;
    bottom: 0px;
    width: 100%;
    margin-bottom: -13px;
@@ -138,6 +137,10 @@ html {
       z-index: -101;
       margin-bottom: -0px;
    }
+}
+
+.copyright {
+   position: absolute;
 }
 
 .footer {
@@ -184,6 +187,8 @@ html {
 .class-form {
    border-radius: 5px;
    background-color: #f2f2f2;
+   opacity: 0.9;
+   filter: invert(80%);
 
    form {
       width: 90%;

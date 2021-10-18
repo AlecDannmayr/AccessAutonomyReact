@@ -10,7 +10,7 @@ import StaticShapes from '../svgs/staticShapes'
 
 const backGroundShapes = () => {
    return (
-      <div className={'backGroundShapes'}>
+      <div>
          <Circle />
          <Square />
          <Cross />

@@ -14,7 +14,8 @@ import ImageListItem from '@mui/material/ImageListItem'
 
 const useStyles = makeStyles((theme) => ({
    imageContainer: {
-      overflow: 'scroll',
+      overflow: 'hidden',
+      marginLeft: '90px',
    },
 }))
 

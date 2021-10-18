@@ -27,12 +27,14 @@ const useStyles = makeStyles((theme) => ({
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      color: '',
+      color: '#fff',
       fontSize: '4rem',
    },
    card: {
       maxWidth: '100%',
       textAlign: 'left',
+      color: '#fff',
+      backgroundColor: 'transparent',
    },
    media: {
       height: '240px',
@@ -65,7 +67,7 @@ const blog = () => {
             <Grid container spacing={3}>
                <Grid item xs={12} md={6}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext
@@ -94,7 +96,7 @@ const blog = () => {
                </Grid>
                <Grid item xs={12} md={6}>
                   <Card className={classes.card}>
-                     <CardMedia component="img" height="180" image={SaveTheClimate} alt="Sace the Climate" />
+                     <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                            React useContext

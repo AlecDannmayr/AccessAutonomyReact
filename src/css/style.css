@@ -170,6 +170,7 @@ html a:hover {
 
 .copyright,
 .footer {
+  position: absolute;
   bottom: 0px;
   width: 100%;
   margin-bottom: -13px;
@@ -237,7 +238,6 @@ html a:hover {
 .class-form {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
 }
 
 .class-form form {
@@ -257,8 +257,8 @@ html a:hover {
 }
 
 .class-form #submit-form > * {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .class-form input[type='text'],

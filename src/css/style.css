@@ -225,6 +225,15 @@ html a:hover {
   font-size: 12px;
 }
 
+.contact-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .class-form {
   border-radius: 5px;
   background-color: #f2f2f2;

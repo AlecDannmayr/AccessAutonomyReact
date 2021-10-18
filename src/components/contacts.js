@@ -15,10 +15,12 @@ const contacts = () => {
                <label for="fName" class="firstName">
                   First Name
                </label>
+               <br />
                <input id="firstName" type="text" id="fName" name="firstName"></input>
                <label for="sName" class="secondName">
                   Second Name
                </label>
+               <br />
                <input type="text" id="sName" name="secondName"></input>
 
                <label for="labelCountries">Countries</label>

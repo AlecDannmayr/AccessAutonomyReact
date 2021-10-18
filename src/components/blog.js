@@ -61,8 +61,8 @@ const blog = () => {
             <Typography variant="h4" className={classes.blogTitle}>
                Articles
             </Typography>
-            <Grid container spacing={3}>
-               <Grid item xs={12} sm={6} md={4} container spacing={3}>
+            <Grid container spacing={2}>
+               <Grid item xs={12} md={6}>
                   <Card className={classes.card}>
                      <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>
@@ -91,7 +91,7 @@ const blog = () => {
                      </CardActions>
                   </Card>
                </Grid>
-               <Grid item xs={12} sm={6} md={4}>
+               <Grid item xs={12} md={6}>
                   <Card className={classes.card}>
                      <CardMedia component="img" height="140" image={SaveTheClimate} alt="Sace the Climate" />
                      <CardContent>

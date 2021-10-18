@@ -36,6 +36,7 @@ html a:hover {
    font-family: 'Ropa Sans', sans-serif;
    color: white;
    font-size: calc(10px + 2vmin);
+   background-color: #1d1d1d;
 }
 
 .nav-main {

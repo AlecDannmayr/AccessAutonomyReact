@@ -10,6 +10,7 @@ import Card from '@material-ui/core/Card'
 import CardActions from '@mui/material/CardActions'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
+import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import SaveTheClimate from '../images/saveTheClimate.jpg'
@@ -76,9 +77,7 @@ const blog = () => {
                            <Typography variant="subtitle2" component="p">
                               Alec Dannmayr
                            </Typography>
-                           <Typography variant="subtitle2" color="textSecondary" component="p">
-                              May 14, 2020
-                           </Typography>
+                           <BookmarkBorderIcon></BookmarkBorderIcon>
                         </Box>
                      </CardActions>
                   </Card>

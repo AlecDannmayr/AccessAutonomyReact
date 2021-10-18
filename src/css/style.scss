@@ -49,8 +49,9 @@ html {
       text-decoration: none;
       color: #fbaf3b;
    }
-   a:hover {
+   a:hover {s
       color: #d5155a;
+         cursor: url(../images/cursorHover.png), auto;
    }
 }
 

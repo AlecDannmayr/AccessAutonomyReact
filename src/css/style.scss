@@ -22,8 +22,8 @@ iframe {
    transform: translate(-50%, -50%);
    display: none;
    color: #000000;
-   transition-property: display;
-   transition-duration: 2s;
+   opacity: 0;
+   transition: 2s;
 }
 
 #imageContainer:hover {
@@ -32,6 +32,7 @@ iframe {
 
 #imageContainer:hover + #show {
    display: block;
+   opacity: 1;
 }
 
 html {

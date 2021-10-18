@@ -49,6 +49,7 @@ html a {
 
 html a:hover {
   color: #d5155a;
+  cursor: url(../images/cursorHover.png), auto;
 }
 
 ::-moz-selection {

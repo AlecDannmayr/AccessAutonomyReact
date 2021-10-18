@@ -1,5 +1,13 @@
+:root {
+   --div-background-color: red;
+}
+
+.child {
+   background: var(--div-background-color);
+}
+
 html {
-   background-color: #1d1d1d;
+   background-color: #aaaaaa;
 
    body {
       margin: 0;

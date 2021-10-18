@@ -9,6 +9,7 @@ import ProjectImgFour from '../images/image-four.png'
 import ProjectImgFive from '../images/image-five.png'
 import ProjectImgSix from '../images/image-six.png'
 import ProjectImgSeven from '../images/image-seven.png'
+import ProjectImgEight from '../images/image-eight.png'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
 
@@ -16,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
    imageContainer: {
       overflow: 'scroll',
       marginLeft: '90px',
+      marginTop: '-60px',
    },
 }))
 
@@ -46,7 +48,7 @@ const itemData = [
       title: 'Camera',
    },
    {
-      img: ProjectImgFour,
+      img: ProjectImgEight,
       title: 'Coffee',
    },
    {

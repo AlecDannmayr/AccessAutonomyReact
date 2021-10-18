@@ -170,7 +170,6 @@ html a:hover {
 
 .copyright,
 .footer {
-  position: absolute;
   bottom: 0px;
   width: 100%;
   margin-bottom: -13px;

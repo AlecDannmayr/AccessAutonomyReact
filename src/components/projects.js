@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 export default function StandardImageList() {
    const classes = useStyles()
    return (
-      <ImageList item xs={12} sm={6} md={4} className={classes.imageContainer}>
+      <ImageList { width: 300 } className={classes.imageContainer}>
          {itemData.map((item) => (
             <ImageListItem key={item.img}>
                <img src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
@@ -34,7 +34,7 @@ export default function StandardImageList() {
 
 const itemData = [
    {
-      img: ProjectImgOne,
+      img: ProjectImgSix,
       title: 'Breakfast',
    },
    {

@@ -27,6 +27,7 @@ iframe {
 #imageContainer:hover {
    filter: blur(6px);
    transition: 3s -webkit-filter linear;
+   cursor: pointer;
 }
 
 #imageContainer:hover + #show {

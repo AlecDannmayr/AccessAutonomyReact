@@ -12,11 +12,18 @@ iframe {
    filter: invert(80%);
 }
 #imageContainer {
+   position: relative;
+   text-align: center;
+   color: white;
    #imageContainer:hover {
       filter: blur(4px);
    }
 
    #show {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
    }
 
    #imageContainer:hover + #show {

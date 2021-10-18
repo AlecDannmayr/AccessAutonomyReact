@@ -3,9 +3,23 @@ iframe {
           filter: invert(80%);
 }
 
+#imageContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 #imageContainer #imageContainer:hover {
   -webkit-filter: blur(4px);
           filter: blur(4px);
+}
+
+#imageContainer #show {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 #imageContainer #imageContainer:hover + #show {

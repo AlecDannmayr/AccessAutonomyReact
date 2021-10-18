@@ -1,7 +1,6 @@
 iframe {
   -webkit-filter: invert(80%);
           filter: invert(80%);
-  opacity: 0.8;
 }
 
 html {

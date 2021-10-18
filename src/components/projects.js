@@ -19,9 +19,6 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: '90px',
       marginTop: '0px',
    },
-   imageContainer:hover  {
-filter: 'blur(4px)';
-   },
 }))
 
 export default function StandardImageList() {

@@ -12,6 +12,10 @@ iframe {
    filter: invert(80%);
 }
 
+.imageContainer {
+   filter: blur(40px);
+}
+
 html {
    background-color: #1d1d1d;
 

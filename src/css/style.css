@@ -3,6 +3,11 @@ iframe {
           filter: invert(80%);
 }
 
+.imageContainer {
+  -webkit-filter: blur(40px);
+          filter: blur(40px);
+}
+
 html {
   background-color: #1d1d1d;
 }

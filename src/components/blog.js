@@ -44,6 +44,9 @@ const useStyles = makeStyles((theme) => ({
    author: {
       display: 'flex',
    },
+   authorInfo: {
+      marginRight: '50px',
+   },
 }))
 
 const blog = () => {
@@ -73,10 +76,15 @@ const blog = () => {
                         <Box className={classes.author}>
                            <Avatar src="https://avatars.githubusercontent.com/u/19597027?v=4" />
                         </Box>
-                        <Box ml={2}>
+                        <Box ml={1} className={classes.authorInfo}>
                            <Typography variant="subtitle2" component="p">
                               Alec Dannmayr
                            </Typography>
+                           <Typography variant="subtitle2" color="textSecondary" component="p">
+                              May 14, 2020
+                           </Typography>
+                        </Box>
+                        <Box>
                            <BookmarkBorderIcon></BookmarkBorderIcon>
                         </Box>
                      </CardActions>

@@ -33,12 +33,8 @@ const useStyles = makeStyles((theme) => ({
    },
    media: {
       height: 240;
-   },
-   cardActions: {
-      display: "flex",
-      margin: "0 10px",
-      justifyContent: "space-between"
-   },
+   }
+
 }))
 
 const blog = () => {

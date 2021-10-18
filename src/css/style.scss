@@ -22,17 +22,15 @@ iframe {
    transform: translate(-50%, -50%);
    display: none;
    color: #000000;
-   opacity: 0;
-   transition: 2s;
 }
 
 #imageContainer:hover {
    filter: blur(4px);
+   transition: 2s -webkit-filter linear;
 }
 
 #imageContainer:hover + #show {
    display: block;
-   opacity: 1;
 }
 
 html {

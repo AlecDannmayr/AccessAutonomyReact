@@ -15,9 +15,6 @@ iframe {
           transform: translate(-50%, -50%);
   display: none;
   color: #000000;
-  opacity: 0;
-  -webkit-transition: 2s;
-  transition: 2s;
 }
 
 #imageContainer:hover {
@@ -27,7 +24,6 @@ iframe {
 
 #imageContainer:hover + #show {
   display: block;
-  opacity: 1;
 }
 
 html {

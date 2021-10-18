@@ -5,16 +5,9 @@ iframe {
 
 #imageContainer {
   position: relative;
-  text-align: center;
-  color: white;
 }
 
-#imageContainer #imageContainer:hover {
-  -webkit-filter: blur(4px);
-          filter: blur(4px);
-}
-
-#imageContainer #show {
+#show {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,7 +15,12 @@ iframe {
           transform: translate(-50%, -50%);
 }
 
-#imageContainer #imageContainer:hover + #show {
+#imageContainer:hover {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+#imageContainer:hover + #show {
   display: block;
 }
 

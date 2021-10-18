@@ -13,32 +13,13 @@ import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
 import News from './components/news/news'
 
-const LightTheme = {
-   pageBackground: 'white',
-   titleColor: '#dc658b',
-   tagLineColor: 'black',
-}
-
-const DarkTheme = {
-   pageBackground: 'white',
-   titleColor: 'lightpink',
-   tagLineColor: 'lavender',
-}
-
-const themes = {
-   light: LightTheme,
-   dark: DarkTheme,
-}
-
 function App() {
-   const [theme, setTheme] = useState('light')
-
    return (
       <div className="App">
          <Router>
             <Nav />
             <Switch>
-               <Route path="/" component={Intro} />
+               <Route path="/" exact component={Intro} />
                <Route path="/about" component={About} />
                <Route path="/projects" component={Projects} />
                <Route path="/blog" component={Blog} />

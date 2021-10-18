@@ -23,16 +23,21 @@ const contacts = () => {
                   </label>
                   <br />
                   <input type="text" id="sName" name="secondName"></input>
-
-                  <label for="labelCountries">Countries</label>
-                  <select id="country" name="country">
-                     <option value="">- select -</option>
-                     <option value="Australia">Australia</option>
-                     <option value="Canada">Canada</option>
-                     <option value="Singapore">Singapore</option>
-                     <option value="Hong Kong">Hong Kong</option>
-                     <option value="New Zealand">New Zealand</option>
-                  </select>
+                  <label for="company" class="company">
+                     Ccmpany
+                  </label>
+                  <br />
+                  <input id="company" type="text" id="company" name="company"></input>
+                  <label for="number" class="number">
+                     Contact Number
+                  </label>
+                  <br />
+                  <input id="number" type="text" id="number" name="number"></input>
+                  <label for="email" class="email">
+                     Email
+                  </label>
+                  <br />
+                  <input id="email" type="text" id="email" name="email"></input>
 
                   <label for="submit" class="submit">
                      Submit

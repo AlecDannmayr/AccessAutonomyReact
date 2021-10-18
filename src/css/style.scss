@@ -11,11 +11,18 @@
 iframe {
    filter: invert(80%);
 }
+#imageContainer {
+   #imageContainer:hover {
+      filter: blur(4px);
+   }
 
-#imageContainer:hover {
-   filter: blur(4px);
+   #show {
+   }
+
+   #imageContainer:hover + #show {
+      display: block;
+   }
 }
-
 html {
    background-color: #1d1d1d;
 

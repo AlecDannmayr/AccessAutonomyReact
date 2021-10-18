@@ -3,9 +3,13 @@ iframe {
           filter: invert(80%);
 }
 
-#imageContainer:hover {
+#imageContainer #imageContainer:hover {
   -webkit-filter: blur(4px);
           filter: blur(4px);
+}
+
+#imageContainer #imageContainer:hover + #show {
+  display: block;
 }
 
 html {

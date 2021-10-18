@@ -45,7 +45,8 @@ const useStyles = makeStyles((theme) => ({
       display: 'flex',
    },
    authorInfo: {
-      marginRight: '50px',
+      marginRight: '175px',
+      textAlign: 'left',
    },
 }))
 
@@ -76,7 +77,7 @@ const blog = () => {
                         <Box className={classes.author}>
                            <Avatar src="https://avatars.githubusercontent.com/u/19597027?v=4" />
                         </Box>
-                        <Box ml={1} className={classes.authorInfo}>
+                        <Box className={classes.authorInfo}>
                            <Typography variant="subtitle2" component="p">
                               Alec Dannmayr
                            </Typography>

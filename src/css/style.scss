@@ -12,8 +12,8 @@ iframe {
    filter: invert(80%);
 }
 
-.imageContainer {
-   filter: blur(40px);
+#imageContainer:hover {
+   filter: blur(4px);
 }
 
 html {

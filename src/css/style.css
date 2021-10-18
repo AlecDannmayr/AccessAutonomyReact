@@ -3,9 +3,9 @@ iframe {
           filter: invert(80%);
 }
 
-.imageContainer {
-  -webkit-filter: blur(40px);
-          filter: blur(40px);
+#imageContainer:hover {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
 }
 
 html {

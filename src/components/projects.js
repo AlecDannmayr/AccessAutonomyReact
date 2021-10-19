@@ -14,7 +14,6 @@ import ProjectImgSeven from '../images/image-seven.png'
 import ProjectImgEight from '../images/image-eight.png'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
-import { SRLWrapper } from 'simple-react-lightbox'
 
 const useStyles = makeStyles((theme) => ({
    imageContainer: {
@@ -27,27 +26,27 @@ const useStyles = makeStyles((theme) => ({
 const images = [
    {
       img: ProjectImgSix,
-      title: 'Arch-Simplified',
+      title: 'Breakfast',
       tag: 'Build',
    },
    {
       img: ProjectImgTwo,
-      title: 'Cricket Scoreboard',
+      title: 'Burger',
       tag: 'Build',
    },
    {
       img: ProjectImgThree,
-      title: 'Betting Platform',
+      title: 'Camera',
       tag: 'UX/UI',
    },
    {
       img: ProjectImgEight,
-      title: 'SocialWorks',
+      title: 'Coffee',
       tag: 'UX/UI',
    },
    {
       img: ProjectImgFive,
-      title: 'SalesImpact.io',
+      title: 'Hats',
       tag: 'Build',
    },
    {
@@ -80,19 +79,15 @@ export default function StandardImageList() {
             <TagButton name="all" handleSetTag={setTag} />
             <TagButton name="Build" handleSetTag={setTag} />
             <TagButton name="UX/UI" handleSetTag={setTag} />
-         </div>
-         <SRLWrapper>*/}
+         </div>*/}
          <ImageList cols={3} className={classes.imageContainer}>
             {filteredImages.map((item) => (
                <ImageListItem key={item.img}>
-                  {/*
-                  <a href={`/images/${item.img}`}></a>*/}
                   <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <p id="show">{item.title}</p>
                </ImageListItem>
             ))}
          </ImageList>
-         {/*</SRLWrapper>*/}
       </div>
    )
 }

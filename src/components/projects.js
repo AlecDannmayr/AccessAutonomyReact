@@ -14,6 +14,7 @@ import ProjectImgSeven from '../images/image-seven.png'
 import ProjectImgEight from '../images/image-eight.png'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
+import { SRLWrapper } from 'simple-react-lightbox'
 
 const useStyles = makeStyles((theme) => ({
    imageContainer: {
@@ -83,6 +84,7 @@ export default function StandardImageList() {
          <ImageList cols={3} className={classes.imageContainer}>
             {filteredImages.map((item) => (
                <ImageListItem key={item.img}>
+                  <a href 
                   <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                   <p id="show">{item.title}</p>
                </ImageListItem>

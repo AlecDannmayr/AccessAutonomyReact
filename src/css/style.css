@@ -1,33 +1,3 @@
-iframe {
-  -webkit-filter: invert(80%);
-          filter: invert(80%);
-}
-
-#imageContainer {
-  position: relative;
-}
-
-#show {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  display: none;
-  color: #000000;
-}
-
-#imageContainer:hover {
-  -webkit-filter: blur(6px);
-          filter: blur(6px);
-  transition: 3s -webkit-filter linear;
-  cursor: pointer;
-}
-
-#imageContainer:hover + #show {
-  display: block;
-}
-
 html {
   background-color: #1d1d1d;
   cursor: url(../images/cursor.png), auto;
@@ -227,6 +197,46 @@ html a:hover {
 .project-div .card-content,
 .project-div .card-action {
   font-size: 12px;
+}
+
+.project-div #imageContainer:hover {
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+  transition: 3s -webkit-filter linear;
+  cursor: pointer;
+}
+
+.project-div #imageContainer:hover + #show {
+  display: block;
+}
+
+.project-div .tags {
+  text-align: center;
+  padding: 20px 0px;
+  outline: none;
+  border: none;
+  margin: 0px 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+iframe {
+  -webkit-filter: invert(80%);
+          filter: invert(80%);
+}
+
+#imageContainer {
+  position: relative;
+}
+
+#show {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  color: #000000;
 }
 
 .contact-type {

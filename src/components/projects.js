@@ -74,7 +74,7 @@ export default function StandardImageList() {
    }
    return (
       <div>
-         <div handleSetTag={setTag}>
+         <div handleSetTag={setTag} className="tags">
             <TagButton name="all" handleSetTag={setTag} />
             <TagButton name="Build" handleSetTag={setTag} />
             <TagButton name="UX/UI" handleSetTag={setTag} />

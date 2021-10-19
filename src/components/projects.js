@@ -75,9 +75,9 @@ export default function StandardImageList() {
    return (
       <div>
          <div handleSetTag={setTag}>
-            <TagButton name="projects" handleSetTag={setTag} />
-            <TagButton name="build" handleSetTag={setTag} />
-            <TagButton name="Ux/Ui" handleSetTag={setTag} />
+            <TagButton name="all" handleSetTag={setTag} />
+            <TagButton name="Build" handleSetTag={setTag} />
+            <TagButton name="UX/UI" handleSetTag={setTag} />
          </div>
          <ImageList cols={3} className={classes.imageContainer}>
             {filteredImages.map((item) => (

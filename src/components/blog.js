@@ -20,10 +20,6 @@ const useStyles = makeStyles((theme) => ({
    blogsContainer: {
       paddingTop: theme.spacing(3),
    },
-   blogTitle: {
-      fontWeight: 800,
-      paddingBottom: theme.spacing(3),
-   },
    hero: {
       display: 'flex',
       justifyContent: 'center',
@@ -53,6 +49,10 @@ const useStyles = makeStyles((theme) => ({
       marginRight: '175px',
       textAlign: 'left',
    },
+   paginationContainer: {
+      display: 'flex',
+      justifyContent: 'center',
+   },
 }))
 
 const blog = () => {
@@ -63,9 +63,6 @@ const blog = () => {
             <Box className={classes.hero}>
                <Box>Blog</Box>
             </Box>
-            <Typography variant="h4" className={classes.blogTitle}>
-               Articles
-            </Typography>
             <Grid container spacing={3}>
                <Grid item xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
@@ -184,6 +181,9 @@ const blog = () => {
                   </Card>
                </Grid>
             </Grid>
+            <Box my={4} className={classes.paginationContainer}>
+               <Pagination count={10} variant="outlined" color="transparent" />
+            </Box>
          </Container>
       </div>
    )

@@ -11,6 +11,7 @@ import ProjectImgFive from '../images/image-five.png'
 import ProjectImgSix from '../images/image-six.png'
 import ProjectImgSeven from '../images/image-seven.png'
 import ProjectImgEight from '../images/image-eight.png'
+import ProjectImgNine from '../images/image-nine.png'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
 import { SRLWrapper } from 'simple-react-lightbox'
@@ -56,8 +57,13 @@ const images = [
    },
    {
       img: ProjectImgSeven,
-      title: 'Basketball',
+      title: 'DecimalCricket',
       tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgNine,
+      title: 'VisualSkies',
+      tag: 'Build',
    },
 ]
 

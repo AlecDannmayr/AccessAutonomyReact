@@ -14,6 +14,7 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import SaveTheClimate from '../images/saveTheClimate.jpg'
+import Pagination from '@mui/material/Pagination'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {

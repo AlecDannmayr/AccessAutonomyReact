@@ -14,7 +14,6 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import SaveTheClimate from '../images/saveTheClimate.jpg'
-import Pagination from '@mui/material/Pagination'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {
@@ -25,10 +24,6 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: 'center',
       alignItems: 'center',
       fontSize: '4rem',
-      [theme.breakpoints.down('sm')]: {
-         height: 300,
-         fontSize: '3em',
-      },
    },
    card: {
       maxWidth: '100%',
@@ -181,9 +176,6 @@ const blog = () => {
                   </Card>
                </Grid>
             </Grid>
-            <Box my={4} className={classes.paginationContainer}>
-               <Pagination count={10} variant="outlined" color="transparent" />
-            </Box>
          </Container>
       </div>
    )

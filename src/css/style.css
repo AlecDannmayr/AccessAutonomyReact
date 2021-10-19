@@ -210,6 +210,11 @@ html a:hover {
   display: block;
 }
 
+#imageContainer:hover {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
 .tags > * {
   text-align: center;
   padding: 20px 0px;
@@ -237,7 +242,7 @@ iframe {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   display: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 .contact-type {

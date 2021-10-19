@@ -161,6 +161,11 @@ html {
 #imageContainer:hover + #show {
    display: block;
 }
+
+#imageContainer:hover {
+   filter: brightness(50%);
+}
+
 .tags > * {
    text-align: center;
    padding: 20px 0px;
@@ -185,7 +190,7 @@ iframe {
    left: 50%;
    transform: translate(-50%, -50%);
    display: none;
-   color: #000000;
+   color: #ffffff;
 }
 
 .contact-type {

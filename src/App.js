@@ -32,48 +32,26 @@ const themes = {
    dark: DarkTheme,
 }
 
-class App extends React.Component {
-   state = {
-      loading: true,
-   }
+function App() {
+   const [theme, setTheme] = useState('light')
 
-   componentDidMount() {
-      this.fakeRequest().then(() => {
-         const el = document.querySelector('.loader-container')
-         if (el) {
-            el.remove() // removing the spinner element
-            this.setState({ loading: false }) // showing the app
-         }
-      })
-   }
-
-   fakeRequest = () => {
-      return new Promise((resolve) => setTimeout(() => resolve(), 2500))
-   }
-
-   render() {
-      if (this.state.loading) {
-         return null //app is not ready (fake request is in process)
-      }
-
-      return (
-         <div className="App">
-            <Router>
-               <Nav />
-               <Loader />
-               <Switch>
-                  <Route path="/" exact component={Intro} />
-                  <Route path="/about" component={About} />
-                  <Route path="/projects" component={Projects} />
-                  <Route path="/blog" component={Blog} />
-                  <Route path="/contacts" component={Contacts} />
-               </Switch>
-            </Router>
-            <BackGroundShapes maxWidth="lg" />
-            <Copyright />
-         </div>
-      )
-   }
+   return (
+      <div className="App">
+         <Router>
+            <Nav />
+            <Loader />
+            <Switch>
+               <Route path="/" exact component={Intro} />
+               <Route path="/about" component={About} />
+               <Route path="/projects" component={Projects} />
+               <Route path="/blog" component={Blog} />
+               <Route path="/contacts" component={Contacts} />
+            </Switch>
+         </Router>
+         <BackGroundShapes maxWidth="lg" />
+         <Copyright />
+      </div>
+   )
 }
 
 export default App

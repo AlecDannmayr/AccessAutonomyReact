@@ -199,14 +199,14 @@ html a:hover {
   font-size: 12px;
 }
 
-.project-div #imageContainer:hover {
+#imageContainer:hover {
   -webkit-filter: blur(6px);
           filter: blur(6px);
   transition: 3s -webkit-filter linear;
   cursor: pointer;
 }
 
-.project-div #imageContainer:hover + #show {
+#imageContainer:hover + #show {
   display: block;
 }
 

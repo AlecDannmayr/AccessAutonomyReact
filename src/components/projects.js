@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { useState, useEffect } from 'react'
 import '../css/style.css'
 import '../css/responsive.css'
 import 'animate.css'
@@ -13,6 +14,7 @@ import ProjectImgSeven from '../images/image-seven.png'
 import ProjectImgEight from '../images/image-eight.png'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
+import { SRLWrapper } from 'simple-react-lightbox'
 
 const useStyles = makeStyles((theme) => ({
    imageContainer: {
@@ -22,47 +24,74 @@ const useStyles = makeStyles((theme) => ({
    },
 }))
 
-export default function StandardImageList() {
-   const classes = useStyles()
-   return (
-      <ImageList cols={3} className={classes.imageContainer}>
-         {itemData.map((item) => (
-            <ImageListItem key={item.img}>
-               <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-               <p id="show">{item.title}</p>
-            </ImageListItem>
-         ))}
-      </ImageList>
-   )
-}
-
-const itemData = [
+const images = [
    {
       img: ProjectImgSix,
-      title: 'UX/UI',
+      title: 'Arch-Simplified',
+      tag: 'Build',
    },
    {
       img: ProjectImgTwo,
-      title: 'Build',
+      title: 'Cricket Scoreboard',
+      tag: 'Build',
    },
    {
       img: ProjectImgThree,
-      title: 'Build',
+      title: 'Betting Platform',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgEight,
-      title: 'Ux/Ui',
+      title: 'SocialWorks',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgFive,
-      title: 'Build',
+      title: 'SalesImpact.io',
+      tag: 'Build',
    },
    {
       img: ProjectImgSix,
-      title: 'Develop',
+      title: 'Honey',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgSeven,
-      title: 'Ux/Ui',
+      title: 'Basketball',
+      tag: 'UX/UI',
    },
 ]
+
+export default function StandardImageList() {
+   const classes = useStyles()
+   const [tag, setTag] = useState('all')
+   const [filteredImages, setFilteredImages] = useState([])
+
+   useEffect(() => {
+      tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
+   }, [tag])
+   const TagButton = ({ name, handleSetTag }) => {
+      return <button onClick={() => handleSetTag(name)}>{name.toUpperCase()}</button>
+   }
+   return (
+      <div>
+         {/*
+         <div handleSetTag={setTag} className="tags">
+            <TagButton name="all" handleSetTag={setTag} />
+            <TagButton name="Build" handleSetTag={setTag} />
+            <TagButton name="UX/UI" handleSetTag={setTag} />
+         </div>*/}
+         <SRLWrapper>
+            <ImageList cols={3} className={classes.imageContainer}>
+               {filteredImages.map((item) => (
+                  <ImageListItem key={item.img}>
+                     <a href={`/images/${item.img}`}></a>
+                     <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                     <p id="show">{item.title}</p>
+                  </ImageListItem>
+               ))}
+            </ImageList>
+         </SRLWrapper>
+      </div>
+   )
+}

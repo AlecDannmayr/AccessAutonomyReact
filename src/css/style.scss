@@ -151,17 +151,16 @@ html {
    .card-action {
       font-size: 12px;
    }
-   #imageContainer:hover {
-      filter: blur(6px);
-      transition: 3s -webkit-filter linear;
-      cursor: pointer;
-   }
-
-   #imageContainer:hover + #show {
-      display: block;
-   }
+}
+#imageContainer:hover {
+   filter: blur(6px);
+   transition: 3s -webkit-filter linear;
+   cursor: pointer;
 }
 
+#imageContainer:hover + #show {
+   display: block;
+}
 .tags > * {
    text-align: center;
    padding: 20px 0px;

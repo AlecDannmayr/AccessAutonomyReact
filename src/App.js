@@ -13,6 +13,7 @@ import Copyright from './components/copyright.js'
 import Smoke from './components/smoke'
 import News from './components/news/news'
 import Splash from './components/SplashScreen'
+import Loader from './components/loader'
 
 const LightTheme = {
    pageBackground: 'white',
@@ -39,6 +40,7 @@ function App() {
          <Router>
             <Nav />
             <Switch>
+               <Loader />
                <Route path="/" exact component={Intro} />
                <Route path="/about" component={About} />
                <Route path="/projects" component={Projects} />

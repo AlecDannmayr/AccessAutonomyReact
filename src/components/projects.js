@@ -4,7 +4,6 @@ import '../css/style.css'
 import '../css/responsive.css'
 import 'animate.css'
 import { makeStyles } from '@material-ui/core/styles'
-import ProjectImgOne from '../images/image-one.png'
 import ProjectImgTwo from '../images/image-two.png'
 import ProjectImgThree from '../images/image-three.png'
 import ProjectImgFour from '../images/image-four.png'
@@ -51,7 +50,7 @@ const images = [
       tag: 'Build',
    },
    {
-      img: ProjectImgSix,
+      img: ProjectImgFour,
       title: 'Honey',
       tag: 'UX/UI',
    },

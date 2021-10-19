@@ -34,12 +34,20 @@ const themes = {
 
 function App() {
    const [theme, setTheme] = useState('light')
+   const [loading, setLoading] = useState(false)
+
+   const fetchData = (async) => {
+      setLoading(true)
+      await fetch('/').then(() => {})
+      setLoading(false)
+   }
 
    return (
       <div className="App">
          <Router>
             <Nav />
-            <Loader />
+            {loading ? <Loader /> : 'Fetcn Data'}
+
             <Switch>
                <Route path="/" exact component={Intro} />
                <Route path="/about" component={About} />

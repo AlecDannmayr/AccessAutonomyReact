@@ -36,7 +36,7 @@ function App() {
    const [theme, setTheme] = useState('light')
    const [loading, setLoading] = useState(false)
 
-   const fetchData = (async) => {
+   const fetchData = async () => {
       setLoading(true)
       await fetch('/').then(() => {})
       setLoading(false)
@@ -46,14 +46,14 @@ function App() {
       <div className="App">
          <Router>
             <Nav />
-            {loading ? <Loader /> : 'Fetcn Data'}
-
-            <Switch>
-               <Route path="/" exact component={Intro} />
+            {loading ? <Loader /> : <Route path="/" exact component={Intro} />
                <Route path="/about" component={About} />
                <Route path="/projects" component={Projects} />
                <Route path="/blog" component={Blog} />
-               <Route path="/contacts" component={Contacts} />
+               <Route path="/contacts" component={Contacts} />}
+
+            <Switch>
+               
             </Switch>
          </Router>
          <BackGroundShapes maxWidth="lg" />

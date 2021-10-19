@@ -39,7 +39,6 @@ function App() {
       <div className="App">
          <Router>
             <Nav />
-            <Loader />
             <Switch>
                <Route path="/" exact component={Intro} />
                <Route path="/about" component={About} />

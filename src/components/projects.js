@@ -69,15 +69,15 @@ export default function StandardImageList() {
    useEffect(() => {
       tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
    }, [tag])
-   const TagButton = ({ name }) => {
-      return <button>{name.toUpperCase()}</button>
+   const TagButton = ({ name, handleSetTag }) => {
+      return <button onClick={() => handleSetTag(name)}>{name.toUpperCase()}</button>
    }
    return (
       <div>
-         <div>
-            <TagButton name="projects" />
-            <TagButton name="build" />
-            <TagButton name="Ux/Ui" />
+         <div handleSetTag={setTag}>
+            <TagButton name="projects" handleSetTag={setTag} />
+            <TagButton name="build" handleSetTag={setTag} />
+            <TagButton name="Ux/Ui" handleSetTag={setTag} />
          </div>
          <ImageList cols={3} className={classes.imageContainer}>
             {filteredImages.map((item) => (

@@ -66,25 +66,25 @@ export default function StandardImageList() {
    const [tag, setTag] = useState('all')
    const [filteredImages, setFilteredImages] = useState([])
 
-
-
    useEffect(() => {
       tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
    }, [tag])
-     const TagButton = () => {
-   return <button>Projects</button>
-}
+   const TagButton = () => {
+      return <button>Projects</button>
+   }
    return (
-      <TagButton />
-      <ImageList cols={3} className={classes.imageContainer}>
-         {filteredImages.map((item) => (
-            <ImageListItem key={item.img}>
-               <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-               <p id="show">{item.title}</p>
-            </ImageListItem>
-         ))}
-      </ImageList>
+      <div>
+         <div>
+            <TagButton />
+         </div>
+         <ImageList cols={3} className={classes.imageContainer}>
+            {filteredImages.map((item) => (
+               <ImageListItem key={item.img}>
+                  <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+                  <p id="show">{item.title}</p>
+               </ImageListItem>
+            ))}
+         </ImageList>
+      </div>
    )
 }
-
- 

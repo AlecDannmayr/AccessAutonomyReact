@@ -82,11 +82,11 @@ export default function StandardImageList() {
             <TagButton name="UX/UI" handleSetTag={setTag} />
          </div>*/}
          <ImageList cols={3} className={classes.imageContainer}>
-            {filteredImages.map((item) => (
-               <ImageListItem key={item.img}>
-                  <a href={`/images/${item.img}`}>
-                     <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                     <p id="show">{item.title}</p>
+            {filteredImages.map((images) => (
+               <ImageListItem key={images.img}>
+                  <a href={`/images/${images.img}`}>
+                     <img id="imageContainer" src={`${images.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${images.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={images.title} loading="lazy" />
+                     <p id="show">{images.title}</p>
                   </a>
                </ImageListItem>
             ))}

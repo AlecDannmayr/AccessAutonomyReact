@@ -233,6 +233,7 @@ iframe {
 
 #imageContainer {
   position: relative;
+  z-index: 200;
 }
 
 #show {

@@ -66,11 +66,16 @@ export default function StandardImageList() {
    const [tag, setTag] = useState('all')
    const [filteredImages, setFilteredImages] = useState([])
 
+
+
    useEffect(() => {
       tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
    }, [tag])
+     const TagButton = () => {
+   return <button>Projects</button>
+}
    return (
-      <tagButton />
+      <TagButton />
       <ImageList cols={3} className={classes.imageContainer}>
          {filteredImages.map((item) => (
             <ImageListItem key={item.img}>
@@ -82,6 +87,4 @@ export default function StandardImageList() {
    )
 }
 
-const tagButton = () => {
-   return <button>Projects</button>
-}
+ 

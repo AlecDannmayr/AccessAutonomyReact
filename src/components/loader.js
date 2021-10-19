@@ -2,11 +2,7 @@ import React from 'react'
 import '../css/loader.css'
 
 const Loader = () => {
-   return (
-      <div className="loader-container">
-         <div className="spinonediv-1"></div>
-      </div>
-   )
+   return <div className="loader-container"></div>
 }
 
 export default Loader

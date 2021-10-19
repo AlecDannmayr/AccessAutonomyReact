@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { useState, useEffect } from 'react'
 import '../css/style.css'
 import '../css/responsive.css'
 import 'animate.css'
@@ -22,27 +23,7 @@ const useStyles = makeStyles((theme) => ({
    },
 }))
 
-export default function StandardImageList() {
-   const classes = useStyles()
-   const [tag, setTag] = useState('all')
-   const [filteredImages, setFilteredImages] = useState([])
-
-   useEffect(() => {
-      tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter)
-   })
-   return (
-      <ImageList cols={3} className={classes.imageContainer}>
-         {itemData.map((item) => (
-            <ImageListItem key={item.img}>
-               <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-               <p id="show">{item.title}</p>
-            </ImageListItem>
-         ))}
-      </ImageList>
-   )
-}
-
-const itemData = [
+const images = [
    {
       img: ProjectImgSix,
       title: 'Breakfast',
@@ -72,3 +53,23 @@ const itemData = [
       title: 'Basketball',
    },
 ]
+
+export default function StandardImageList() {
+   const classes = useStyles()
+   const [tag, setTag] = useState('all')
+   const [filteredImages, setFilteredImages] = useState([])
+
+   useEffect(() => {
+      tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
+   }, [tag])
+   return (
+      <ImageList cols={3} className={classes.imageContainer}>
+         {images.map((item) => (
+            <ImageListItem key={item.img}>
+               <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+               <p id="show">{item.title}</p>
+            </ImageListItem>
+         ))}
+      </ImageList>
+   )
+}

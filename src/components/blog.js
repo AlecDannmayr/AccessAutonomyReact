@@ -28,6 +28,10 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: 'center',
       alignItems: 'center',
       fontSize: '4rem',
+      [theme.breakpoints.down('sm')]: {
+         height: 300,
+         fontSize: '3em',
+      },
    },
    card: {
       maxWidth: '100%',

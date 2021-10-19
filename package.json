@@ -40,6 +40,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "scripts": {
+    "test": "jasmine"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -60,6 +63,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.20",
-    "@types/react-router-dom": "^5.3.0"
+    "@types/react-router-dom": "^5.3.0",
+    "jasmine": "^3.10.0"
   }
 }

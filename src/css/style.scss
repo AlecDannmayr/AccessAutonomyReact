@@ -160,16 +160,17 @@ html {
    #imageContainer:hover + #show {
       display: block;
    }
+}
 
-   .tags {
-      text-align: center;
-      padding: 20px 0px;
-      outline: none;
-      border: none;
-      margin: 0px 10px;
-      background-color: transparent;
-      cursor: pointer;
-   }
+.tags > * {
+   text-align: center;
+   padding: 20px 0px;
+   outline: none;
+   border: none;
+   margin: 0px 10px;
+   background-color: transparent;
+   cursor: pointer;
+   color: #fff;
 }
 
 iframe {

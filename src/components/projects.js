@@ -24,6 +24,12 @@ const useStyles = makeStyles((theme) => ({
 
 export default function StandardImageList() {
    const classes = useStyles()
+   const [tag, setTag] = useState('all')
+   const [filteredImages, setFilteredImages] = useState([])
+
+   useEffect(() => {
+      tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter)
+   })
    return (
       <ImageList cols={3} className={classes.imageContainer}>
          {itemData.map((item) => (

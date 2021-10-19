@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react'
 import '../css/style.css'
 import '../css/responsive.css'
 import 'animate.css'
@@ -23,71 +22,47 @@ const useStyles = makeStyles((theme) => ({
    },
 }))
 
-const images = [
+export default function StandardImageList() {
+   const classes = useStyles()
+   return (
+      <ImageList cols={3} className={classes.imageContainer}>
+         {itemData.map((item) => (
+            <ImageListItem key={item.img}>
+               <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
+               <p id="show">{item.title}</p>
+            </ImageListItem>
+         ))}
+      </ImageList>
+   )
+}
+
+const itemData = [
    {
       img: ProjectImgSix,
-      title: 'Breakfast',
-      tag: 'Build',
+      title: 'UX/UI',
    },
    {
       img: ProjectImgTwo,
-      title: 'Burger',
-      tag: 'Build',
+      title: 'Build',
    },
    {
       img: ProjectImgThree,
-      title: 'Camera',
-      tag: 'UX/UI',
+      title: 'Build',
    },
    {
       img: ProjectImgEight,
-      title: 'Coffee',
-      tag: 'UX/UI',
+      title: 'Ux/Ui',
    },
    {
       img: ProjectImgFive,
-      title: 'Hats',
-      tag: 'Build',
+      title: 'Build',
    },
    {
       img: ProjectImgSix,
-      title: 'Honey',
-      tag: 'UX/UI',
+      title: 'Develop',
    },
    {
       img: ProjectImgSeven,
-      title: 'Basketball',
-      tag: 'UX/UI',
+      title: 'Ux/Ui',
    },
 ]
-
-export default function StandardImageList() {
-   const classes = useStyles()
-   const [tag, setTag] = useState('all')
-   const [filteredImages, setFilteredImages] = useState([])
-
-   useEffect(() => {
-      tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
-   }, [tag])
-   const TagButton = ({ name, handleSetTag }) => {
-      return <button onClick={() => handleSetTag(name)}>{name.toUpperCase()}</button>
-   }
-   return (
-      <div>
-         {/*
-         <div handleSetTag={setTag} className="tags">
-            <TagButton name="all" handleSetTag={setTag} />
-            <TagButton name="Build" handleSetTag={setTag} />
-            <TagButton name="UX/UI" handleSetTag={setTag} />
-         </div>*/}
-         <ImageList cols={3} className={classes.imageContainer}>
-            {filteredImages.map((item) => (
-               <ImageListItem key={item.img}>
-                  <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
-                  <p id="show">{item.title}</p>
-               </ImageListItem>
-            ))}
-         </ImageList>
-      </div>
-   )
-}

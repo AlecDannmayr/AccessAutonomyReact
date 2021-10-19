@@ -27,30 +27,38 @@ const images = [
    {
       img: ProjectImgSix,
       title: 'Breakfast',
+      tag: 'development',
    },
    {
       img: ProjectImgTwo,
       title: 'Burger',
+      tag: 'development',
    },
    {
       img: ProjectImgThree,
       title: 'Camera',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgEight,
       title: 'Coffee',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgFive,
       title: 'Hats',
+      tag: 'development',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgSix,
       title: 'Honey',
+      tag: 'UX/UI',
    },
    {
       img: ProjectImgSeven,
       title: 'Basketball',
+      tag: 'UX/UI',
    },
 ]
 

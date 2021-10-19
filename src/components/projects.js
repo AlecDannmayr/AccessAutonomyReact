@@ -63,13 +63,14 @@ const images = [
 
 export default function StandardImageList() {
    const classes = useStyles()
-   const [tag, setTag] = useState('Build')
+   const [tag, setTag] = useState('all')
    const [filteredImages, setFilteredImages] = useState([])
 
    useEffect(() => {
       tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
    }, [tag])
    return (
+      <tagButton />
       <ImageList cols={3} className={classes.imageContainer}>
          {filteredImages.map((item) => (
             <ImageListItem key={item.img}>
@@ -79,4 +80,8 @@ export default function StandardImageList() {
          ))}
       </ImageList>
    )
+}
+
+const tagButton = () => {
+   return <button>Projects</button>
 }

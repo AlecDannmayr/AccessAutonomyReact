@@ -27,12 +27,12 @@ const images = [
    {
       img: ProjectImgSix,
       title: 'Breakfast',
-      tag: 'development',
+      tag: 'Build',
    },
    {
       img: ProjectImgTwo,
       title: 'Burger',
-      tag: 'development',
+      tag: 'Build',
    },
    {
       img: ProjectImgThree,
@@ -47,8 +47,7 @@ const images = [
    {
       img: ProjectImgFive,
       title: 'Hats',
-      tag: 'development',
-      tag: 'UX/UI',
+      tag: 'Build',
    },
    {
       img: ProjectImgSix,
@@ -64,7 +63,7 @@ const images = [
 
 export default function StandardImageList() {
    const classes = useStyles()
-   const [tag, setTag] = useState('all')
+   const [tag, setTag] = useState('Build')
    const [filteredImages, setFilteredImages] = useState([])
 
    useEffect(() => {
@@ -72,7 +71,7 @@ export default function StandardImageList() {
    }, [tag])
    return (
       <ImageList cols={3} className={classes.imageContainer}>
-         {images.map((item) => (
+         {filteredImages.map((item) => (
             <ImageListItem key={item.img}>
                <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} loading="lazy" />
                <p id="show">{item.title}</p>

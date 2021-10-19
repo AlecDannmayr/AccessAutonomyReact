@@ -46,6 +46,11 @@ const images = [
       tag: 'UX/UI',
    },
    {
+      img: ProjectImgNine,
+      title: 'VisualSkies',
+      tag: 'Build',
+   },
+   {
       img: ProjectImgFive,
       title: 'SalesImpact.io',
       tag: 'Build',
@@ -59,11 +64,6 @@ const images = [
       img: ProjectImgSeven,
       title: 'DecimalCricket',
       tag: 'UX/UI',
-   },
-   {
-      img: ProjectImgNine,
-      title: 'VisualSkies',
-      tag: 'Build',
    },
 ]
 

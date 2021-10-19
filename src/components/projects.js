@@ -26,27 +26,27 @@ const useStyles = makeStyles((theme) => ({
 const images = [
    {
       img: ProjectImgSix,
-      title: 'Breakfast',
+      title: 'Arch-Simplified',
       tag: 'Build',
    },
    {
       img: ProjectImgTwo,
-      title: 'Burger',
+      title: 'Cricket Scoreboard',
       tag: 'Build',
    },
    {
       img: ProjectImgThree,
-      title: 'Camera',
+      title: 'Betting Platform',
       tag: 'UX/UI',
    },
    {
       img: ProjectImgEight,
-      title: 'Coffee',
+      title: 'SocialWorks',
       tag: 'UX/UI',
    },
    {
       img: ProjectImgFive,
-      title: 'Hats',
+      title: 'SalesImpact.io',
       tag: 'Build',
    },
    {
@@ -74,11 +74,12 @@ export default function StandardImageList() {
    }
    return (
       <div>
+         {/*
          <div handleSetTag={setTag} className="tags">
             <TagButton name="all" handleSetTag={setTag} />
             <TagButton name="Build" handleSetTag={setTag} />
             <TagButton name="UX/UI" handleSetTag={setTag} />
-         </div>
+         </div>*/}
          <ImageList cols={3} className={classes.imageContainer}>
             {filteredImages.map((item) => (
                <ImageListItem key={item.img}>

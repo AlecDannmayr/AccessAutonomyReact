@@ -36,8 +36,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "test": "jasmine",
-    "start": "npm start"
+    "start": "start"
   },
   "eslintConfig": {
     "extends": [
@@ -59,7 +58,6 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.20",
-    "@types/react-router-dom": "^5.3.0",
-    "jasmine": "^3.10.0"
+    "@types/react-router-dom": "^5.3.0"
   }
 }

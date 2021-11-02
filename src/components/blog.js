@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/style.css'
 import '../css/responsive.css'
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/core/Styles'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
 import Container from '@material-ui/core/Container'

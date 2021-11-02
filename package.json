@@ -36,7 +36,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "npm start"
   },
   "eslintConfig": {
     "extends": [

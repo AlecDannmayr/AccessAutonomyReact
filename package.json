@@ -36,7 +36,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "start"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [

@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const blog = () => {
-   const classes = useStyles()
+   const classes = useStyles
    return (
       <div>
          <Container maxWidth="lg" className={classes.blogsContainer}>

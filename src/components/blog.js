@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { makeStyles } from '@mui/makeStyles'
+import { makeStyles } from '@material-ui/styles'
 import '../css/style.css'
 import '../css/responsive.css'
 import Typography from '@material-ui/core/Typography'

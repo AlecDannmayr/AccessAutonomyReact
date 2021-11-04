@@ -82,7 +82,11 @@ html {
 .services {
    flex-direction: column;
    display: flex;
-   margin-left: 700px;
+   margin-left: 10%;
+   margin-top: 6%;
+   :nth-child(2n) {
+      margin-left: 80%;
+   }
    img {
       width: 280px;
       box-shadow: 15px 29px 35px 8px #000000;

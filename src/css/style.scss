@@ -82,6 +82,7 @@ html {
 .services {
    @include position;
    margin-top: 8.6%;
+   display: flex;
    img {
       width: 280px;
       box-shadow: 15px 29px 35px 8px #000000;
@@ -180,7 +181,7 @@ html {
 iframe {
    filter: invert(80%);
 }
-#imageContaq   iner {
+#imageContaq iner {
    position: relative;
    z-index: 200;
 }

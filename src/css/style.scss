@@ -80,8 +80,9 @@ html {
 }
 
 .services {
-   @include position;
    flex-direction: column;
+   display: flex;
+   margin-left: 700px;
    img {
       width: 280px;
       box-shadow: 15px 29px 35px 8px #000000;

@@ -99,6 +99,24 @@ html a:hover {
   font-size: 40px;
 }
 
+.services {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+  font-size: 100px;
+  text-shadow: 2px 1px #454549;
+  margin-top: 14%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .services img {
   width: 280px;
   -webkit-box-shadow: 15px 29px 35px 8px #000000;

@@ -1,9 +1,3 @@
-@media screen and (max-width: 765px) {
-  .nav-main {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 414px) {
   .intro-div #intro-title {
     -webkit-box-orient: vertical;

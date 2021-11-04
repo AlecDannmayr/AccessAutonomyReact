@@ -112,6 +112,7 @@ html a:hover {
   text-shadow: 2px 1px #454549;
   margin-top: 14%;
   margin-top: 8.6%;
+  display: unset;
 }
 
 .services img {
@@ -231,7 +232,7 @@ iframe {
           filter: invert(80%);
 }
 
-#imageContainer {
+#imageContaq iner {
   position: relative;
   z-index: 200;
 }

@@ -114,15 +114,18 @@ html a:hover {
 
 .services img {
   width: 280px;
-  -webkit-box-shadow: 15px 29px 35px 8px #000000;
-          box-shadow: 15px 29px 35px 8px #000000;
   margin: 30px;
+}
+
+.services :nth-child(2n - 1) {
+  -webkit-box-shadow: 0px 29px 35px 8px #000000;
+          box-shadow: 0px 29px 35px 8px #000000;
 }
 
 .services :nth-child(2n) {
   margin-left: 67%;
-  -webkit-box-shadow: 15px -29px -35px 8px #000000;
-          box-shadow: 15px -29px -35px 8px #000000;
+  -webkit-box-shadow: 15px 29px 35px 8px #000000;
+          box-shadow: 15px 29px 35px 8px #000000;
 }
 
 .diagonal-box-one {

@@ -87,12 +87,14 @@ html {
    margin-left: 11%;
    img {
       width: 280px;
-      box-shadow: 15px 29px 35px 8px #000000;
       margin: 30px;
+   }
+   :nth-child(2n - 1) {
+      box-shadow: 0px 29px 35px 8px #000000;
    }
    :nth-child(2n) {
       margin-left: 67%;
-      box-shadow: 15px -29px -35px 8px #000000;
+      box-shadow: 15px 29px 35px 8px #000000;
    }
 }
 

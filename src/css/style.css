@@ -107,12 +107,13 @@ html a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 10%;
-  margin-top: 6%;
+  margin-left: 13%;
+  height: 100%;
+  overflow: scroll;
 }
 
-.services :nth-child(2n) {
-  margin-right: 20%;
+.services :nth-child(2) {
+  margin-left: 60%;
 }
 
 .services img {

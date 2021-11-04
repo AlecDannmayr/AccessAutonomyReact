@@ -80,9 +80,12 @@ html {
 }
 
 .services {
-   flex-direction: column;
-   display: flex;
-   overflow: scroll;
+   :nth-child(1) {
+      height: 100vh;
+      overflow: scroll;
+      flex-direction: column;
+      display: flex;
+   }
    img {
       width: 280px;
       box-shadow: 15px 29px 35px 8px #000000;

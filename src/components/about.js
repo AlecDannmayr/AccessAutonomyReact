@@ -8,8 +8,8 @@ import Consult from '../images/consult.svg'
 
 const about = () => {
    return (
-      <div className="services">
-         <div>
+      <div>
+         <div className="services">
             <img src={Development}></img>
             <img src={Design}></img>
             <img src={Maintain}></img>

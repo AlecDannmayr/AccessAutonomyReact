@@ -7,7 +7,6 @@ import Teach from '../images/teach.svg'
 import Consult from '../images/consult.svg'
 
 const about = () => {
-   const [offsetY, setOffsetY] = useState(0)
    return (
       <div>
          <div className="services">

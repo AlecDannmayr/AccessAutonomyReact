@@ -9,8 +9,10 @@ import Consult from '../images/consult.svg'
 function About() {
    const [offsetY, setOffsetY] = useState(0)
 
-   useEffect(()
- 
+   useEffect(() => {
+      window.addEventListener('scroll'), handleScroll)
+   }, [])
+
    return (
       <div>
          <div className="services">

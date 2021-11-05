@@ -78,20 +78,12 @@ html {
       font-size: 40px;
    }
 }
-.about-backGround {
-   background-color: #ccc;
-   height: 100px;
-   position: static;
-   z-index: 200;
-}
+
 .services {
    height: 100vh;
    overflow: scroll;
    flex-direction: column;
    display: flex;
-   position: absolute;
-   width: 100%;
-   z-index: 199;
    img {
       width: 280px;
       margin: 30px;

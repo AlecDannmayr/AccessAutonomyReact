@@ -17,7 +17,6 @@ function About() {
 
    return (
       <>
-         <div className="about-backGround"></div>
          <div>
             <div className="services" style={{ transform: `translateY(${offsetY * 0.1}px)` }}>
                <img src={Consult}></img>

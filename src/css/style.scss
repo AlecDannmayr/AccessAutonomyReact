@@ -88,11 +88,19 @@ html {
       width: 280px;
       margin: 30px;
    }
-
-   div {
-      display: flex;
+   div:nth-child(2n -1) {
       margin: 10%;
       padding: 20px;
+      p {
+         margin-top: 5%;
+
+         padding-right: 10%;
+         padding-left: 3%;
+         text-align: left;
+      }
+   }
+   div {
+      display: flex;
    }
    div:nth-child(2n - 1) {
       box-shadow: -15px 29px 035px 8px #000000;

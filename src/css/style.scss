@@ -81,6 +81,8 @@ html {
 .about-backGround {
    background-color: #ccc;
    height: 100px;
+   position: static;
+   z-index: 200;
 }
 .services {
    height: 100vh;
@@ -89,6 +91,7 @@ html {
    display: flex;
    position: absolute;
    width: 100%;
+   z-index: 199;
    img {
       width: 280px;
       margin: 30px;

@@ -101,7 +101,7 @@ html a:hover {
 
 .services {
   height: 100vh;
-  overflow: scroll;
+  overflow: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

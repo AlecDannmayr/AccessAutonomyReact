@@ -81,7 +81,7 @@ html {
 
 .services {
    height: 100vh;
-   overflow: scroll;
+   overflow: auto;
    flex-direction: column;
    display: flex;
    img {

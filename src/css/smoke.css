@@ -1,13 +1,14 @@
 .open {
   position: absolute;
   z-index: 210;
-  height: 100vh;
+  height: 101.7%;
   width: 100%;
   background-color: #000000;
   -webkit-animation: animateSwipeOut 0.5s ease-out forwards;
           animation: animateSwipeOut 0.5s ease-out forwards;
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
+  top: 0;
 }
 
 .open h1 {

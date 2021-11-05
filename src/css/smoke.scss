@@ -1,11 +1,12 @@
 .open {
    position: absolute;
    z-index: 210;
-   height: 100vh;
+   height: 101.7%;
    width: 100%;
    background-color: #000000;
    animation: animateSwipeOut 0.5s ease-out forwards;
    animation-delay: 10s;
+   top: 0;
    h1 {
       margin: 0px;
       padding: 0px;

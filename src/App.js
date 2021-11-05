@@ -34,6 +34,13 @@ const themes = {
 
 function App() {
    const [theme, setTheme] = useState('light')
+   const [offsetY, setOffsetY] = useState(0)
+   const handleScroll = () => setOffsetY(window.pageYOffset)
+   useEffect(() => {
+      window.addEventListener('scroll', handleScroll)
+
+      return () => window.removeEventListener('scroll', handleScroll)
+   }, [])
 
    return (
       <div className="App">
@@ -41,7 +48,7 @@ function App() {
             <Nav />
             <Switch>
                <Route path="/" exact component={Intro} />
-               <Route path="/about" component={About} />
+               <Route path="/about" component={About} style={{ transform: `translateY(${offsetY * 0.1}px)` }} />
                <Route path="/projects" component={Projects} />
                <Route path="/blog" component={Blog} />
                <Route path="/contacts" component={Contacts} />

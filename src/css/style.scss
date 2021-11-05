@@ -92,25 +92,22 @@ html {
       display: flex;
    }
    div:nth-child(2n -1) {
-      margin: 2% 10% 2% 10%;
+      margin: 2% 20% 2% 10%;
       padding: 20px;
       box-shadow: -15px 29px 035px 8px #000000;
       p {
-         margin-top: 5%;
+         margin-top: 3%;
          padding-right: 10%;
          padding-left: 3%;
          text-align: left;
       }
-      img {
-         box-shadow: -15px 29px 035px 8px #000000;
-      }
    }
    div:nth-child(2n) {
-      margin: 2% 10% 2% 10%;
+      margin: 2% 10% 2% 20%;
       padding: 20px;
       box-shadow: 15px 29px 35px 8px #000000;
       p {
-         margin-top: 5%;
+         margin-top: 3%;
          padding-right: 3%;
          padding-left: 10%;
          text-align: right;

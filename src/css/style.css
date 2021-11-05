@@ -123,33 +123,28 @@ html a:hover {
 }
 
 .services div:nth-child(2n -1) {
-  margin: 2% 10% 2% 10%;
+  margin: 2% 20% 2% 10%;
   padding: 20px;
   -webkit-box-shadow: -15px 29px 035px 8px #000000;
           box-shadow: -15px 29px 035px 8px #000000;
 }
 
 .services div:nth-child(2n -1) p {
-  margin-top: 5%;
+  margin-top: 3%;
   padding-right: 10%;
   padding-left: 3%;
   text-align: left;
 }
 
-.services div:nth-child(2n -1) img {
-  -webkit-box-shadow: -15px 29px 035px 8px #000000;
-          box-shadow: -15px 29px 035px 8px #000000;
-}
-
 .services div:nth-child(2n) {
-  margin: 2% 10% 2% 10%;
+  margin: 2% 10% 2% 20%;
   padding: 20px;
   -webkit-box-shadow: 15px 29px 35px 8px #000000;
           box-shadow: 15px 29px 35px 8px #000000;
 }
 
 .services div:nth-child(2n) p {
-  margin-top: 5%;
+  margin-top: 3%;
   padding-right: 3%;
   padding-left: 10%;
   text-align: right;

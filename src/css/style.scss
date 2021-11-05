@@ -90,8 +90,12 @@ html {
    }
    div {
       display: flex;
-      vertical-align: middle;
       margin: 10%;
+      padding: 20px;
+      p {
+         text-align: left;
+         margin-top: 8%;
+      }
    }
    div:nth-child(2n - 1) {
       box-shadow: -15px 29px 035px 8px #000000;

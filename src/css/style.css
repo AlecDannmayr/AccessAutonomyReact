@@ -120,8 +120,13 @@ html a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  vertical-align: middle;
   margin: 10%;
+  padding: 20px;
+}
+
+.services div p {
+  text-align: left;
+  margin-top: 8%;
 }
 
 .services div:nth-child(2n - 1) {

@@ -41,6 +41,8 @@ html {
    font-family: 'Ropa Sans', sans-serif;
    color: white;
    font-size: calc(10px + 2vmin);
+   animation: animateSwipeIn 0.5s ease-out forwards;
+   animation-delay: 10s;
 }
 
 .nav-main {

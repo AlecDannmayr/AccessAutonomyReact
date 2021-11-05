@@ -42,6 +42,10 @@ html a:hover {
   font-family: 'Ropa Sans', sans-serif;
   color: white;
   font-size: calc(10px + 2vmin);
+  -webkit-animation: animateSwipeIn 0.5s ease-out forwards;
+          animation: animateSwipeIn 0.5s ease-out forwards;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
 }
 
 .nav-main {

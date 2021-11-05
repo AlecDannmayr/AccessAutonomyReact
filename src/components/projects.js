@@ -72,6 +72,16 @@ const images = [
       title: 'DecimalCricket',
       tag: 'UX/UI',
    },
+   {
+      img: ProjectImgTen,
+      title: 'VisitBritian',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgTen,
+      title: 'VisitBritian',
+      tag: 'UX/UI',
+   },
 ]
 
 export default function StandardImageList() {

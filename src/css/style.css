@@ -48,6 +48,24 @@ html a:hover {
           animation-delay: 10s;
 }
 
+@-webkit-keyframes animate {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .nav-main {
   width: 90px;
   background-color: #181818;

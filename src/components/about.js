@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/style.css'
 import Development from '../images/develop.svg'
 import Design from '../images/design.svg'
@@ -9,6 +9,8 @@ import Consult from '../images/consult.svg'
 function About() {
    const [offsetY, setOffsetY] = useState(0)
 
+   useEffect(()
+ 
    return (
       <div>
          <div className="services">

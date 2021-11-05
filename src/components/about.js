@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../css/style.css'
 import Development from '../images/develop.svg'
 import Design from '../images/design.svg'
@@ -6,7 +6,9 @@ import Maintain from '../images/maintain.svg'
 import Teach from '../images/teach.svg'
 import Consult from '../images/consult.svg'
 
-const about = () => {
+function About() {
+   const [offsetY, setOffsetY] = useState(0)
+
    return (
       <div>
          <div className="services">
@@ -20,4 +22,4 @@ const about = () => {
    )
 }
 
-export default about
+export default About

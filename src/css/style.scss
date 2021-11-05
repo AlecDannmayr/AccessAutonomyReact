@@ -92,7 +92,7 @@ html {
       display: flex;
    }
    div:nth-child(2n -1) {
-      margin: 10%;
+      margin: 2% 10% 2% 10%;
       padding: 20px;
       box-shadow: -15px 29px 035px 8px #000000;
       p {
@@ -101,9 +101,12 @@ html {
          padding-left: 3%;
          text-align: left;
       }
+      img {
+         box-shadow: -15px 29px 035px 8px #000000;
+      }
    }
    div:nth-child(2n) {
-      margin: 10%;
+      margin: 2% 10% 2% 10%;
       padding: 20px;
       box-shadow: 15px 29px 35px 8px #000000;
       p {

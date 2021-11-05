@@ -88,11 +88,11 @@ html {
       width: 280px;
       margin: 30px;
    }
-   :nth-child(2n - 1) {
+   div:nth-child(2n - 1) {
       margin-left: 16%;
       box-shadow: -15px 29px 035px 8px #000000;
    }
-   :nth-child(2n) {
+   div:nth-child(2n) {
       margin-left: 67%;
       box-shadow: 15px 29px 35px 8px #000000;
    }

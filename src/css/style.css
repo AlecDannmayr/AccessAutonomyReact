@@ -99,6 +99,14 @@ html a:hover {
   font-size: 40px;
 }
 
+.about-backGround {
+  background-color: #ccc;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+}
+
 .services {
   height: 100vh;
   overflow: scroll;

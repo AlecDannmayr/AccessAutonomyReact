@@ -20,7 +20,8 @@ import { SRLWrapper } from 'simple-react-lightbox'
 
 const useStyles = makeStyles((theme) => ({
    imageContainer: {
-      overflow: 'scroll',
+      height: '100vh',
+      overflow: 'auto',
       marginLeft: '90px',
       marginTop: '0px',
    },
@@ -73,13 +74,108 @@ const images = [
       tag: 'UX/UI',
    },
    {
-      img: ProjectImgTen,
-      title: 'VisitBritian',
+      img: ProjectImgEight,
+      title: 'SocialWorks',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgNine,
+      title: 'VisualSkies',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgFive,
+      title: 'SalesImpact.io',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgFour,
+      title: 'Honey',
       tag: 'UX/UI',
    },
    {
       img: ProjectImgTen,
       title: 'VisitBritian',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgSeven,
+      title: 'DecimalCricket',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgSix,
+      title: 'Arch-Simplified',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgTwo,
+      title: 'Cricket Scoreboard',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgThree,
+      title: 'Betting Platform',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgEight,
+      title: 'SocialWorks',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgNine,
+      title: 'VisualSkies',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgFive,
+      title: 'SalesImpact.io',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgFour,
+      title: 'Honey',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgTen,
+      title: 'VisitBritian',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgSeven,
+      title: 'DecimalCricket',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgEight,
+      title: 'SocialWorks',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgNine,
+      title: 'VisualSkies',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgFive,
+      title: 'SalesImpact.io',
+      tag: 'Build',
+   },
+   {
+      img: ProjectImgFour,
+      title: 'Honey',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgTen,
+      title: 'VisitBritian',
+      tag: 'UX/UI',
+   },
+   {
+      img: ProjectImgSeven,
+      title: 'DecimalCricket',
       tag: 'UX/UI',
    },
 ]

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LearningToCode() {
+const LearningToCode = () => {
    ;<div>
       <h1>Blogs Page</h1>
    </div>

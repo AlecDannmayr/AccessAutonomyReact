@@ -10,7 +10,7 @@ import Blog from './components/blog.js'
 import Projects from './components/projects.js'
 import Contacts from './components/contacts.js'
 import Copyright from './components/copyright.js'
-import Smoke from './components/smoke'
+//import Smoke from './components/smoke'
 import News from './components/news/news'
 import Splash from './components/SplashScreen'
 import Loader from './components/loader.js'
@@ -37,7 +37,6 @@ function App() {
 
    return (
       <div className="App">
-         <Smoke />
          <Router>
             <Nav />
             <Switch>

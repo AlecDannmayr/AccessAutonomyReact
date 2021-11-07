@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import '../css/style.css'
 import '../css/responsive.css'
 import Typography from '@material-ui/core/Typography'

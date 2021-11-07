@@ -15,7 +15,7 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import SaveTheClimate from '../images/saveTheClimate.jpg'
-import LearningToCode from ../
+import LearningToCode from '../blogs/LearningToCode'
 
 const useStyles = makeStyles((theme) => ({
    blogsContainer: {
@@ -59,7 +59,7 @@ const blog = () => {
          <Router>
             <Switch>
                <Route path="/blog" exact component={blog} />
-               <Route path="/learningtocode" component={LearningToCode} /
+               <Route path="/learningtocode" component={LearningToCode} />
             </Switch>
          </Router>
          <Container maxWidth="lg" className={classes.blogsContainer}>

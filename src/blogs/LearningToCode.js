@@ -1,9 +1,8 @@
-import React from 'react'
+/* eslint-disable import/no-webpack-loader-syntax */
+import Content from '!babel-loader!@mdx-js/loader!./Content.mdx'
 
-const LearningToCode = () => {
-   ;<div>
-      <h1>Blogs Page</h1>
-   </div>
+function LearningToCode() {
+   return <Content />
 }
 
 export default LearningToCode

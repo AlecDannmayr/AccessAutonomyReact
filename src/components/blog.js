@@ -15,7 +15,6 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder'
 import Avatar from '@mui/material/Avatar'
 import Button from '@mui/material/Button'
 import SaveTheClimate from '../images/saveTheClimate.jpg'
-import LearningToCode from '../blogs/LearningToCode'
 import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
@@ -57,11 +56,6 @@ const blog = () => {
    const classes = useStyles
    return (
       <div>
-         <Router>
-            <Switch>
-               <Route path="/learningtocode" component={LearningToCode} />
-            </Switch>
-         </Router>
          <Container maxWidth="lg" className={classes.blogsContainer}>
             <Box className={classes.hero}>
                <Box>Blog</Box>

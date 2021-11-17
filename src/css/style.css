@@ -1,3 +1,4 @@
+/** @format */
 html {
   background-color: #1d1d1d;
   cursor: url(../images/cursor.png), auto;
@@ -132,7 +133,7 @@ html a:hover {
 .services div:nth-child(2n -1) p {
   margin-top: 4%;
   padding-right: 5%;
-  padding-left: 3%;
+  padding-lefat: 3%;
   text-align: left;
 }
 
@@ -172,6 +173,12 @@ html a:hover {
   bottom: 0px;
   width: 100%;
   margin-bottom: -13px;
+}
+
+.copyright iframe,
+.footer iframe {
+  -webkit-filter: invert(80%);
+          filter: invert(80%);
 }
 
 .copyright #wave,
@@ -255,11 +262,6 @@ html a:hover {
   color: #fff;
 }
 
-iframe {
-  -webkit-filter: invert(80%);
-          filter: invert(80%);
-}
-
 #imageContaq iner {
   position: relative;
   z-index: 200;
@@ -333,5 +335,29 @@ iframe {
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
           box-shadow: 3px 3px 5px 6px #ccc;
   padding-left: 10px;
+}
+
+.Blog-Content {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.Blog-Content .Blog-Header-Image {
+  width: calc(100vw - 100px);
+  margin-left: 90px;
+  height: 100vh;
+}
+
+.Blog-Content img {
+  width: 30%;
+}
+
+.Blog-Content .blog-details {
+  height: unset;
+}
+
+.Blog-Content .container-video {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

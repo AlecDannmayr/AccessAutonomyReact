@@ -36,7 +36,11 @@ function SecretComponent() {
 
 function RegularComponent() {
     const [emotion, setEmotion] = useState('Happy')
-    console.log(emotion)
+
+    useEffect(() => {
+        console.log(`Its {emotion} around here`)
+    })
+    console.log(emotion)å
     return (
         <div className="App">
             <h1>Current Emotion is {emotion}</h1>

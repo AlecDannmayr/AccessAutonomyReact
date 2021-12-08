@@ -32,7 +32,6 @@ const DarkTheme = {
 
 const themes = { light: LightTheme, dark: DarkTheme }
 function App() {
-    const [theme, setTheme] = useState('light')
     return (
         <div className="App">
             <Router>

@@ -30,20 +30,6 @@ const DarkTheme = {
     tagLineColor: 'lavender',
 }
 
-function SecretComponent() {
-    return <h1>Secret Information Component</h1>
-}
-
-function RegularComponent() {
-    return <h1>Everyone can see this component</h1>
-}
-
-if (props.authorised) {
-    return <SecretComponent />
-} else {
-    return <RegularComponent />
-}
-
 const themes = { light: LightTheme, dark: DarkTheme }
 function App() {
     return (
@@ -59,7 +45,7 @@ function App() {
                     <Route path="/contacts" component={Contacts} />
                 </Switch>
             </Router>
-            <BackGroundShapes maxWidth="lg" />
+            <BackGroundShapes maxWidth="lg" authorized={false} />
             <Copyright />
         </div>
     )

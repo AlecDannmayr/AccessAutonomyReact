@@ -10,7 +10,7 @@ import SimpleReactLightbox from 'simple-react-lightbox'
 ReactDOM.render(
     <React.StrictMode>
         <SimpleReactLightbox>
-            <App authorized={true} />
+            <App />
         </SimpleReactLightbox>
     </React.StrictMode>,
     document.getElementById('root')

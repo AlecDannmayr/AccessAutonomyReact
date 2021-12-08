@@ -35,6 +35,8 @@ function SecretComponent() {
 }
 
 function RegularComponent() {
+    const what = useState()
+    console.log(what)
     return (
         <div className="App">
             <Router>
@@ -55,8 +57,8 @@ function RegularComponent() {
 }
 
 const themes = { light: LightTheme, dark: DarkTheme }
-function App(props.authorized) {
-    return <>{authorized ? <SecretComponent /> : <RegularComponent />}</>
+function App(props) {
+    return <>{props.authorized ? <SecretComponent /> : <RegularComponent />}</>
 }
 
 export default App

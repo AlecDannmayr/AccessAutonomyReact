@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './css/style.css'
 import './css/responsive.css'
@@ -38,13 +38,14 @@ function RegularComponent() {
     const [emotion, setEmotion] = useState('Happy')
 
     useEffect(() => {
-        console.log(`Its {emotion} around here`)
+        console.log(`Its ${emotion} around here`)
     })
-    console.log(emotion)å
+    console.log(emotion)
     return (
         <div className="App">
             <h1>Current Emotion is {emotion}</h1>
             <button onClick={() => setEmotion('More Happy')}>More Happy</button>
+            <button onClick={() => setEmotion('Happy')}>More Happy</button>
             <Router>
                 <Nav />
                 <Switch>

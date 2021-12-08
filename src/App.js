@@ -55,8 +55,8 @@ function RegularComponent() {
 }
 
 const themes = { light: LightTheme, dark: DarkTheme }
-function App(props) {
-    return <>{props.authorized ? <SecretComponent /> : <RegularComponent />}</>
+function App(props.authorized) {
+    return <>{authorized ? <SecretComponent /> : <RegularComponent />}</>
 }
 
 export default App

@@ -30,25 +30,35 @@ const DarkTheme = {
     tagLineColor: 'lavender',
 }
 
+function SecretComponent() {
+    return <h1>Secret Information Component</h1>
+}
+
+function RegularComponent() {}
+
 const themes = { light: LightTheme, dark: DarkTheme }
-function App() {
-    return (
-        <div className="App">
-            <Router>
-                <Nav />
-                <Switch>
-                    <Route path="/" exact component={Intro} />
-                    <Route path="/about" component={About} />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/be-kind" component={BeKind} />
-                    <Route path="/blog" component={Blog} />
-                    <Route path="/contacts" component={Contacts} />
-                </Switch>
-            </Router>
-            <BackGroundShapes maxWidth="lg" authorized={false} />
-            <Copyright />
-        </div>
-    )
+function App(props) {
+    if (props.authorized) {
+        return <SecretComponent />
+    } else {
+        return (
+            <div className="App">
+                <Router>
+                    <Nav />
+                    <Switch>
+                        <Route path="/" exact component={Intro} />
+                        <Route path="/about" component={About} />
+                        <Route path="/projects" component={Projects} />
+                        <Route path="/be-kind" component={BeKind} />
+                        <Route path="/blog" component={Blog} />
+                        <Route path="/contacts" component={Contacts} />
+                    </Switch>
+                </Router>
+                <BackGroundShapes maxWidth="lg" />
+                <Copyright />
+            </div>
+        )
+    }
 }
 
 export default App

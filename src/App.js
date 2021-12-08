@@ -34,31 +34,29 @@ function SecretComponent() {
     return <h1>Secret Information Component</h1>
 }
 
-function RegularComponent() {}
+function RegularComponent() {
+    return (
+        <div className="App">
+            <Router>
+                <Nav />
+                <Switch>
+                    <Route path="/" exact component={Intro} />
+                    <Route path="/about" component={About} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/be-kind" component={BeKind} />
+                    <Route path="/blog" component={Blog} />
+                    <Route path="/contacts" component={Contacts} />
+                </Switch>
+            </Router>
+            <BackGroundShapes maxWidth="lg" />
+            <Copyright />
+        </div>
+    )
+}
 
 const themes = { light: LightTheme, dark: DarkTheme }
 function App(props) {
-    if (props.authorized) {
-        return <SecretComponent />
-    } else {
-        return (
-            <div className="App">
-                <Router>
-                    <Nav />
-                    <Switch>
-                        <Route path="/" exact component={Intro} />
-                        <Route path="/about" component={About} />
-                        <Route path="/projects" component={Projects} />
-                        <Route path="/be-kind" component={BeKind} />
-                        <Route path="/blog" component={Blog} />
-                        <Route path="/contacts" component={Contacts} />
-                    </Switch>
-                </Router>
-                <BackGroundShapes maxWidth="lg" />
-                <Copyright />
-            </div>
-        )
-    }
+    return <>{props.authorized ? <SecretComponent /> : <RegularComponent />}</>
 }
 
 export default App

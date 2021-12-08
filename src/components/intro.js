@@ -9,22 +9,14 @@ function SecretComponent() {
 }
 
 function RegularComponent() {
-    return (
-        <div className={'intro-div'}>
-            <div>
-                <h1 id={'intro-title'}>Access Autonomy</h1>
-                <p id={'intro-body'}>Solving complex design problems using a finesse for technology.</p>
-            </div>
-        </div>
-    )
+    return <h1>Everyone can see this component</h1>
 }
 
-const intro = (props) => {
-    console.log(props)
+function intro(props) {
     if (props.authorised) {
         return <SecretComponent />
     } else {
-        ;<RegularComponent />
+        return <RegularComponent />
     }
 }
 

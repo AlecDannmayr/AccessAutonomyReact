@@ -35,10 +35,11 @@ function SecretComponent() {
 }
 
 function RegularComponent() {
-    const what = useState()
-    console.log(what)
+    const [emotion, setEmotion] = useState('Happy')
     return (
         <div className="App">
+            <h1>Current Emotion is {emotion}</h1>
+            <button>
             <Router>
                 <Nav />
                 <Switch>

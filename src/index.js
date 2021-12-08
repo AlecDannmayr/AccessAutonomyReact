@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/style.css'
@@ -6,12 +8,12 @@ import reportWebVitals from './reportWebVitals'
 import SimpleReactLightbox from 'simple-react-lightbox'
 
 ReactDOM.render(
-   <React.StrictMode>
-      <SimpleReactLightbox>
-         <App />
-      </SimpleReactLightbox>
-   </React.StrictMode>,
-   document.getElementById('root')
+    <React.StrictMode>
+        <SimpleReactLightbox>
+            <App authorised={false} />
+        </SimpleReactLightbox>
+    </React.StrictMode>,
+    document.getElementById('root')
 )
 
 reportWebVitals()

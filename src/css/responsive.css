@@ -22,10 +22,11 @@
   #static-hexagon-5 {
     display: none;
   }
-}
-
-@media screen and (max-width: 320px) {
-  .intro-div #intro-title {
+  .nav-main {
+    display: none;
+  }
+  .intro-div #intro-title,
+  .intro-body {
     text-align: center;
     font-size: 50px;
   }

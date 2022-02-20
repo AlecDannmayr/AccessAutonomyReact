@@ -18,34 +18,9 @@ import News from './news/news'
 import Splash from './components/SplashScreen'
 import Loader from './components/loader.js'
 
-const LightTheme = {
-    pageBackground: 'white',
-    titleColor: '#dc658b',
-    tagLineColor: 'black',
-}
-
-const DarkTheme = {
-    pageBackground: 'white',
-    titleColor: 'lightpink',
-    tagLineColor: 'lavender',
-}
-
-function SecretComponent() {
-    return <h1>Secret Information Component</h1>
-}
-
-function RegularComponent() {
-    const [emotion, setEmotion] = useState('Happy')
-
-    useEffect(() => {
-        console.log(`Its ${emotion} around here`)
-    })
-    console.log(emotion)
+function App() {
     return (
         <div className="App">
-            <h1>Current Emotion is {emotion}</h1>
-            <button onClick={() => setEmotion('More Happy')}>More Happy</button>
-            <button onClick={() => setEmotion('Happy')}>More Happy</button>
             <Router>
                 <Nav />
                 <Switch>
@@ -61,11 +36,6 @@ function RegularComponent() {
             <Copyright />
         </div>
     )
-}
-
-const themes = { light: LightTheme, dark: DarkTheme }
-function App(props) {
-    return <>{props.authorized ? <SecretComponent /> : <RegularComponent />}</>
 }
 
 export default App

@@ -56,9 +56,14 @@ const contacts = () => {
                             <label for="submit" class="submit">
                                 Submit
                             </label>
-                            <input required type="submit" id="submit" name="submit" value="Submit"></input>
+                            <input required type="submit" id="submit" name="submit" value="Submit" disabled></input>
                         </div>
                     </form>
+                    <div class="form-check">
+                                                  <div class="g-recaptcha" data-sitekey="6LfxmAQcAAAAALDqxji7624BTfMpLe1biF-GMk6_" data-callback="recaptcha_callback_cnt">
+
+                                                  </div>
+                                        </div>
                 </div>
             </div>
         </div>

@@ -5,9 +5,12 @@ import '../css/style.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-function contacts() {
+function Contacts() {
     const initialValue = {firstName: "", secondName: "", subject: "", message: "", company: "", contactNumber: "", email: "" };
-    const { formValue, setFromValue } = useState(initialValue);
+    const [ formValue, setFromValue ] = useState(initialValue);
+    const handleChange = (e) => {
+console.log(e.target);
+    }
     return (
         <div className={'footer'}>
             <Link to="./getintouch">
@@ -23,38 +26,38 @@ function contacts() {
                                 First Name
                             </label>
                             <br />
-                            <input required id="firstName" name="firstName" type="text"></input>
+                            <input required id="firstName" name="firstName" type="text" value={formValue.firstName} onChange={handleChange}></input>
                             <label for="secondName" class="secondName">
                                 Second Name
                             </label>
                             <br />
-                            <input required type="text" id="secondName" name="secondName"></input>
+                            <input required type="text" id="secondName" name="secondName" value={formValue.secondName} onChange={handleChange}></input>
                             <label for="subject" class="subject">
                                 Subject
                             </label>
                             <br />
-                            <input required type="text" id="subject" name="subject"></input>
+                            <input required type="text" id="subject" name="subject" value={formValue.subject} onChange={handleChange}></input>
                             <label for="textArea" class="textArea">
                                 Let us know how we can help?
                             </label>
                             <br />
-                            <textarea required id="textArea" name="textArea" type="text"></textarea>
+                            <textarea required id="textArea" name="textArea" type="text" value={formValue.message} onChange={handleChange}></textarea>
                         </div>
                         <div>
                             <label for="company" class="company">
                                 Company
                             </label>
-                            <input required id="company" type="text" id="company" name="company"></input>
+                            <input required id="company" type="text" id="company" name="company" value={formValue.company} onChange={handleChange}></input>
                             <label required for="number" class="number">
                                 Contact Number
                             </label>
                             <br />
-                            <input id="email" type="text" id="number" name="number"></input>
+                            <input id="email" type="text" id="number" name="number" value={formValue.contactNumber} onChange={handleChange}></input>
                             <label for="email" class="email">
                                 Email
                             </label>
                             <br />
-                            <input required id="email" type="text" id="email" name="email"></input>
+                            <input required id="email" type="text" id="email" name="email" value={formValue.email} onChange={handleChange}></input>
 
                             <label for="submit" class="submit">
                                 Submit
@@ -73,4 +76,4 @@ function contacts() {
     )
 }
 
-export default contacts
+export default Contacts

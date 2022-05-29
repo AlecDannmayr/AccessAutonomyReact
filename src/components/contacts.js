@@ -7,10 +7,12 @@ import { useState } from 'react'
 
 function Contacts() {
     const initialValue = {firstName: "", secondName: "", subject: "", message: "", company: "", contactNumber: "", email: "" };
-    const [ formValue, setFromValue ] = useState(initialValue);
+    const [ formValue, setFormValue ] = useState(initialValue);
     const handleChange = (e) => {
-console.log(e.target);
-    }
+const { name, value } = e.target; 
+setFormValue({ ...formValue, name: value })
+console.log(formValue);
+    };
     return (
         <div className={'footer'}>
             <Link to="./getintouch">

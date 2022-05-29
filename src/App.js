@@ -18,26 +18,9 @@ import News from './news/news'
 import Splash from './components/SplashScreen'
 import Loader from './components/loader.js'
 
-const LightTheme = {
-    pageBackground: 'white',
-    titleColor: '#dc658b',
-    tagLineColor: 'black',
-}
-
-const DarkTheme = {
-    pageBackground: 'white',
-    titleColor: 'lightpink',
-    tagLineColor: 'lavender',
-}
-
-function SecretComponent() {
-    return <h1>Secret Information Component</h1>
-}
-
 function App() {
     return (
         <div className="App">
-            
             <Router>
                 <Nav />
                 <Switch>
@@ -54,6 +37,5 @@ function App() {
         </div>
     )
 }
-
 
 export default App

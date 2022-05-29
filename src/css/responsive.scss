@@ -33,4 +33,11 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .intro-div #intro-title {
+        text-align: center;
+        font-size: 50px;
+    }
+}
 /*# sourceMappingURL=responsive.css.map */

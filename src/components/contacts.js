@@ -3,8 +3,11 @@
 import React from 'react'
 import '../css/style.css'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
-const contacts = () => {
+function contacts() {
+    const initialValue = {firstName: "", secondName: "", subject: "", message: "", company: "", contactNumber: "", email: "" };
+    const { formValue, setFromValue } = useState(initialValue);
     return (
         <div className={'footer'}>
             <Link to="./getintouch">

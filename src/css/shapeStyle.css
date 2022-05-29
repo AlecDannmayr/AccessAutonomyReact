@@ -1,5 +1,5 @@
 /** @format */
-@import url(/Users/alecdannmayr/Projects-2021/AccessAutonomyReact/src/css/responsive.css);
+@import url(responsive.css);
 #arrowDown {
   background-color: yellow;
   z-index: -100;

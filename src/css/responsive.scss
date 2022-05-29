@@ -1,5 +1,14 @@
 /** @format */
 
+
+
+@media screen and (max-width: 320px) {
+    .intro-div #intro-title {
+  color: yellow;
+}
+
+}
+
 @media screen and (max-width: 414px) {
     .intro-div #intro-title {
         -webkit-box-orient: vertical;

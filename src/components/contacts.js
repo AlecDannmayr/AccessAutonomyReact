@@ -16,7 +16,34 @@ console.log(formValue);
     };
     const handleSubmit = (e) => {
         e.preventDefault()
-        validate(formValue)
+        setFormErrors(validate(formValue))
+    }
+
+    const validate = (values) => {
+        const errors = {};
+        const regex = /^[^\s@]+[^\s@]+\.[^\s@]{2,}$/i;
+        if (!values.firstName) {
+            errors.firstName = "First Name required";
+        }
+        if (!values.secondName) {
+            errors.firstName = "First Name required";
+        }
+        if (!values.subject) {
+            errors.firstName = "First Name required";
+        }
+        if (!values.message) {
+            errors.firstName = "First Name required";
+        }
+        if (!values.company) {
+            errors.firstName = "First Name required";
+        }
+        if (!values.contactNumber) {
+            errors.firstName = "First Name required";
+        }
+        if (!values.email) {
+            errors.firstName = "First Name required";
+        }
+        return errors
     }
 
     console.log(JSON.stringify(formValue, undefined, 2))

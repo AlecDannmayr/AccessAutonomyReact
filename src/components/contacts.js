@@ -8,6 +8,7 @@ import { useState } from 'react'
 function Contacts() {
     const initialValue = {firstName: "", secondName: "", subject: "", message: "", company: "", contactNumber: "", email: "" };
     const [ formValue, setFormValue ] = useState(initialValue);
+    const [ errors, setFormErrors ] = useState({});
     const handleChange = (e) => {
 const { name, value } = e.target; 
 setFormValue({ ...formValue, [name]: value })
@@ -15,6 +16,7 @@ console.log(formValue);
     };
     const handleSubmit = (e) => {
         e.preventDefault()
+        validate(formValue)
     }
 
     console.log(JSON.stringify(formValue, undefined, 2))

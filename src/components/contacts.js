@@ -16,6 +16,8 @@ console.log(formValue);
     const handleSubmit = (e) => {
         e.preventDefault()
     }
+
+    console.log(JSON.stringify(formValue, undefined, 2))
     return (
         <div className={'footer'}>
             <Link to="./getintouch">
@@ -23,9 +25,9 @@ console.log(formValue);
             </Link>
             <p id={''}>Say Hi, and find us on LinkedIn</p>
             <div className="contact-type">
+            <pre>{JSON.stringify(formValue, undefined, 2)}</pre>
                 <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=e20%201as&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <div class="class-form">
-                    <pre>{JSON.stringify(formValue, undefined, 2)}</pre>
                     <form id="submit-form" action="form.php" method="post" name="contact-form" onSubmit={handleSubmit}>
                         <div>
                             <label for="firstName" class="firstName">

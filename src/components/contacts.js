@@ -22,8 +22,12 @@ console.log(formValue);
         setIsSubmit(true);
     }
 useEffect(() => {
+    console.log(formErrors)
+if(Object.keys(formErrors).length === 0 && isSubmit) {
+console.log(formValue)
+}
+},[formErrors]);
 
-},[formErrors])
     const validate = (values) => {
         const errors = {};
         const regex = /^[^\s@]+[^\s@]+\.[^\s@]{2,}$/i;
@@ -31,22 +35,22 @@ useEffect(() => {
             errors.firstName = "First Name required";
         }
         if (!values.secondName) {
-            errors.firstName = "Second Name required";
+            errors.secondName = "Second Name required";
         }
         if (!values.subject) {
-            errors.firstName = "Subject required";
+            errors.subject = "Subject required";
         }
         if (!values.message) {
-            errors.firstName = "Message required";
+            errors.message = "Message required";
         }
         if (!values.company) {
-            errors.firstName = "Company Name required";
+            errors.company = "Company Name required";
         }
         if (!values.contactNumber) {
-            errors.firstName = "Contact Number required";
+            errors.contactNumber = "Contact Number required";
         }
         if (!values.email) {
-            errors.firstName = "Email Address required";
+            errors.email = "Email Address required";
         }
         return errors
     }

@@ -3,22 +3,27 @@
 import React from 'react'
 import '../css/style.css'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function Contacts() {
     const initialValue = {firstName: "", secondName: "", subject: "", message: "", company: "", contactNumber: "", email: "" };
     const [ formValue, setFormValue ] = useState(initialValue);
-    const [ errors, setFormErrors ] = useState({});
+    const [ formErrors, setFormErrors ] = useState({});
+    const [ isSubmit, setIsSubmit ] = useState(false); 
+
     const handleChange = (e) => {
 const { name, value } = e.target; 
 setFormValue({ ...formValue, [name]: value })
 console.log(formValue);
     };
     const handleSubmit = (e) => {
-        e.preventDefault()
-        setFormErrors(validate(formValue))
+        e.preventDefault();
+        setFormErrors(validate(formValue));
+        setIsSubmit(true);
     }
+useEffect(() => {
 
+},[formErrors])
     const validate = (values) => {
         const errors = {};
         const regex = /^[^\s@]+[^\s@]+\.[^\s@]{2,}$/i;
@@ -26,22 +31,22 @@ console.log(formValue);
             errors.firstName = "First Name required";
         }
         if (!values.secondName) {
-            errors.firstName = "First Name required";
+            errors.firstName = "Second Name required";
         }
         if (!values.subject) {
-            errors.firstName = "First Name required";
+            errors.firstName = "Subject required";
         }
         if (!values.message) {
-            errors.firstName = "First Name required";
+            errors.firstName = "Message required";
         }
         if (!values.company) {
-            errors.firstName = "First Name required";
+            errors.firstName = "Company Name required";
         }
         if (!values.contactNumber) {
-            errors.firstName = "First Name required";
+            errors.firstName = "Contact Number required";
         }
         if (!values.email) {
-            errors.firstName = "First Name required";
+            errors.firstName = "Email Address required";
         }
         return errors
     }
@@ -99,7 +104,7 @@ console.log(formValue);
                             <label for="submit" class="submit">
                                 Submit
                             </label>
-                            <input required type="submit" id="submit" name="submit" value="Submit" disabled></input>
+                            <input required type="submit" id="submit" name="submit" value="Submit"></input>
                         </div>
                     </form>
                     <div class="form-check">

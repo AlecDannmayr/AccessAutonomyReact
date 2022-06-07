@@ -66,7 +66,7 @@ console.log(formValue)
             <pre>{JSON.stringify(formValue, undefined, 2)}</pre>
                 <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=e20%201as&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <div class="class-form">
-                    <form id="submit-form" action="form.php" method="post" name="contact-form" onSubmit={handleSubmit}>
+                    <form id="submit-form" action="form.php" method="post" name="contact-form" onsubmit={handleSubmit}>
                         <div>
                             <label for="firstName" class="firstName">
                                 First Name

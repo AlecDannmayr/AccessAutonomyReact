@@ -39,9 +39,6 @@ console.log(formValues)
         if (!values.subject) {
             errors.subject = "Subject required";
         }
-        if (!values.message) {
-            errors.message = "Message required";
-        }
         if (!values.company) {
             errors.company = "Company Name required";
         }
@@ -71,43 +68,41 @@ console.log(formValues)
                                 First Name
                             </label>
                             <br />
-                            <input required id="firstName" name="firstName" type="text" value={formValues.firstName} onChange={handleChange}></input>
+                            <input id="firstName" name="firstName" type="text" value={formValues.firstName} onChange={handleChange}></input>
                             <label for="secondName" class="secondName">
                                 Second Name
                             </label>
                             <br />
-                            <input required type="text" id="secondName" name="secondName" value={formValues.secondName} onChange={handleChange}></input>
+                            <input type="text" id="secondName" name="secondName" value={formValues.secondName} onChange={handleChange}></input>
                             <label for="subject" class="subject">
                                 Subject
                             </label>
                             <br />
-                            <input required type="text" id="subject" name="subject" value={formValues.subject} onChange={handleChange}></input>
+                            <input type="text" id="subject" name="subject" value={formValues.subject} onChange={handleChange}></input>
                             <label for="textArea" class="textArea">
                                 Let us know how we can help?
                             </label>
                             <br />
-                            <textarea required id="textArea" value={formValues.message} onChange={handleChange}></textarea>
                         </div>
                         <div>
                             <label for="company" class="company">
                                 Company
                             </label>
-                            <input required id="company" type="text" id="company" name="company" value={formValues.company} onChange={handleChange}></input>
-                            <label required for="number" class="number">
+                            <input id="company" type="text" name="company" value={formValues.company} onChange={handleChange}></input>
+                            <label for="number" class="number">
                                 Contact Number
                             </label>
                             <br />
-                            <input id="email" type="text" id="number" name="number" value={formValues.contactNumber} onChange={handleChange}></input>
+                            <input type="number" id="number" name="number" value={formValues.contactNumber} onChange={handleChange}></input>
                             <label for="email" class="email">
                                 Email
                             </label>
                             <br />
-                            <input required id="email" type="text" id="email" name="email" value={formValues.email} onChange={handleChange}></input>
-
+                            <input id="email" type="text" name="email" value={formValues.email} onChange={handleChange}></input>
                             <label for="submit" class="submit">
                                 Submit
                             </label>
-                            <input required type="submit" id="submit" name="submit" value="Submit"></input>
+                            <input type="submit" id="submit" name="submit" value="Submit"></input>
                         </div>
                     </form>
                 </div>
